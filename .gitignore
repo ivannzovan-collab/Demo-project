@@ -1,0 +1,115 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+*.env
+
+# Dependencies
+node_modules/
+vendor/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+venv/
+env/
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+.eggs/
+*.egg
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+coverage/
+.nyc_output/
+*.cover
+.pytest_cache/
+.coverage
+
+# Mobile specific
+# React Native
+mobile/.expo/
+mobile/.expo-shared/
+mobile/ios/Pods/
+mobile/ios/build/
+mobile/android/app/build/
+mobile/android/.gradle/
+mobile/*.jks
+mobile/*.keystore
+mobile/*.p8
+mobile/*.p12
+mobile/*.mobileprovision
+
+# iOS
+mobile/ios/*.xcuserstate
+mobile/ios/*.xcworkspace/xcuserdata/
+mobile/ios/Pods/
+mobile/ios/build/
+mobile/ios/DerivedData/
+
+# Android
+mobile/android/.gradle/
+mobile/android/build/
+mobile/android/app/build/
+mobile/android/local.properties
+mobile/android/.idea/
+mobile/android/*.iml
+
+# Generated files
+*.map
+*.bundle
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+**/secrets.yaml
+**/secrets.yml
+credentials.json
+service-account.json
+
+# Terraform
+infrastructure/terraform/.terraform/
+infrastructure/terraform/*.tfstate
+infrastructure/terraform/*.tfstate.backup
+infrastructure/terraform/.terraform.lock.hcl
+
+# Docker
+.dockerignore
+
+# AI generated content (temporary)
+ai-engine/output/
+ai-engine/temp/
+
+# Misc
+*.bak
+*.tmp
+*.temp
+.cache/
