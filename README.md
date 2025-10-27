@@ -1,5 +1,21 @@
 # DramaSnap - AI-Generated Short Drama Streaming Platform
 
+## 🎬 [→ TEST THE PROTOTYPE NOW!](QUICKSTART.md) ←
+
+**Want to see it in action?** We have a fully functional React Native prototype you can run!
+
+**[→ Quick Start Guide](QUICKSTART.md)** - Get it running in 5 minutes
+
+### ✨ Working Prototype Features
+- ✅ Vertical video player (TikTok-style)
+- ✅ Swipe up/down navigation between episodes
+- ✅ Home screen with movie browsing
+- ✅ 5 sample movies with multiple episodes
+- ✅ Auto-play and continue watching
+- ✅ Tap to pause/play, show/hide controls
+
+---
+
 ## Overview
 
 DramaSnap is a revolutionary mobile streaming platform that delivers AI-generated short drama content in bite-sized, addictive episodes. Each episode runs for 60 seconds in vertical format, stringing together to create complete movies of approximately 100 minutes (100 episodes).
