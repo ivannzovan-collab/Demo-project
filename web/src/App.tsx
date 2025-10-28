@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { SplashScreen } from './components/SplashScreen';
 import { LanguageFilter } from './components/LanguageFilter';
 import { NotificationPrompt } from './components/NotificationPrompt';
+import { IOSInstallPrompt } from './components/IOSInstallPrompt';
 import { usePushNotifications } from './services/pushNotifications';
 import { OnboardingQuiz } from './components/OnboardingQuiz';
 import { VideoPlayer } from './components/VideoPlayer';
@@ -476,6 +477,9 @@ export default function App() {
           onDecline={handleDeclineNotifications}
         />
       )}
+
+      {/* NEW: iOS Install Prompt */}
+      <IOSInstallPrompt />
     </div>
   );
 }

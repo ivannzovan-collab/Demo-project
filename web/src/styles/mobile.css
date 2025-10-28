@@ -1,0 +1,173 @@
+/* Mobile Optimizations for iPhone and all mobile devices */
+
+/* Base mobile styles */
+@media screen and (max-width: 768px) {
+  * {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+  }
+
+  body {
+    overflow-x: hidden;
+    overscroll-behavior-y: contain;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Fix viewport for mobile */
+  html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    overflow: hidden;
+  }
+
+  #root {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Fix text sizing */
+  h1 {
+    font-size: clamp(1.5rem, 5vw, 2.5rem);
+  }
+
+  h2 {
+    font-size: clamp(1.25rem, 4vw, 2rem);
+  }
+
+  h3 {
+    font-size: clamp(1rem, 3vw, 1.5rem);
+  }
+
+  p, span, button {
+    font-size: clamp(0.875rem, 2.5vw, 1rem);
+  }
+
+  /* Fix buttons for touch */
+  button {
+    min-height: 44px;
+    min-width: 44px;
+    touch-action: manipulation;
+  }
+
+  /* Fix input fields */
+  input, textarea, select {
+    font-size: 16px !important; /* Prevents zoom on focus in iOS */
+    -webkit-appearance: none;
+    border-radius: 0;
+  }
+
+  /* Fix cards and containers */
+  .card, [class*="card"] {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  /* Fix modals and dialogs */
+  [role="dialog"], [class*="modal"], [class*="dialog"] {
+    width: 95vw !important;
+    max-width: 95vw !important;
+    margin: 0 auto;
+  }
+
+  /* Fix flex layouts */
+  [class*="flex"] {
+    flex-wrap: wrap;
+  }
+
+  /* Fix grid layouts */
+  [class*="grid"] {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)) !important;
+  }
+
+  /* Fix image sizing */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Fix video player */
+  video {
+    width: 100% !important;
+    height: auto !important;
+    max-height: 100vh !important;
+  }
+
+  /* Fix bottom navigation */
+  nav[class*="bottom"], [class*="BottomNav"] {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+
+  /* Fix scrollable areas */
+  [class*="scroll"], [class*="overflow"] {
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior: contain;
+  }
+
+  /* Fix splash screen */
+  [class*="splash"] {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+}
+
+/* iPhone specific fixes */
+@supports (-webkit-touch-callout: none) {
+  /* iOS Safari specific */
+  body {
+    min-height: -webkit-fill-available;
+  }
+
+  /* Fix for iOS notch */
+  .safe-top {
+    padding-top: env(safe-area-inset-top);
+  }
+
+  .safe-bottom {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+
+  /* Fix iOS input zoom */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  textarea {
+    font-size: 16px !important;
+  }
+}
+
+/* Landscape mode fixes */
+@media screen and (max-width: 768px) and (orientation: landscape) {
+  [class*="video"] {
+    height: 100vh !important;
+  }
+}
+
+/* Small phones (< 375px) */
+@media screen and (max-width: 374px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+/* Large phones (> 414px) */
+@media screen and (min-width: 415px) and (max-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
