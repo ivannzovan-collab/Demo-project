@@ -28,105 +28,48 @@
     -webkit-overflow-scrolling: touch;
   }
 
-  /* Add proper spacing to main containers */
-  #root > div {
-    padding: 1rem !important;
-    box-sizing: border-box;
-  }
-
-  /* Fix text sizing */
+  /* Fix text sizing - LESS AGGRESSIVE */
   h1 {
-    font-size: clamp(1.5rem, 5vw, 2.5rem) !important;
-    margin-bottom: 1rem !important;
-    padding: 0.5rem 1rem !important;
+    font-size: clamp(1.5rem, 5vw, 2.5rem);
   }
 
   h2 {
-    font-size: clamp(1.25rem, 4vw, 2rem) !important;
-    margin-bottom: 0.75rem !important;
-    padding: 0.5rem 1rem !important;
+    font-size: clamp(1.25rem, 4vw, 2rem);
   }
 
   h3 {
-    font-size: clamp(1rem, 3vw, 1.5rem) !important;
-    margin-bottom: 0.5rem !important;
-    padding: 0.25rem 0.5rem !important;
+    font-size: clamp(1rem, 3vw, 1.5rem);
   }
 
-  p, span {
-    font-size: clamp(0.875rem, 2.5vw, 1rem) !important;
-    padding: 0.25rem 0.5rem !important;
+  p {
+    font-size: clamp(0.875rem, 2.5vw, 1rem);
   }
 
-  /* Fix buttons for touch */
+  /* Fix buttons for touch - preserve existing padding/margin */
   button {
-    min-height: 44px !important;
-    min-width: 44px !important;
+    min-height: 44px;
+    min-width: 44px;
     touch-action: manipulation;
-    padding: 0.75rem 1.5rem !important;
-    margin: 0.5rem !important;
-    font-size: 1rem !important;
   }
 
   /* Fix input fields */
   input, textarea, select {
     font-size: 16px !important; /* Prevents zoom on focus in iOS */
     -webkit-appearance: none;
-    padding: 0.75rem !important;
-    margin: 0.5rem 0 !important;
   }
 
-  /* Fix cards and containers - ADD PADDING */
-  .card, [class*="card"], [class*="Card"] {
-    width: calc(100% - 2rem) !important;
-    max-width: calc(100% - 2rem) !important;
-    margin: 1rem !important;
-    padding: 1.5rem !important;
+  /* Fix search input specifically */
+  input[type="text"],
+  input[placeholder*="Search"],
+  input[placeholder*="search"] {
+    width: 100%;
+    font-size: 16px !important;
     box-sizing: border-box;
   }
 
-  /* Fix sections with proper spacing */
-  section, [class*="section"], [class*="Section"] {
-    padding: 1.5rem 1rem !important;
-    margin: 1rem 0 !important;
-  }
-
-  /* Fix containers */
-  [class*="container"], [class*="Container"] {
-    padding: 1rem !important;
-    margin: 0 auto !important;
-    max-width: 100% !important;
-    box-sizing: border-box;
-  }
-
-  /* Fix modals and dialogs */
-  [role="dialog"], [class*="modal"], [class*="dialog"], [class*="Dialog"], [class*="Modal"], [class*="Sheet"] {
-    width: calc(100vw - 2rem) !important;
-    max-width: calc(100vw - 2rem) !important;
-    margin: 1rem !important;
-    padding: 1.5rem !important;
-    box-sizing: border-box;
-  }
-
-  /* Fix flex layouts */
-  [class*="flex"], [class*="Flex"] {
-    flex-wrap: wrap;
-    padding: 0.5rem !important;
-    gap: 1rem !important;
-  }
-
-  /* Fix grid layouts */
-  [class*="grid"], [class*="Grid"] {
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)) !important;
-    gap: 1rem !important;
-    padding: 1rem !important;
-  }
-
-  /* Fix image containers */
-  img {
-    max-width: 100%;
-    height: auto;
-    margin: 0.5rem 0;
+  /* Fix onboarding buttons - respect Tailwind space-y */
+  .space-y-3 > * + * {
+    margin-top: 0.75rem !important;
   }
 
   /* Fix video player container */
@@ -136,105 +79,38 @@
     max-height: 100vh !important;
   }
 
-  /* Video player wrapper with padding */
-  [class*="video"], [class*="Video"], [class*="player"], [class*="Player"] {
-    padding: 0 !important;
-    margin: 0 !important;
-    width: 100% !important;
-  }
-
-  /* Fix lists */
-  ul, ol {
-    padding: 1rem 1.5rem !important;
-    margin: 0.5rem 0 !important;
-  }
-
-  li {
-    margin: 0.5rem 0 !important;
-    padding: 0.5rem !important;
-  }
-
-  /* Fix navigation bars */
-  nav {
-    padding: 1rem !important;
+  /* Fix images */
+  img {
+    max-width: 100%;
+    height: auto;
   }
 
   /* Fix bottom navigation */
   nav[class*="bottom"], [class*="BottomNav"], [class*="bottomNav"] {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    z-index: 1000;
-    padding: 1rem !important;
-    padding-bottom: calc(1rem + env(safe-area-inset-bottom)) !important;
-    box-sizing: border-box;
+    padding-bottom: calc(1rem + env(safe-area-inset-bottom));
   }
 
-  /* Fix top bars/headers */
-  header, [class*="header"], [class*="Header"] {
-    padding: 1rem !important;
-    padding-top: calc(1rem + env(safe-area-inset-top)) !important;
-    box-sizing: border-box;
+  /* Fix sticky headers - prevent overlap */
+  .sticky {
+    position: -webkit-sticky;
+    position: sticky;
   }
 
-  /* Fix scrollable areas */
-  [class*="scroll"], [class*="Scroll"], [class*="overflow"] {
+  /* Ensure proper z-index stacking */
+  [class*="z-40"] {
+    z-index: 40;
+  }
+
+  /* Fix scroll areas on mobile */
+  [class*="ScrollArea"] {
     -webkit-overflow-scrolling: touch;
-    overscroll-behavior: contain;
-    padding: 1rem !important;
   }
 
-  /* Fix splash screen */
-  [class*="splash"], [class*="Splash"] {
-    width: 100vw !important;
-    height: 100vh !important;
-    position: fixed;
-    top: 0;
-    left: 0;
-    padding: 2rem !important;
-    box-sizing: border-box;
-  }
-
-  /* Fix onboarding */
-  [class*="onboarding"], [class*="Onboarding"], [class*="quiz"], [class*="Quiz"] {
-    padding: 2rem 1rem !important;
-    margin: 0 !important;
-    box-sizing: border-box;
-  }
-
-  /* Fix form elements */
-  form {
-    padding: 1rem !important;
-  }
-
-  fieldset {
-    padding: 1rem !important;
-    margin: 0.5rem 0 !important;
-  }
-
-  /* Add spacing between sibling elements */
-  * + * {
-    margin-top: 0.5rem;
-  }
-
-  /* Fix choice/decision dialogs */
-  [class*="choice"], [class*="Choice"] {
-    padding: 1.5rem !important;
-    margin: 1rem !important;
-  }
-
-  /* Fix drama cards/items */
-  [class*="drama"], [class*="Drama"] {
-    padding: 1rem !important;
-    margin: 0.5rem !important;
-  }
-
-  /* Ensure minimum padding for all interactive elements */
-  a, button, [role="button"] {
-    padding: 0.75rem 1rem !important;
-    margin: 0.5rem 0.25rem !important;
+  /* Fix card spacing in onboarding */
+  .min-h-screen > [class*="Card"] {
+    margin: 1rem;
+    width: calc(100% - 2rem);
+    max-width: calc(100% - 2rem);
   }
 }
 
