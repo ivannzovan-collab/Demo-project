@@ -1,0 +1,24 @@
+{
+  "name": "DramaSnap - AI Short Drama",
+  "short_name": "DramaSnap",
+  "description": "AI-Powered Short Drama Entertainment - Binge-worthy stories in 60-second episodes",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#8B5CF6",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/pwa-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/pwa-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
