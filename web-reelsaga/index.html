@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ReelSaga — Vertical cinema, reimagined.</title>
+    <meta
+      name="description"
+      content="Short-form vertical dramas, engineered for your thumb. Ninety-second episodes, new sagas daily. Watch ReelSaga on iOS and Android."
+    />
+    <meta name="theme-color" content="#050E27" />
+    <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,400;1,9..144,600;1,9..144,700&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+
+    <!-- ========== NAV ========== -->
+    <header class="nav" data-nav>
+      <a href="#" class="nav__logo" aria-label="ReelSaga — home">
+        <!-- Placeholder mark. Replace with provided SVG. -->
+        <svg class="nav__mark" viewBox="0 0 44 44" aria-hidden="true">
+          <rect x="1" y="1" width="42" height="42" rx="11" fill="#FEC200" />
+          <path
+            d="M16 13.5v17l14-8.5-14-8.5Z"
+            fill="#050E27"
+          />
+        </svg>
+        <span class="nav__wordmark">
+          <span class="nav__wordmark-strong">Reel</span><span class="nav__wordmark-soft">saga</span>
+        </span>
+      </a>
+
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#originals">Originals</a>
+        <a href="#how">How it works</a>
+        <a href="#download">Download</a>
+      </nav>
+
+      <a href="#download" class="btn btn--pill">
+        Get the app
+        <span aria-hidden="true">↗</span>
+      </a>
+    </header>
+
+    <main id="main">
+      <!-- ========== HERO ========== -->
+      <section class="hero" aria-labelledby="hero-heading">
+        <div class="hero__bg" aria-hidden="true">
+          <div class="hero__glow"></div>
+          <div class="hero__grain"></div>
+        </div>
+
+        <div class="hero__grid">
+          <div class="hero__copy">
+            <span class="eyebrow">
+              <span class="eyebrow__dash"></span>
+              Vertical cinema, reimagined
+            </span>
+
+            <h1 id="hero-heading" class="display">
+              Every swipe, <em>a&nbsp;new</em><br />
+              saga unfolds.
+            </h1>
+
+            <p class="lede">
+              Cinematic short-form dramas, engineered for your thumb.
+              Ninety-second episodes. Plot twists that land.
+              No algorithm drift &mdash; just story.
+            </p>
+
+            <div class="hero__cta">
+              <a href="#download" class="store" aria-label="Download on the App Store">
+                <svg viewBox="0 0 24 24" aria-hidden="true" class="store__icon">
+                  <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09l.01-.01Z"/>
+                  <path d="M12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25Z"/>
+                </svg>
+                <span class="store__stack">
+                  <small>Download on the</small>
+                  <strong>App&nbsp;Store</strong>
+                </span>
+              </a>
+
+              <a href="#download" class="store store--alt" aria-label="Get it on Google Play">
+                <svg viewBox="0 0 24 24" aria-hidden="true" class="store__icon">
+                  <path d="M3.6 2.3c-.3.3-.5.8-.5 1.4v16.6c0 .6.2 1.1.5 1.4l.1.1 9.3-9.3v-.2L3.6 2.3Z"/>
+                  <path d="m16.3 14.4-3.3-3.3v-.2l3.3-3.3.1.1 3.9 2.2c1.1.6 1.1 1.7 0 2.3l-4 2.2Z"/>
+                  <path d="M16.4 14.3 13 10.9 3.6 20.3c.4.4 1 .4 1.7 0l11.1-6.3v.3Z"/>
+                  <path d="M16.4 7.5 5.3 1.2c-.7-.4-1.3-.4-1.7 0L13 10.6l3.4-3.1Z"/>
+                </svg>
+                <span class="store__stack">
+                  <small>Get it on</small>
+                  <strong>Google&nbsp;Play</strong>
+                </span>
+              </a>
+            </div>
+
+            <ul class="hero__meta" aria-label="Highlights">
+              <li><span class="star">★</span> 4.9 App&nbsp;Store</li>
+              <li>New episodes daily</li>
+              <li>120+ originals</li>
+            </ul>
+          </div>
+
+          <!-- Stacked phones -->
+          <div class="hero__stage" aria-hidden="true">
+            <div class="phone phone--bl">
+              <div class="phone__screen poster poster--1">
+                <span class="poster__chip">Mystery</span>
+                <span class="poster__title">The Missing Hour</span>
+              </div>
+            </div>
+            <div class="phone phone--br">
+              <div class="phone__screen poster poster--2">
+                <span class="poster__chip">Thriller</span>
+                <span class="poster__title">Corporate Shadows</span>
+              </div>
+            </div>
+            <div class="phone phone--front">
+              <div class="phone__screen poster poster--hero">
+                <span class="poster__chip">Romance</span>
+                <span class="poster__title">Lost Hearts</span>
+                <span class="poster__ep">Ep. 03 · 01:24</span>
+                <div class="poster__play" aria-hidden="true">
+                  <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7L8 5Z" fill="currentColor"/></svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Marquee -->
+        <div class="marquee" aria-hidden="true">
+          <div class="marquee__track">
+            <span>ReelSaga</span><i>✦</i>
+            <span>Short dramas</span><i>✦</i>
+            <span>New episodes daily</span><i>✦</i>
+            <span>120+ originals</span><i>✦</i>
+            <span>ReelSaga</span><i>✦</i>
+            <span>Short dramas</span><i>✦</i>
+            <span>New episodes daily</span><i>✦</i>
+            <span>120+ originals</span><i>✦</i>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== ORIGINALS ========== -->
+      <section id="originals" class="originals" aria-labelledby="originals-heading">
+        <header class="originals__head">
+          <span class="eyebrow eyebrow--gold">
+            <span class="eyebrow__dash"></span>
+            Now streaming
+          </span>
+          <h2 id="originals-heading" class="display display--2">
+            Stories that <em>refuse</em><br />
+            to let go.
+          </h2>
+          <p class="lede">
+            Hand-picked sagas of love, betrayal, inheritance and second chances.
+            Binge a season between stops.
+          </p>
+        </header>
+
+        <div class="rail" role="list">
+          <article class="card" role="listitem" style="--i:0">
+            <div class="card__thumb poster--1">
+              <span class="card__chip">Mystery</span>
+            </div>
+            <div class="card__meta">
+              <span>3 episodes</span><span class="dot">·</span><span>Season 01</span>
+            </div>
+            <h3 class="card__title">The Missing Hour</h3>
+          </article>
+
+          <article class="card" role="listitem" style="--i:1">
+            <div class="card__thumb poster--hero">
+              <span class="card__chip">Romance</span>
+            </div>
+            <div class="card__meta">
+              <span>5 episodes</span><span class="dot">·</span><span>Season 01</span>
+            </div>
+            <h3 class="card__title">Lost Hearts</h3>
+          </article>
+
+          <article class="card" role="listitem" style="--i:2">
+            <div class="card__thumb poster--3">
+              <span class="card__chip">Drama</span>
+            </div>
+            <div class="card__meta">
+              <span>2 episodes</span><span class="dot">·</span><span>Season 01</span>
+            </div>
+            <h3 class="card__title">Inheritance</h3>
+          </article>
+
+          <article class="card" role="listitem" style="--i:3">
+            <div class="card__thumb poster--4">
+              <span class="card__chip">Romance</span>
+            </div>
+            <div class="card__meta">
+              <span>1 episode</span><span class="dot">·</span><span>Pilot</span>
+            </div>
+            <h3 class="card__title">Second Chances</h3>
+          </article>
+
+          <article class="card" role="listitem" style="--i:4">
+            <div class="card__thumb poster--2">
+              <span class="card__chip">Thriller</span>
+            </div>
+            <div class="card__meta">
+              <span>1 episode</span><span class="dot">·</span><span>Pilot</span>
+            </div>
+            <h3 class="card__title">Corporate Shadows</h3>
+          </article>
+
+          <article class="card" role="listitem" style="--i:5">
+            <div class="card__thumb poster--5">
+              <span class="card__chip">Coming soon</span>
+            </div>
+            <div class="card__meta">
+              <span>Premieres Fri</span>
+            </div>
+            <h3 class="card__title">North by Midnight</h3>
+          </article>
+        </div>
+      </section>
+
+      <!-- ========== DOWNLOAD ========== -->
+      <section id="download" class="download" aria-labelledby="download-heading">
+        <div class="download__frame">
+          <div class="corner corner--tl" aria-hidden="true"></div>
+          <div class="corner corner--tr" aria-hidden="true"></div>
+          <div class="corner corner--bl" aria-hidden="true"></div>
+          <div class="corner corner--br" aria-hidden="true"></div>
+
+          <span class="eyebrow eyebrow--gold">
+            <span class="eyebrow__dash"></span>
+            Free on iOS &amp; Android
+          </span>
+
+          <h2 id="download-heading" class="display display--2">
+            Your next<br />
+            <em>obsession</em> is one tap away.
+          </h2>
+
+          <p class="lede">
+            Download ReelSaga and start your first saga in under a minute.
+            No ads on your first week. Cancel anytime after.
+          </p>
+
+          <div class="download__badges">
+            <a href="#" class="store store--big" aria-label="Download on the App Store">
+              <svg viewBox="0 0 24 24" aria-hidden="true" class="store__icon">
+                <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09l.01-.01Z"/>
+                <path d="M12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25Z"/>
+              </svg>
+              <span class="store__stack">
+                <small>Download on the</small>
+                <strong>App&nbsp;Store</strong>
+              </span>
+            </a>
+
+            <a href="#" class="store store--big store--alt" aria-label="Get it on Google Play">
+              <svg viewBox="0 0 24 24" aria-hidden="true" class="store__icon">
+                <path d="M3.6 2.3c-.3.3-.5.8-.5 1.4v16.6c0 .6.2 1.1.5 1.4l.1.1 9.3-9.3v-.2L3.6 2.3Z"/>
+                <path d="m16.3 14.4-3.3-3.3v-.2l3.3-3.3.1.1 3.9 2.2c1.1.6 1.1 1.7 0 2.3l-4 2.2Z"/>
+                <path d="M16.4 14.3 13 10.9 3.6 20.3c.4.4 1 .4 1.7 0l11.1-6.3v.3Z"/>
+                <path d="M16.4 7.5 5.3 1.2c-.7-.4-1.3-.4-1.7 0L13 10.6l3.4-3.1Z"/>
+              </svg>
+              <span class="store__stack">
+                <small>Get it on</small>
+                <strong>Google&nbsp;Play</strong>
+              </span>
+            </a>
+          </div>
+
+          <p class="download__fine">Requires iOS 15+ or Android 9+. English audio, 12 subtitles.</p>
+        </div>
+      </section>
+    </main>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <a href="#" class="nav__logo" aria-label="ReelSaga — home">
+            <svg class="nav__mark" viewBox="0 0 44 44" aria-hidden="true">
+              <rect x="1" y="1" width="42" height="42" rx="11" fill="#FEC200" />
+              <path d="M16 13.5v17l14-8.5-14-8.5Z" fill="#050E27" />
+            </svg>
+            <span class="nav__wordmark">
+              <span class="nav__wordmark-strong">Reel</span><span class="nav__wordmark-soft">saga</span>
+            </span>
+          </a>
+          <p class="footer__tagline">
+            Vertical cinema, reimagined. <em>One swipe at a time.</em>
+          </p>
+        </div>
+
+        <div class="footer__cols">
+          <div class="footer__col">
+            <h4>Watch</h4>
+            <a href="#originals">Originals</a>
+            <a href="#">Genres</a>
+            <a href="#">New this week</a>
+            <a href="#">Coming soon</a>
+          </div>
+          <div class="footer__col">
+            <h4>Company</h4>
+            <a href="#">About</a>
+            <a href="#">Careers</a>
+            <a href="#">Press</a>
+            <a href="#">Creators</a>
+          </div>
+          <div class="footer__col">
+            <h4>Support</h4>
+            <a href="#">Help center</a>
+            <a href="#">Contact</a>
+            <a href="#">Status</a>
+          </div>
+          <div class="footer__col">
+            <h4>Legal</h4>
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Cookies</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <small>© 2026 ReelSaga Studios Inc. &nbsp;·&nbsp; Made for thumbs.</small>
+        <div class="footer__social" aria-label="Social">
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+          <a href="#" aria-label="TikTok"><svg viewBox="0 0 24 24"><path d="M14 3v10.5a3.5 3.5 0 1 1-3.5-3.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M14 3c.6 2.6 2.5 4.4 5 4.8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></a>
+          <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24"><rect x="2.5" y="6" width="19" height="12" rx="3" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m10.5 9.5 5 2.5-5 2.5v-5Z" fill="currentColor"/></svg></a>
+          <a href="#" aria-label="X"><svg viewBox="0 0 24 24"><path d="M4 4l16 16M20 4 4 20" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
