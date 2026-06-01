@@ -179,3 +179,16 @@
   .fh-subhead { flex-direction:column; gap:10px; }
   .fh-subhead p { text-align:left; }
 }
+
+@media (max-width:560px){
+  .fhw { padding:0 16px; }
+  .fh-h1 { font-size:30px; }
+  .fh-hsub { font-size:14px; }
+  .fh-subhead h3 { font-size:22px; }
+  .fh-feature { padding:14px; }
+  .ff-body h3 { font-size:24px; }
+  .ff-body p { font-size:15px; }
+  .fh-closing { padding:80px 0 64px; }
+  .fh-closing h2 { font-size:32px; }
+  .fh-review { padding:24px 22px; }
+}

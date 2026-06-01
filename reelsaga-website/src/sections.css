@@ -280,3 +280,10 @@ kbd { background:#0c1430; border:1px solid var(--rs-line); border-radius:6px; pa
   .testi-grid, .ep-grid { grid-template-columns:1fr; }
   .detail-inner { flex-direction:column; align-items:flex-start; }
 }
+
+@media (max-width:560px){
+  .detail-copy h1 { font-size:32px; }
+  .detail-tag { font-size:18px; }
+  .detail-syn { font-size:15px; }
+  .ep-grid { gap:10px; }
+}

@@ -203,3 +203,34 @@ img { display:block; max-width:100%; }
   .poster-grid, .poster-grid.cols-6 { grid-template-columns:repeat(4,1fr); }
   .footer-top { grid-template-columns:1fr 1fr; }
 }
+
+/* ============================================================
+   Mobile web optimization
+   ============================================================ */
+.nav-burger { display:none; width:40px; height:40px; border-radius:10px; align-items:center; justify-content:center; color:var(--rs-white); background:none; }
+.nav-burger:hover { background:rgba(255,255,255,.07); }
+.nav-mobile { display:none; }
+
+@media (max-width:860px){
+  .nav .wrap { gap:16px; }
+  .nav-links { display:none; }
+  .nav-right { gap:6px; }
+  .nav-right > .nav-link { display:none; }       /* Blog + Sign in move into the menu */
+  .nav-burger { display:flex; }
+  .nav.menu-open { background:rgba(5,14,39,.98); backdrop-filter:blur(14px); -webkit-backdrop-filter:blur(14px); }
+  .nav-mobile { display:flex; flex-direction:column; position:absolute; top:var(--rs-nav-h); left:0; right:0;
+    background:rgba(5,14,39,.98); backdrop-filter:blur(14px); -webkit-backdrop-filter:blur(14px);
+    border-top:1px solid var(--rs-line); border-bottom:1px solid var(--rs-line);
+    padding:8px 0; gap:2px; transform:translateY(-10px); opacity:0; pointer-events:none;
+    transition:opacity .2s ease, transform .2s ease; }
+  .nav.menu-open .nav-mobile { transform:none; opacity:1; pointer-events:auto; }
+  .nav-mlink { text-align:left; padding:14px 24px; font-size:17px; font-weight:600; color:var(--rs-off-white); background:none; }
+  .nav-mlink.active { color:var(--rs-yellow); }
+  .nav-mlink:hover { background:rgba(255,255,255,.06); }
+}
+
+@media (max-width:560px){
+  .wrap { padding:0 16px; }
+  .section { padding:60px 0; }
+  .section.tight { padding:40px 0; }
+}

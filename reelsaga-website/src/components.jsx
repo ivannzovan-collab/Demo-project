@@ -22,6 +22,7 @@ const I = {
   sparkle:(p) => <svg viewBox="0 0 24 24" width={p.s||18} height={p.s||18} fill="currentColor"><path d="M12 2l1.8 6.2L20 10l-6.2 1.8L12 18l-1.8-6.2L4 10l6.2-1.8z"/></svg>,
   plus:   (p) => <svg viewBox="0 0 24 24" width={p.s||18} height={p.s||18} fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round"><path d="M12 5v14M5 12h14"/></svg>,
   close:  (p) => <svg viewBox="0 0 24 24" width={p.s||20} height={p.s||20} fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg>,
+  menu:   (p) => <svg viewBox="0 0 24 24" width={p.s||22} height={p.s||22} fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>,
   check:  (p) => <svg viewBox="0 0 24 24" width={p.s||18} height={p.s||18} fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round"><path d="M4 12l5 5L20 6"/></svg>,
   lock:   (p) => <svg viewBox="0 0 24 24" width={p.s||18} height={p.s||18} fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg>,
   clock:  (p) => <svg viewBox="0 0 24 24" width={p.s||16} height={p.s||16} fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>,
@@ -128,15 +129,18 @@ const NAV_TABS = [['home','Home'],['realistic','Realistic'],['animated','Animate
 function Nav() {
   const { view, go, openSignIn, openSearch } = useRS();
   const [scrolled, setScrolled] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
   useEffect(() => {
     const on = () => setScrolled(window.scrollY > 24);
     on(); window.addEventListener('scroll', on, { passive:true });
     return () => window.removeEventListener('scroll', on);
   }, []);
+  useEffect(() => { setMenuOpen(false); }, [view]); // close the mobile menu on navigation
+  const navTo = (k) => { setMenuOpen(false); go(k); };
   return (
-    <nav className={`nav ${scrolled ? 'scrolled' : ''}`}>
+    <nav className={`nav ${scrolled ? 'scrolled' : ''} ${menuOpen ? 'menu-open' : ''}`}>
       <div className="wrap">
-        <BrandMark variant="yellow" onClick={() => go('home')}/>
+        <BrandMark variant="yellow" onClick={() => navTo('home')}/>
         <div className="nav-links">
           {NAV_TABS.map(([k,label]) => (
             <button key={k} className={`nav-link ${view===k ? 'active' : ''}`} onClick={() => go(k)}>{label}</button>
@@ -146,7 +150,17 @@ function Nav() {
           <button className={`nav-link ${view==='blog' ? 'active' : ''}`} onClick={() => go('blog')}>Blog</button>
           <button className="nav-link" onClick={openSignIn}>Sign in</button>
           <button className="nav-icon-btn" aria-label="Search" onClick={openSearch}><I.search s={19}/></button>
+          <button className="nav-burger" aria-label="Menu" aria-expanded={menuOpen} onClick={() => setMenuOpen((o) => !o)}>
+            {menuOpen ? <I.close s={22}/> : <I.menu s={22}/>}
+          </button>
         </div>
+      </div>
+      <div className="nav-mobile">
+        {NAV_TABS.map(([k,label]) => (
+          <button key={k} className={`nav-mlink ${view===k ? 'active' : ''}`} onClick={() => navTo(k)}>{label}</button>
+        ))}
+        <button className={`nav-mlink ${view==='blog' ? 'active' : ''}`} onClick={() => navTo('blog')}>Blog</button>
+        <button className="nav-mlink" onClick={() => { setMenuOpen(false); openSignIn(); }}>Sign in</button>
       </div>
     </nav>
   );
