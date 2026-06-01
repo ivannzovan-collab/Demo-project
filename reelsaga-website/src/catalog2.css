@@ -114,7 +114,6 @@
 .rank-num { margin:0 -54px 14px 0; align-self:flex-end; position:relative; z-index:0;
   filter:drop-shadow(0 6px 16px rgba(0,0,0,.5)); }
 .rank-cap .cap-card { position:relative; z-index:1; }
-.rank-cap.first .cap-card { transform:translateY(34px); }
 
 /* ---------- carousel arrows: bare chevron, no circle ring (category pages) ---------- */
 .cat-page .fh-rowarrow .ra-circle { display:none; }

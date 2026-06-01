@@ -8,6 +8,7 @@ import './home.css';
 import './atmosphere.css';
 import './figma-home.css';
 import './catalog2.css';
+import './blog2.css';
 import './series-modal.css';
 
 import { App } from './app.jsx';

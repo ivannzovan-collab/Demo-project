@@ -3,7 +3,7 @@ import { RSCtx, Nav, I } from './components.jsx';
 import { Home } from './home3.jsx';
 import { Catalog } from './catalog2.jsx';
 import { TitleDetail } from './catalog.jsx';
-import { Blog, Article } from './blog.jsx';
+import { Blog, Article } from './blog2.jsx';
 import { SignInModal, SearchOverlay } from './widgets.jsx';
 import { SeriesOverlay } from './series-modal.jsx';
 /* global React, ReactDOM, RSCtx, Nav, Home, Catalog, TitleDetail, Blog, Article, SignInModal, SearchOverlay, I */
