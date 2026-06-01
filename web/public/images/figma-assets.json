@@ -1,0 +1,417 @@
+{
+  "source": "Figma file 'Web' (key qNpZnM6Agm9pbTZ8sUPYZq), node 109:173",
+  "note": "These are the image fills used by the landing-page design. The binaries were NOT downloaded because this environment's network policy blocks figma.com egress. To populate: enable figma.com egress (then assets can be pulled via the Figma MCP get_design_context URLs) or export each frame from Figma and drop the PNG here using the suggestedFile name.",
+  "count": 82,
+  "assets": [
+    {
+      "figmaName": "imgSeparator",
+      "assetId": "95f43a3d-3008-4079-85ce-aa2852ee3119",
+      "suggestedFile": "separator.png"
+    },
+    {
+      "figmaName": "imgGeminiGeneratedImage241",
+      "assetId": "5343e2a7-423b-4cb7-bde9-08762523ee2e",
+      "suggestedFile": "gemini-generated-image241.png"
+    },
+    {
+      "figmaName": "imgLogoReelSaga1",
+      "assetId": "c7f5971f-7602-4264-8692-2306333378d0",
+      "suggestedFile": "logo-reel-saga1.png"
+    },
+    {
+      "figmaName": "imgComfyUi00110Realistic1",
+      "assetId": "6e1b8209-effb-4630-9cb1-f362a69e11c2",
+      "suggestedFile": "comfy-ui00110-realistic1.png"
+    },
+    {
+      "figmaName": "imgComfyUi00113Realistic1",
+      "assetId": "bdf15c0c-78cc-4ef2-a442-e2127b0bc5fc",
+      "suggestedFile": "comfy-ui00113-realistic1.png"
+    },
+    {
+      "figmaName": "imgComfyUi00119Realistic1",
+      "assetId": "5f31d799-494e-4f17-9456-329fbdb2a3b6",
+      "suggestedFile": "comfy-ui00119-realistic1.png"
+    },
+    {
+      "figmaName": "imgComfyUi00158Realistic1",
+      "assetId": "75500b3e-a31a-43da-aa2b-a45d6f220cf7",
+      "suggestedFile": "comfy-ui00158-realistic1.png"
+    },
+    {
+      "figmaName": "imgComfyUi00165Realistic1",
+      "assetId": "c0dea6a7-3cb3-44c6-aea5-8d4fc390850e",
+      "suggestedFile": "comfy-ui00165-realistic1.png"
+    },
+    {
+      "figmaName": "imgComfyUi00170Realistic1",
+      "assetId": "1ed10fa3-0efe-4256-9ac8-515668f692f8",
+      "suggestedFile": "comfy-ui00170-realistic1.png"
+    },
+    {
+      "figmaName": "imgComfyUi00222Realistic1",
+      "assetId": "99395a55-faff-43fd-9eba-16094703903e",
+      "suggestedFile": "comfy-ui00222-realistic1.png"
+    },
+    {
+      "figmaName": "imgComfyUi00230Realistic1",
+      "assetId": "4ac6c047-ef9c-4b1f-84c4-298bd65b522a",
+      "suggestedFile": "comfy-ui00230-realistic1.png"
+    },
+    {
+      "figmaName": "imgComfyUi00311Realistic1",
+      "assetId": "206a516d-8bff-4df5-8a7b-77a3d0b2fe84",
+      "suggestedFile": "comfy-ui00311-realistic1.png"
+    },
+    {
+      "figmaName": "imgComfyUi00316Realistic1",
+      "assetId": "6173ea8f-bf92-4949-929e-b02c297d4678",
+      "suggestedFile": "comfy-ui00316-realistic1.png"
+    },
+    {
+      "figmaName": "imgComfyUi00330Realistic1",
+      "assetId": "a0b2fddf-6d89-4a5b-80e1-f7cd17eb48df",
+      "suggestedFile": "comfy-ui00330-realistic1.png"
+    },
+    {
+      "figmaName": "imgComfyUi00332Realistic1",
+      "assetId": "c543cc13-f3f1-4125-b458-afaa422c34dc",
+      "suggestedFile": "comfy-ui00332-realistic1.png"
+    },
+    {
+      "figmaName": "imgComfyUi00412Realistic1",
+      "assetId": "65843060-aa80-4dfe-a600-fcd2c87ca517",
+      "suggestedFile": "comfy-ui00412-realistic1.png"
+    },
+    {
+      "figmaName": "imgComfyUi004081",
+      "assetId": "62f7ebd6-5fe2-4c1f-8bde-689b9e8c9995",
+      "suggestedFile": "comfy-ui004081.png"
+    },
+    {
+      "figmaName": "imgRealisticComfyUi001321",
+      "assetId": "f021cc74-5cfa-4fbf-9d40-84e694c23cf7",
+      "suggestedFile": "realistic-comfy-ui001321.png"
+    },
+    {
+      "figmaName": "imgRealisticComfyUi003451",
+      "assetId": "d56d5282-8d7a-4ca7-b1f0-67c29fdf3640",
+      "suggestedFile": "realistic-comfy-ui003451.png"
+    },
+    {
+      "figmaName": "imgRealisticNanShorts11",
+      "assetId": "de07e535-3526-4237-ad96-bb1a6805313f",
+      "suggestedFile": "realistic-nan-shorts11.png"
+    },
+    {
+      "figmaName": "imgRealisticNanShorts21",
+      "assetId": "e4d25461-0042-4677-b03c-8a29dcdcd1bb",
+      "suggestedFile": "realistic-nan-shorts21.png"
+    },
+    {
+      "figmaName": "imgRealisticNanShorts31",
+      "assetId": "bdf4d097-ba5d-4175-9940-3aa15f27b152",
+      "suggestedFile": "realistic-nan-shorts31.png"
+    },
+    {
+      "figmaName": "imgRealisticNanShorts41",
+      "assetId": "61875e0c-06b7-434b-beff-9f35a4f57f40",
+      "suggestedFile": "realistic-nan-shorts41.png"
+    },
+    {
+      "figmaName": "imgRealisticNanShorts51",
+      "assetId": "abc2b906-f789-4cc6-ac6c-70918302bf95",
+      "suggestedFile": "realistic-nan-shorts51.png"
+    },
+    {
+      "figmaName": "imgRealisticNanShorts61",
+      "assetId": "c873308a-cf09-4c46-aa7f-f499dd94abdc",
+      "suggestedFile": "realistic-nan-shorts61.png"
+    },
+    {
+      "figmaName": "imgRealisticNanShorts71",
+      "assetId": "8fd84f56-4303-4e92-ae57-68d0a1d38502",
+      "suggestedFile": "realistic-nan-shorts71.png"
+    },
+    {
+      "figmaName": "imgRealisticNanShorts81",
+      "assetId": "db6c60ac-d12b-4f23-aa16-7cc3844fd1c7",
+      "suggestedFile": "realistic-nan-shorts81.png"
+    },
+    {
+      "figmaName": "imgRealisticNanShorts91",
+      "assetId": "445634c4-6929-429e-9635-7e27d3c3bf87",
+      "suggestedFile": "realistic-nan-shorts91.png"
+    },
+    {
+      "figmaName": "imgRealisticNanShorts101",
+      "assetId": "1c481769-f3b9-4605-b5f5-454dcc053c19",
+      "suggestedFile": "realistic-nan-shorts101.png"
+    },
+    {
+      "figmaName": "imgRealisticNanShorts111",
+      "assetId": "e622815c-e21d-4ad7-b28d-f134ed2abfa3",
+      "suggestedFile": "realistic-nan-shorts111.png"
+    },
+    {
+      "figmaName": "imgRealisticNanShorts121",
+      "assetId": "e08c5dff-d3bc-4b19-a4d1-f28bd03068a9",
+      "suggestedFile": "realistic-nan-shorts121.png"
+    },
+    {
+      "figmaName": "imgRealisticNanShorts131",
+      "assetId": "18ac1ef4-c9cb-40e6-a4d4-bcd108484be9",
+      "suggestedFile": "realistic-nan-shorts131.png"
+    },
+    {
+      "figmaName": "imgRealisticNanShorts141",
+      "assetId": "88822da4-d9ca-4434-809c-5766df181d05",
+      "suggestedFile": "realistic-nan-shorts141.png"
+    },
+    {
+      "figmaName": "imgRealisticNanShorts1",
+      "assetId": "4b59a952-d8d9-4443-82f7-4111553883b3",
+      "suggestedFile": "realistic-nan-shorts1.png"
+    },
+    {
+      "figmaName": "imgRealisticNanShorts12",
+      "assetId": "525679b3-5373-405b-be54-c3567e4c770a",
+      "suggestedFile": "realistic-nan-shorts12.png"
+    },
+    {
+      "figmaName": "imgRealisticNanShortsComfyUi11",
+      "assetId": "80803b5b-0221-4977-9c86-b0fba34fe98b",
+      "suggestedFile": "realistic-nan-shorts-comfy-ui11.png"
+    },
+    {
+      "figmaName": "imgRealisticNanShortsComfyUi21",
+      "assetId": "d3db0759-a0ad-4499-a5cd-98b874b6bff2",
+      "suggestedFile": "realistic-nan-shorts-comfy-ui21.png"
+    },
+    {
+      "figmaName": "imgRealisticNanShortsComfyUi99",
+      "assetId": "75ad9708-b702-4d8b-9796-37a8a6b884cf",
+      "suggestedFile": "realistic-nan-shorts-comfy-ui99.png"
+    },
+    {
+      "figmaName": "imgMyTwinsHaveTwoDaddiesCover2",
+      "assetId": "0b950bb2-83f2-4d61-ac68-d03f4c89dec2",
+      "suggestedFile": "my-twins-have-two-daddies-cover2.png"
+    },
+    {
+      "figmaName": "imgAnimeNanShortsCover1",
+      "assetId": "9e92c93c-5820-458e-b6bf-fa5c31d5e0c4",
+      "suggestedFile": "anime-nan-shorts-cover1.png"
+    },
+    {
+      "figmaName": "imgAnimeNanShortsCover11",
+      "assetId": "211e8895-2612-4350-8246-e7a8320d449d",
+      "suggestedFile": "anime-nan-shorts-cover11.png"
+    },
+    {
+      "figmaName": "imgAnimeNanShortsCover21",
+      "assetId": "12bdae2a-1645-4219-9489-713a9ee0bcd9",
+      "suggestedFile": "anime-nan-shorts-cover21.png"
+    },
+    {
+      "figmaName": "imgSeparator1",
+      "assetId": "385fa18f-bf29-4cde-9f3b-c14de5721e69",
+      "suggestedFile": "separator1.png"
+    },
+    {
+      "figmaName": "imgThePhantomsKissPreview3",
+      "assetId": "21410302-3694-4330-8164-ce3674b97084",
+      "suggestedFile": "the-phantoms-kiss-preview3.png"
+    },
+    {
+      "figmaName": "imgBillionaireHusbandVampireKingPreview1",
+      "assetId": "eb06b031-74b7-4be1-9961-00fbe676727d",
+      "suggestedFile": "billionaire-husband-vampire-king-preview1.png"
+    },
+    {
+      "figmaName": "imgAnimePreview11",
+      "assetId": "e52939b6-7ef1-4722-8b55-3c7b81b7b4a6",
+      "suggestedFile": "anime-preview11.png"
+    },
+    {
+      "figmaName": "imgOneDeadlyNightPreview1",
+      "assetId": "8dd6db11-014b-41e6-a08e-bbd191565c75",
+      "suggestedFile": "one-deadly-night-preview1.png"
+    },
+    {
+      "figmaName": "imgCursedByMyDeadHusbandsRivalPreview1",
+      "assetId": "870d95dd-b9e7-46bf-b98d-7f1752d0872f",
+      "suggestedFile": "cursed-by-my-dead-husbands-rival-preview1.png"
+    },
+    {
+      "figmaName": "imgAnimePreview1",
+      "assetId": "8ae48b3d-77cd-4db8-aeb8-5584f3981c1c",
+      "suggestedFile": "anime-preview1.png"
+    },
+    {
+      "figmaName": "imgAnimeNanShortsPreview1",
+      "assetId": "8cd6722d-74d6-4721-99e4-993d296aa139",
+      "suggestedFile": "anime-nan-shorts-preview1.png"
+    },
+    {
+      "figmaName": "imgRectangle40679",
+      "assetId": "c5a43485-8729-4978-bdc2-8eb4c282d94c",
+      "suggestedFile": "rectangle40679.png"
+    },
+    {
+      "figmaName": "imgScreenshot20260528At1019442",
+      "assetId": "c21fbdc3-4b42-43ce-9144-0c575b2626d2",
+      "suggestedFile": "screenshot20260528-at1019442.png"
+    },
+    {
+      "figmaName": "imgAnimeNanShortsCover31",
+      "assetId": "b376e988-f0bb-445f-9aa2-262d043e4d94",
+      "suggestedFile": "anime-nan-shorts-cover31.png"
+    },
+    {
+      "figmaName": "imgAnimeNanShortsLogo1",
+      "assetId": "eac22a0b-89fd-4961-a5b4-8a317e88c5f5",
+      "suggestedFile": "anime-nan-shorts-logo1.png"
+    },
+    {
+      "figmaName": "imgLicensedIPsCoverTile2",
+      "assetId": "0026d971-0ce3-4508-aecc-deb7d2755997",
+      "suggestedFile": "licensed-i-ps-cover-tile2.png"
+    },
+    {
+      "figmaName": "imgNanShortsLogo151",
+      "assetId": "d1df1882-0e24-4173-9d3d-53c3e3ebfc74",
+      "suggestedFile": "nan-shorts-logo151.png"
+    },
+    {
+      "figmaName": "imgCoversLicensedIPsTile1",
+      "assetId": "ad3e2d65-8a6f-4949-9ebf-69230c8779bb",
+      "suggestedFile": "covers-licensed-i-ps-tile1.png"
+    },
+    {
+      "figmaName": "imgNanShortsLogo161",
+      "assetId": "56c6eb49-a92b-4a40-8277-33ddbf537048",
+      "suggestedFile": "nan-shorts-logo161.png"
+    },
+    {
+      "figmaName": "imgCoversLicensedIPsTile21",
+      "assetId": "cd6b07b6-c5b2-419e-96a4-b87cf6617a3b",
+      "suggestedFile": "covers-licensed-i-ps-tile21.png"
+    },
+    {
+      "figmaName": "imgNanShortsLogo181",
+      "assetId": "0bf7d2a2-3506-4d70-8bf7-5bdafaf18a92",
+      "suggestedFile": "nan-shorts-logo181.png"
+    },
+    {
+      "figmaName": "imgCoversLicensedIPsTile11",
+      "assetId": "617ebea6-a01b-436d-a427-05fd5d57a889",
+      "suggestedFile": "covers-licensed-i-ps-tile11.png"
+    },
+    {
+      "figmaName": "imgNanShortsLogo171",
+      "assetId": "2e0d59e9-e0c2-415a-a3d4-b2751f104730",
+      "suggestedFile": "nan-shorts-logo171.png"
+    },
+    {
+      "figmaName": "imgRectangle40680",
+      "assetId": "9b5b2ba9-1747-4269-8efc-442d1b28eb8a",
+      "suggestedFile": "rectangle40680.png"
+    },
+    {
+      "figmaName": "imgBrowserButton",
+      "assetId": "24104b11-7aff-457e-ba73-90e71b9f580a",
+      "suggestedFile": "browser-button.png"
+    },
+    {
+      "figmaName": "imgGroup48097981",
+      "assetId": "0536a964-be1d-496a-a070-c1ed364b4bf4",
+      "suggestedFile": "group48097981.png"
+    },
+    {
+      "figmaName": "imgForegroundColor",
+      "assetId": "7a43eaaa-0f2e-4d8f-acdf-4fa65537beed",
+      "suggestedFile": "foreground-color.png"
+    },
+    {
+      "figmaName": "imgForegroundColor1",
+      "assetId": "d42f3927-3124-4c44-abef-6b1a7c174613",
+      "suggestedFile": "foreground-color1.png"
+    },
+    {
+      "figmaName": "imgForegroundColor2",
+      "assetId": "3a47cb53-c37f-4d74-bf33-b910fcae6c9e",
+      "suggestedFile": "foreground-color2.png"
+    },
+    {
+      "figmaName": "imgForegroundColor3",
+      "assetId": "a4f79678-5b62-427d-befc-62e935f24003",
+      "suggestedFile": "foreground-color3.png"
+    },
+    {
+      "figmaName": "imgForegroundColor4",
+      "assetId": "d43e14e8-aa9f-4ef8-82dc-a118dea98523",
+      "suggestedFile": "foreground-color4.png"
+    },
+    {
+      "figmaName": "imgVector",
+      "assetId": "12d4c726-ae9c-45b9-b53d-c2de73ee332f",
+      "suggestedFile": "vector.png"
+    },
+    {
+      "figmaName": "imgMyTwinsHaveTwoDaddiesCover1",
+      "assetId": "3040bd43-50c0-4fb7-9906-b1b440921018",
+      "suggestedFile": "my-twins-have-two-daddies-cover1.png"
+    },
+    {
+      "figmaName": "imgThePhantomsKissPreview1",
+      "assetId": "1ee25d83-5005-40da-854b-3d75de91ecd8",
+      "suggestedFile": "the-phantoms-kiss-preview1.png"
+    },
+    {
+      "figmaName": "imgThePhantomsKissPreview2",
+      "assetId": "96410dbc-c822-4295-a54f-aa3bac3a8fa1",
+      "suggestedFile": "the-phantoms-kiss-preview2.png"
+    },
+    {
+      "figmaName": "img",
+      "assetId": "3e0fa692-6a04-4618-8a17-e217ce9ecb8b",
+      "suggestedFile": "asset.png"
+    },
+    {
+      "figmaName": "imgVector1",
+      "assetId": "5258c06a-9c08-4498-ad4b-4451c4480c73",
+      "suggestedFile": "vector1.png"
+    },
+    {
+      "figmaName": "imgScreenshot20260528At1019441",
+      "assetId": "b9613e98-c348-4d8d-a42d-47b5db7f4421",
+      "suggestedFile": "screenshot20260528-at1019441.png"
+    },
+    {
+      "figmaName": "imgLicensedIPsCoverTile1",
+      "assetId": "aa649035-a73d-4f50-a290-adc51c8bb9fb",
+      "suggestedFile": "licensed-i-ps-cover-tile1.png"
+    },
+    {
+      "figmaName": "imgVector852",
+      "assetId": "0e7b1e17-9dca-4a1f-937e-61f90e13fcb3",
+      "suggestedFile": "vector852.png"
+    },
+    {
+      "figmaName": "img1",
+      "assetId": "0f3b025b-1d92-413c-bbc7-ce34d02e3361",
+      "suggestedFile": "1.png"
+    },
+    {
+      "figmaName": "imgVector2",
+      "assetId": "9f80879b-4080-456b-bd7d-524074c059ef",
+      "suggestedFile": "vector2.png"
+    },
+    {
+      "figmaName": "imgVector3",
+      "assetId": "c7e7e348-c2ce-416c-9232-e0da55642e05",
+      "suggestedFile": "vector3.png"
+    }
+  ]
+}
