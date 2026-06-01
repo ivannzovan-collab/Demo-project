@@ -121,7 +121,7 @@ export function SiteNav({ active }) {
     { label: 'Home', to: '/' },
     { label: 'Realistic', to: '/realistic' },
     { label: 'Animated', href: '#' },
-    { label: 'Books', href: '#' },
+    { label: 'Books', to: '/books' },
   ];
   return (
     <header className="rs-nav">

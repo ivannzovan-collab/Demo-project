@@ -499,6 +499,54 @@
 .rs-footer__links { display: flex; gap: 28px; }
 .rs-footer__links a:hover { color: #fff; }
 
+/* ---------------- book coverflow (Books) ---------------- */
+.rs-flow {
+  position: relative;
+  max-width: var(--rs-max);
+  margin: clamp(28px, 4vw, 52px) auto 0;
+  padding: 8px var(--rs-pad) 0;
+}
+.rs-flow__glow {
+  position: absolute;
+  left: 50%;
+  top: 46%;
+  transform: translate(-50%, -50%);
+  width: min(880px, 82%);
+  height: 280px;
+  background: radial-gradient(closest-side, rgba(254, 194, 0, 0.16), transparent 75%);
+  pointer-events: none;
+}
+.rs-flow__row {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 440px;
+}
+.rs-flow__item {
+  flex: 0 0 auto;
+  width: clamp(180px, 21vw, 256px);
+  cursor: pointer;
+  transition: transform 0.35s ease, opacity 0.35s ease;
+}
+.rs-flow__item .rs-poster { box-shadow: 0 26px 54px rgba(0, 0, 0, 0.6); }
+.rs-flow__item--center { z-index: 5; }
+.rs-flow__item--near { z-index: 3; transform: scale(0.82); opacity: 0.9; margin-inline: -34px; }
+.rs-flow__item--far { z-index: 1; transform: scale(0.62); opacity: 0.5; margin-inline: -46px; }
+.rs-flow .rs-rank {
+  font-size: 92px;
+  color: rgba(255, 255, 255, 0.12);
+  -webkit-text-stroke: 2.5px rgba(255, 255, 255, 0.82);
+}
+.rs-flow .rs-arrow { top: 50%; }
+.rs-flow .rs-arrow--prev { left: 4px; }
+.rs-flow .rs-arrow--next { right: 4px; }
+@media (max-width: 760px) { .rs-flow__item--far { display: none; } }
+@media (max-width: 520px) {
+  .rs-flow__item--near { display: none; }
+  .rs-flow__item--center { width: clamp(200px, 62vw, 260px); }
+}
+
 /* ---------------- responsive ---------------- */
 @media (max-width: 1000px) {
   .rs-hero__inner { grid-template-columns: 1fr; }
