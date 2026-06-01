@@ -216,9 +216,11 @@ function BooksPage({ pool }) {
 function Catalog({ type }) {
   const { go, toast } = useRS();
   cE(() => {window.scrollTo(0, 0);}, [type]);
-  const all = RS_BY_TYPE(type);
+  // Animated mirrors the Realistic page's design + curation (same hero, trending and rows).
+  const srcType = type === 'animated' ? 'realistic' : type;
+  const all = RS_BY_TYPE(srcType);
   const pool = all.length >= 6 ? all : RS_DATA.titles;
-  const meta = CAT_META[type] || CAT_META.realistic;
+  const meta = CAT_META[srcType] || CAT_META.realistic;
   if (type === 'books') return <BooksPage pool={pool} />;
 
   // exact curation for the Realistic page (matches Figma 109-2813)
@@ -226,7 +228,7 @@ function Catalog({ type }) {
     hero: pick(['classroom-queen', 'two-alpha-kings', 'bride-dies-twice']),
     trending: pick(['bride-dies-twice', 'two-alpha-kings', 'classroom-queen', 'billionaire-alphas', 'cursed-rival', 'silver-fox', 'eyes-of-storm', 'suburban-strangler'])
   };
-  const isReal = type === 'realistic';
+  const isReal = srcType === 'realistic';
 
   const featuredAuto = pool.filter((t) => t.hot || t.rank).slice(0, 3);
   const featured = isReal ? REAL.hero : featuredAuto.length ? featuredAuto : pool.slice(0, 3);
