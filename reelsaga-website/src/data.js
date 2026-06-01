@@ -9,6 +9,12 @@
     {
       id: 'phantoms-kiss', title: "The Phantom's Kiss", type: 'realistic',
       genres: ['Crime', 'Romance'], image: '/assets/fig/originals-strip.jpg', wide: true,
+      // Hover/scroll trailer preview → .../trailers/{type}/{id}/{kind}.mp4
+      //   type: 'Anime' | 'Shorts'  ·  id: numeric show id  ·  kind: 'TRAILER_720' | 'TEASER_720'
+      // Add a `video` field to any title to enable a trailer on its card.
+      // (The three demo entries below all point at the one sample file you provided —
+      //  Shorts/14/TRAILER_720 — swap `id` for each show's real numeric id.)
+      video: { type: 'Shorts', id: 14, kind: 'TRAILER_720' },
       rank: 1, hot: true, episodes: 54, runtime: '74s', rating: 4.9, views: '14.8M',
       tagline: 'A detective and the ghost she swore she buried.',
       synopsis: 'Detective Mara Quinn hunts a killer who leaves no prints and no witnesses — only a kiss. The deeper she digs, the more the trail points to the partner she watched die three years ago. In a neon city that never sleeps, the dead do not always stay dead.',
@@ -16,6 +22,7 @@
     {
       id: 'two-alpha-kings', title: 'Two Alpha Kings, One Virgin Mate', type: 'books',
       genres: ['Werewolf', 'Billionaire'], image: '/assets/fig/cover-f.png',
+      video: { type: 'Shorts', id: 14, kind: 'TRAILER_720' }, // sample clip — replace 14 with this show's real id
       rank: 2, hot: true, chapters: 72, rating: 4.8, views: '11.2M',
       tagline: 'Two rival kings. One fated mate. No peace treaty survives this.',
       synopsis: 'When the moon binds Aria to not one but two warring alpha kings, the only thing fiercer than their hatred for each other is their need for her. A branching saga where every choice you make redraws the borders of two kingdoms.',
@@ -23,6 +30,7 @@
     {
       id: 'cursed-rival', title: "Cursed by My Dead Husband's Rival", type: 'realistic',
       genres: ['Revenge', 'Fantasy'], image: '/assets/fig/cover-e.png',
+      video: { type: 'Shorts', id: 14, kind: 'TRAILER_720' }, // sample clip — replace 14 with this show's real id
       rank: 3, new: true, episodes: 40, runtime: '70s', rating: 4.7, views: '6.9M',
       tagline: 'He cursed her at the funeral. The widow had other plans.',
       synopsis: 'On the night they bury her husband, his oldest rival lays a curse on the widow Selene — bound to the bloodline until the debt is paid. But Selene was never the grieving wife everyone thought, and the forest remembers who really lit the pyre.',

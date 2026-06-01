@@ -1,6 +1,7 @@
 import React from 'react';
 import { useRS, I } from './components.jsx';
 import { RS_GET } from './data.js';
+import { CardTrailer, useTrailerActive } from './trailer.jsx';
 /* global React, useRS, I, useReveal, RS_DATA, RS_GET */
 /* ReelSaga — Home rebuilt 1:1 from the mounted Figma "Web" file. Loaded last → wins. */
 const { useState: fS, useEffect: fE, useRef: fR } = React;
@@ -71,11 +72,14 @@ function Hero() {
 /* ======================= CARD + ROW ======================= */
 function FhCard({ t, mw, rank }) {
   const { openSeries } = useRS();
+  const cardRef = fR(null);
+  const trailerActive = useTrailerActive(cardRef, !!t.video);
   return (
-    <div className={`fh-card ${mw ? 'mw' : ''}`} onClick={() => openSeries(t.id)} role="button" tabIndex={0}>
+    <div ref={cardRef} className={`fh-card ${mw ? 'mw' : ''}`} onClick={() => openSeries(t.id)} role="button" tabIndex={0}>
       {t.image ?
       <img className="cv" src={t.image} alt={t.title} loading="lazy" /> :
       <div className="cv" style={{ background: `radial-gradient(130% 80% at 70% 8%, ${t.glow || '#3a4a7a'}aa, ${t.glow || '#3a4a7a'}11 46%, transparent 66%), linear-gradient(160deg, ${t.tint || '#1b2950'}, #0a1228 92%)` }} />}
+      {t.video && <CardTrailer video={t.video} active={trailerActive} />}
       <div className="cfade" />
       {rank && <div className="crank">{rank}</div>}
       <div className="cplay"><span className="trailer-btn"><I.trailerPlay s={26} />Trailer</span></div>
