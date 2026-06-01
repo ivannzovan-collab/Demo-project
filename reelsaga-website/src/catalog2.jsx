@@ -176,7 +176,7 @@ function BooksPage({ pool }) {
   const cards = pick(['two-alpha-kings', 'billionaire-alphas', 'silver-fox', 'cursed-rival', 'bride-dies-twice', 'classroom-queen', 'phantoms-kiss', 'bound-roses']);
   const ranked = pick(['cursed-rival', 'bride-dies-twice', 'silver-fox', 'billionaire-alphas', 'two-alpha-kings']);
   return (
-    <div className="page fh">
+    <div className="page fh cat-page">
       <CatHero type="books" featured={heroF.length ? heroF : pool.slice(0, 3)} />
 
       <section className="fh-sec"><div className="fhw">
@@ -239,7 +239,7 @@ function Catalog({ type }) {
   const stack = (ids) => pick(ids).map((t) => t.image || t.titleArt).filter(Boolean);
 
   return (
-    <div className="page fh">
+    <div className="page fh cat-page">
       <CatHero type={type} featured={featured.length ? featured : pool.slice(0, 3)} />
       <section className="fh-sec"><div className="fhw">
         <div className="fh-sep" />

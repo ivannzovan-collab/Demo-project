@@ -115,3 +115,7 @@
   filter:drop-shadow(0 6px 16px rgba(0,0,0,.5)); }
 .rank-cap .cap-card { position:relative; z-index:1; }
 .rank-cap.first .cap-card { transform:translateY(34px); }
+
+/* ---------- carousel arrows: bare chevron, no circle ring (category pages) ---------- */
+.cat-page .fh-rowarrow .ra-circle { display:none; }
+.cat-page .fh-rowarrow:hover { color:var(--rs-yellow); }
