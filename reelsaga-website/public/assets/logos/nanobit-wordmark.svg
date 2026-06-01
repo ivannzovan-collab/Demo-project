@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 120" role="img" aria-label="Nanobit">
+  <g transform="translate(85 4)">
+    
+    <g fill="#FFFFFF">
+      <path d="M35 0c-6 0-10 4-10 10 0 6 4 10 10 10h10V10C45 4 41 0 35 0z"></path>
+      <path d="M70 35c0-6-4-10-10-10-6 0-10 4-10 10v10h10c6 0 10-4 10-10z"></path>
+      <path d="M35 70c6 0 10-4 10-10 0-6-4-10-10-10H25v10c0 6 4 10 10 10z"></path>
+      <path d="M0 35c0 6 4 10 10 10 6 0 10-4 10-10V25H10C4 25 0 29 0 35z"></path>
+      <circle cx="35" cy="35" r="8"></circle>
+    </g>
+  </g>
+  <text x="120" y="108" text-anchor="middle" fill="#FFFFFF" font-family="Roboto, system-ui, sans-serif" font-weight="700" font-size="24" letter-spacing="4">NANOBIT</text>
+</svg>

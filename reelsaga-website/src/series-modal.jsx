@@ -1,0 +1,64 @@
+import React from 'react';
+import { useRS, I } from './components.jsx';
+import { RS_GET } from './data.js';
+/* global React, useRS, I, RS_GET */
+/* ReelSaga — series preview overlay (click a poster → this opens) */
+const { useEffect: smE } = React;
+
+function SeriesOverlay({ id, onClose }) {
+  const { toast } = useRS();
+  const t = RS_GET(id);
+  smE(() => {
+    const esc = (e) => e.key === 'Escape' && onClose();
+    window.addEventListener('keydown', esc);
+    document.body.style.overflow = 'hidden';
+    return () => { window.removeEventListener('keydown', esc); document.body.style.overflow = ''; };
+  }, [id]);
+  if (!t) return null;
+
+  const poster = t.image || t.titleArt || null;
+  const tintBg = `radial-gradient(120% 80% at 70% 8%, ${t.glow||'#3a4a7a'}aa, ${t.glow||'#3a4a7a'}11 46%, transparent 66%), linear-gradient(160deg, ${t.tint||'#1b2950'} 0%, #0a1228 94%)`;
+  const synopsis = t.synopsis || t.tagline || 'A new ReelSaga original. Tap play to watch the first scene, then continue in the app.';
+  const watch = () => toast('Download the app to keep watching');
+
+  return (
+    <div className="series-back" onMouseDown={(e)=> e.target===e.currentTarget && onClose()}>
+      <button className="series-close" onClick={onClose} aria-label="Close">
+        <svg viewBox="0 0 61 61" width="61" height="61" fill="none">
+          <circle cx="30.5" cy="30.5" r="29" stroke="currentColor" strokeWidth="2"/>
+          <path d="M22 22 L39 39 M39 22 L22 39" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
+        </svg>
+      </button>
+
+      <div className="series-modal">
+        {/* left: vertical player */}
+        <div className="series-player" onClick={watch}>
+          {poster ? <img src={poster} alt={t.title}/> : <div className="sp-art" style={{background:tintBg}}/>}
+          <div className="sp-shade"/>
+          <button className="series-play" onClick={(e)=>{e.stopPropagation(); watch();}} aria-label="Play">
+            <I.play s={34} f="var(--rs-navy)"/>
+          </button>
+          <div className="series-progress"><i/></div>
+        </div>
+
+        {/* right: info */}
+        <div className="series-info">
+          <h2>{t.title}</h2>
+          <div className="series-genres">
+            {(t.genres||[]).map(g => <span key={g} className="sg-chip">{g}</span>)}
+          </div>
+          <p className="series-syn">{synopsis}</p>
+          <div className="series-foot">
+            <div className="series-cont">Download the app to continue watching</div>
+            <button className="series-watchmore" onClick={watch}>
+              Watch more
+              <svg width="23" height="20" viewBox="0 0 23 20" fill="none"><path d="M17.2569 14.1873L21.8618 9.7684L12.6519 0.930664V5.95413H10.2332C5.1166 5.95413 0.930298 10.1404 0.930298 15.257V18.327C0.930298 18.6061 1.20938 18.8851 1.48847 18.8851H1.5815C1.76756 18.8851 1.95362 18.6991 2.04664 18.513C2.2327 15.8152 4.46539 13.7686 7.16323 13.7686H12.6519V18.6061L14.9544 16.3967" stroke="#03162A" strokeWidth="1.86058" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export { SeriesOverlay };
