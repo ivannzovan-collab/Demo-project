@@ -1,6 +1,7 @@
-/* ReelSaga landing page — implemented from Figma "Web" node 109:173.
-   All selectors are scoped under .rs-landing / .rs- to avoid clashing with the
-   existing mobile prototype styles. */
+/* ReelSaga shared styles — used by the landing page and category pages
+   (Realistic, Animated, Books). Implemented from Figma file "Web"
+   (nodes 109:173 and 109:661). All selectors are scoped under .rs- to avoid
+   clashing with the existing mobile prototype styles. */
 
 .rs-landing {
   --rs-bg: #050e27;
@@ -10,6 +11,7 @@
   --rs-accent: #fec200;
   --rs-text: #ffffff;
   --rs-muted: rgba(235, 235, 245, 0.6);
+  --rs-cap: #828a93;
   --rs-line: rgba(235, 235, 245, 0.12);
   --rs-max: 1396px;
   --rs-pad: clamp(16px, 4vw, 58px);
@@ -155,6 +157,21 @@
 .rs-hero__preview--2 { transform: rotate(7deg) translateX(-46px); z-index: 1; }
 .rs-hero__preview .rs-poster { box-shadow: 0 30px 60px rgba(0, 0, 0, 0.55); }
 
+/* single wide hero media (category pages) */
+.rs-hero__media {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 30px 70px rgba(0, 0, 0, 0.5);
+}
+.rs-hero__media img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+
+.rs-dots { display: flex; gap: 8px; margin-top: 26px; }
+.rs-dots span { width: 8px; height: 8px; border-radius: 999px; background: rgba(255, 255, 255, 0.3); transition: width 0.2s ease; }
+.rs-dots span.is-on { width: 24px; background: var(--rs-accent); }
+
 /* ---------------- poster card ---------------- */
 .rs-poster {
   position: relative;
@@ -165,13 +182,7 @@
   border: 1px solid rgba(255, 255, 255, 0.06);
   isolation: isolate;
 }
-.rs-poster__img {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
+.rs-poster__img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 .rs-poster__shade {
   position: absolute;
   inset: 0;
@@ -208,6 +219,34 @@
   color: rgba(255, 255, 255, 0.78);
 }
 .rs-poster__eps { color: var(--rs-accent); font-weight: 600; }
+
+/* ranked numeral (Trending) */
+.rs-rank {
+  position: absolute;
+  top: 2px;
+  left: 8px;
+  z-index: 2;
+  font-family: 'Roboto Condensed', 'Roboto', sans-serif;
+  font-weight: 800;
+  font-size: 76px;
+  line-height: 1;
+  color: rgba(255, 255, 255, 0.12);
+  -webkit-text-stroke: 2px rgba(255, 255, 255, 0.8);
+  text-shadow: 0 2px 16px rgba(0, 0, 0, 0.55);
+}
+
+/* poster with caption below (category rows) */
+.rs-poster-wrap { display: flex; flex-direction: column; }
+.rs-poster-wrap > .rs-poster { width: 100%; }
+.rs-poster-cap {
+  padding-top: 10px;
+  color: var(--rs-cap);
+  font-family: 'Roboto Condensed', 'Roboto', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+}
 
 /* gradient "tones" used as placeholder cover art */
 .rs-tone-1 { background: linear-gradient(150deg, #7a1f6b, #2a0f3f 70%); }
@@ -259,6 +298,15 @@
   max-width: 46ch;
   justify-self: end;
 }
+/* simple row title (category pages) */
+.rs-rowhead {
+  border-top: 1px solid var(--rs-line);
+  padding-top: 24px;
+  margin: 0 0 22px;
+  font-size: clamp(26px, 3.2vw, 38px);
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
 
 /* ---------------- carousel ---------------- */
 .rs-carousel { position: relative; }
@@ -272,7 +320,8 @@
   scrollbar-width: none;
 }
 .rs-carousel__track::-webkit-scrollbar { display: none; }
-.rs-carousel__track > .rs-poster {
+.rs-carousel__track > .rs-poster,
+.rs-carousel__track > .rs-poster-wrap {
   flex: 0 0 clamp(190px, 22vw, 248px);
   scroll-snap-align: start;
 }
@@ -347,12 +396,43 @@
   background: linear-gradient(120deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.45));
 }
 
-/* ---------------- reviews ---------------- */
-.rs-reviews {
+/* ---------------- browse-more promos (3-up) ---------------- */
+.rs-browse {
+  max-width: var(--rs-max);
+  margin: clamp(44px, 5vw, 76px) auto 0;
+  padding: 0 var(--rs-pad);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 22px;
+  gap: 24px;
 }
+.rs-promo {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 28px;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+.rs-promo__shade {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 30%, rgba(0, 0, 0, 0.72));
+}
+.rs-promo__title { position: relative; font-size: 26px; font-weight: 800; margin: 0 0 8px; }
+.rs-promo__body {
+  position: relative;
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 14.5px;
+  line-height: 1.5;
+  margin: 0 0 18px;
+}
+.rs-promo .rs-btn { position: relative; align-self: flex-start; }
+
+/* ---------------- reviews ---------------- */
+.rs-reviews { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
 .rs-review {
   margin: 0;
   background: linear-gradient(180deg, var(--rs-card), var(--rs-card-2));
@@ -424,10 +504,12 @@
   .rs-hero__inner { grid-template-columns: 1fr; }
   .rs-hero__previews { order: -1; min-height: 360px; }
   .rs-hero__preview { width: 168px; }
+  .rs-hero__media { order: -1; }
   .rs-featured { grid-template-columns: 1fr; }
   .rs-featured__body { order: 2; }
   .rs-featured__art { order: 1; }
   .rs-reviews { grid-template-columns: 1fr; }
+  .rs-browse { grid-template-columns: 1fr; }
 }
 @media (max-width: 760px) {
   .rs-nav__links { display: none; }
@@ -436,5 +518,4 @@
   .rs-sechead__copy { grid-template-columns: 1fr; gap: 14px; }
   .rs-sechead__body { justify-self: start; }
   .rs-arrow { display: none; }
-  .rs-carousel__track { scroll-padding-left: var(--rs-pad); }
 }
