@@ -4,8 +4,8 @@
    ============================================================ */
 
 .fh { position:relative; background:var(--rs-navy-deep); }
-.fhw { max-width:1396px; margin:0 auto; padding:0 58px; }
-@media (max-width:1180px){ .fhw { padding:0 32px; } }
+/* matched to the nav .wrap so section content lines up with the logo (left) and search icon (right) */
+.fhw { max-width:var(--rs-maxw); margin:0 auto; padding:0 40px; }
 
 /* gradient hairline separator (Figma "Separator") */
 .fh-sep { height:2px; opacity:.5;
