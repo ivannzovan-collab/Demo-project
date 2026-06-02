@@ -234,3 +234,6 @@ img { display:block; max-width:100%; }
   .section { padding:60px 0; }
   .section.tight { padding:40px 0; }
 }
+
+/* persistent yellow line under the top navigation bar (always visible) */
+.nav::after { content:''; position:absolute; left:0; right:0; bottom:0; height:2px; background:var(--rs-yellow); z-index:1; }
