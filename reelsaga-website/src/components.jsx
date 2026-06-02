@@ -1,5 +1,4 @@
 import React from 'react';
-import * as amplitude from '@amplitude/unified';
 /* global React */
 /* ReelSaga — shared components. Exports to window. */
 const { useState, useEffect, useRef, useContext, createContext } = React;
@@ -140,7 +139,6 @@ function Nav() {
   }, []);
   useEffect(() => { setMenuOpen(false); }, [view]); // close the mobile menu on navigation
   const navTo = (k) => { setMenuOpen(false); go(k); };
-  const signIn = () => { amplitude.track('Button Clicked', { buttonName: 'signup' }); openSignIn(); };
   return (
     <nav className={`nav ${scrolled ? 'scrolled' : ''} ${menuOpen ? 'menu-open' : ''}`}>
       <div className="wrap">
@@ -152,7 +150,6 @@ function Nav() {
         </div>
         <div className="nav-right">
           <button className={`nav-link ${view==='blog' ? 'active' : ''}`} onClick={() => go('blog')}>Blog</button>
-          <button className="nav-link" onClick={signIn}>Sign in</button>
           <button className="nav-icon-btn" aria-label="Search" onClick={openSearch}><I.search s={19}/></button>
           <button className="nav-burger" aria-label="Menu" aria-expanded={menuOpen} onClick={() => setMenuOpen((o) => !o)}>
             {menuOpen ? <I.close s={22}/> : <I.menu s={22}/>}
@@ -164,7 +161,6 @@ function Nav() {
           <button key={k} className={`nav-mlink ${view===k ? 'active' : ''}`} onClick={() => navTo(k)}>{label}</button>
         ))}
         <button className={`nav-mlink ${view==='blog' ? 'active' : ''}`} onClick={() => navTo('blog')}>Blog</button>
-        <button className="nav-mlink" onClick={() => { setMenuOpen(false); signIn(); }}>Sign in</button>
       </div>
     </nav>
   );
