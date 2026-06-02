@@ -7,6 +7,7 @@ import { Blog, Article } from './blog2.jsx';
 import { SignInModal, SearchOverlay } from './widgets.jsx';
 import { SeriesOverlay } from './series-modal.jsx';
 import { BookDetail } from './book.jsx';
+import * as amplitude from '@amplitude/unified';
 /* global React, ReactDOM, RSCtx, Nav, Home, Catalog, TitleDetail, Blog, Article, SignInModal, SearchOverlay, I */
 const { useState: aUS, useEffect: aUE, useCallback } = React;
 
@@ -19,6 +20,7 @@ function App() {
   const toastTimer = React.useRef(0);
 
   const go = useCallback((view, params={}) => {
+    amplitude.track('Page Viewed', { view, ...(params.id ? { id: params.id } : {}) });
     setRoute({ view, params });
     window.history.pushState({ view, params }, '', '#' + view + (params.id ? '/'+params.id : ''));
     window.scrollTo({ top:0, behavior:'auto' });
@@ -49,7 +51,7 @@ function App() {
     window.addEventListener('keydown', k); return () => window.removeEventListener('keydown', k);
   }, []);
 
-  const ctx = { view: route.view, params: route.params, go, openSignIn:()=>setSignIn(true), openSearch:()=>setSearch(true), openSeries:(id)=>setSeries(id), toast };
+  const ctx = { view: route.view, params: route.params, go, openSignIn:()=>setSignIn(true), openSearch:()=>setSearch(true), openSeries:(id)=>{ amplitude.track('Series Opened', { id }); setSeries(id); }, toast };
 
   let body;
   switch (route.view) {

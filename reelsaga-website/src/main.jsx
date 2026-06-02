@@ -19,6 +19,8 @@ import { App } from './app.jsx';
 // at app startup. autocapture tracks key interactions (page views, clicks, etc.).
 if (typeof window !== 'undefined') {
   amplitude.initAll('eb163fb30edb7f327e93dcf51bb3c059', { serverZone: 'EU', analytics: { autocapture: true }, sessionReplay: { sampleRate: 1 } });
+  // Explicit test event — fires once on load to confirm the connection.
+  amplitude.track('App Loaded');
 }
 
 createRoot(document.getElementById('root')).render(<App />);
