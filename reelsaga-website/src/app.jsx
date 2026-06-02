@@ -6,6 +6,7 @@ import { TitleDetail } from './catalog.jsx';
 import { Blog, Article } from './blog2.jsx';
 import { SignInModal, SearchOverlay } from './widgets.jsx';
 import { SeriesOverlay } from './series-modal.jsx';
+import { BookDetail } from './book.jsx';
 /* global React, ReactDOM, RSCtx, Nav, Home, Catalog, TitleDetail, Blog, Article, SignInModal, SearchOverlay, I */
 const { useState: aUS, useEffect: aUE, useCallback } = React;
 
@@ -55,6 +56,7 @@ function App() {
     case 'home': body = <Home/>; break;
     case 'realistic': case 'animated': case 'books': body = <Catalog key={route.view} type={route.view}/>; break;
     case 'title': body = <TitleDetail key={route.params.id} id={route.params.id}/>; break;
+    case 'book': body = <BookDetail key={route.params.id} id={route.params.id}/>; break;
     case 'blog': body = <Blog/>; break;
     case 'article': body = <Article key={route.params.id} id={route.params.id}/>; break;
     default: body = <Home/>;

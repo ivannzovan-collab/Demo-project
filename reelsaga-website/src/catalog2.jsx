@@ -1,5 +1,5 @@
 import React from 'react';
-import { useRS, I } from './components.jsx';
+import { useRS, I, RSCtx } from './components.jsx';
 import { RS_DATA, RS_BY_TYPE, RS_GET } from './data.js';
 import { FhRow, Kicker, ArrowBtn, SideArrow, FIG, pick, BLURB, RowChevron } from './home3.jsx';
 /* global React, useRS, I, RS_DATA, RS_BY_TYPE, RS_GET, FhRow, Kicker, ArrowBtn, SideArrow, FIG, pick, BLURB */
@@ -214,14 +214,15 @@ function BooksPage({ pool }) {
 }
 
 function Catalog({ type }) {
-  const { go, toast } = useRS();
+  const ctx = useRS();
+  const { go, toast } = ctx;
   cE(() => {window.scrollTo(0, 0);}, [type]);
   // Animated mirrors the Realistic page's design + curation (same hero, trending and rows).
   const srcType = type === 'animated' ? 'realistic' : type;
   const all = RS_BY_TYPE(srcType);
   const pool = all.length >= 6 ? all : RS_DATA.titles;
   const meta = CAT_META[srcType] || CAT_META.realistic;
-  if (type === 'books') return <BooksPage pool={pool} />;
+  if (type === 'books') return <RSCtx.Provider value={{ ...ctx, openSeries: (id) => ctx.go('book', { id }) }}><BooksPage pool={pool} /></RSCtx.Provider>;
 
   // exact curation for the Realistic page (matches Figma 109-2813)
   const REAL = {

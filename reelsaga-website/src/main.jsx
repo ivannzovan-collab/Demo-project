@@ -10,6 +10,7 @@ import './figma-home.css';
 import './catalog2.css';
 import './blog2.css';
 import './series-modal.css';
+import './book.css';
 
 import { App } from './app.jsx';
 
