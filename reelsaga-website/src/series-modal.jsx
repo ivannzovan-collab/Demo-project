@@ -79,7 +79,7 @@ function SeriesOverlay({ id, onClose }) {
             aria-label={ended ? 'Replay' : (playing ? 'Pause' : 'Play')}>
             {ended ? <I.replay s={34}/> : <I.play s={34}/>}
             <img key={ended ? 'replay' : 'play'} className="series-play-png" alt=""
-              src={ended ? '/assets/fig/replay-btn.png' : '/assets/fig/play-btn.png'}
+              src={ended ? '/assets/fig/replay-btn.svg' : '/assets/fig/play-btn.svg'}
               onError={(e)=>{ e.currentTarget.style.display = 'none'; }} />
           </button>
           {hasTrailer && (
