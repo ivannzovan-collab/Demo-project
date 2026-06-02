@@ -78,6 +78,9 @@ function SeriesOverlay({ id, onClose }) {
             onClick={(e)=>{ e.stopPropagation(); if (!hasTrailer) return watch(); ended ? restart() : togglePlay(); }}
             aria-label={ended ? 'Replay' : (playing ? 'Pause' : 'Play')}>
             {ended ? <I.replay s={34}/> : <I.play s={34}/>}
+            <img key={ended ? 'replay' : 'play'} className="series-play-png" alt=""
+              src={ended ? '/assets/fig/replay-btn.png' : '/assets/fig/play-btn.png'}
+              onError={(e)=>{ e.currentTarget.style.display = 'none'; }} />
           </button>
           {hasTrailer && (
             <button className="series-mute" onClick={(e)=>{ e.stopPropagation(); toggleMute(); }}

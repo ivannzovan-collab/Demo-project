@@ -18,9 +18,11 @@
 .series-player img, .series-player .sp-art { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; }
 .series-player .sp-shade { position:absolute; inset:0; background:linear-gradient(180deg, rgba(3,8,22,.25) 0%, transparent 30% 64%, rgba(3,8,22,.5) 100%); }
 .series-play { position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); width:84px; height:84px; border-radius:50%;
-  background:#3D4B74; color:var(--rs-yellow); display:grid; place-items:center; padding-left:5px;
+  background:#3D4B74; color:var(--rs-yellow); display:grid; place-items:center;
   box-shadow:0 10px 30px rgba(0,0,0,.45), inset 0 2px 0 rgba(255,255,255,.18); transition:transform .2s; }
-.series-play--replay { padding-left:0; }
+.series-play > svg { margin-left:3px; }            /* optically center the play triangle */
+.series-play--replay > svg { margin-left:0; }
+.series-play-png { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; border-radius:50%; }
 .series-play:hover { transform:translate(-50%,-50%) scale(1.07); }
 .series-progress { position:absolute; left:18px; right:18px; bottom:20px; height:6px; border-radius:99px; background:rgba(255,255,255,.32); overflow:hidden; }
 .series-progress i { display:block; width:16%; height:100%; background:var(--rs-yellow); border-radius:99px; }
