@@ -193,3 +193,6 @@
   .fh-closing h2 { font-size:32px; }
   .fh-review { padding:24px 22px; }
 }
+
+/* hero content column narrowed (other sections keep 1396) */
+.fh-hero .fhw { max-width:1247px; }
