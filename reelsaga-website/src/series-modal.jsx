@@ -1,25 +1,51 @@
 import React from 'react';
 import { useRS, I } from './components.jsx';
 import { RS_GET } from './data.js';
+import { trailerUrl } from './trailer.jsx';
 /* global React, useRS, I, RS_GET */
 /* ReelSaga — series preview overlay (click a poster → this opens) */
-const { useEffect: smE } = React;
+const { useEffect: smE, useState: smS, useRef: smR } = React;
 
 function SeriesOverlay({ id, onClose }) {
   const { toast } = useRS();
   const t = RS_GET(id);
+  const videoRef = smR(null);
+  const [playing, setPlaying] = smS(false);
+  const [muted, setMuted] = smS(true);
+  const [prog, setProg] = smS(0);
+  const hasTrailer = !!(t && t.video);
+
   smE(() => {
     const esc = (e) => e.key === 'Escape' && onClose();
     window.addEventListener('keydown', esc);
     document.body.style.overflow = 'hidden';
     return () => { window.removeEventListener('keydown', esc); document.body.style.overflow = ''; };
   }, [id]);
+
+  // Autoplay the trailer (muted) when the overlay opens for a series that has one.
+  smE(() => {
+    const v = videoRef.current;
+    if (!v || !hasTrailer) return;
+    v.muted = true; setMuted(true);
+    const p = v.play(); if (p && p.catch) p.catch(() => {});
+  }, [id, hasTrailer]);
+
   if (!t) return null;
 
   const poster = t.image || t.titleArt || null;
   const tintBg = `radial-gradient(120% 80% at 70% 8%, ${t.glow||'#3a4a7a'}aa, ${t.glow||'#3a4a7a'}11 46%, transparent 66%), linear-gradient(160deg, ${t.tint||'#1b2950'} 0%, #0a1228 94%)`;
   const synopsis = t.synopsis || t.tagline || 'A new ReelSaga original. Tap play to watch the first scene, then continue in the app.';
   const watch = () => toast('Download the app to keep watching');
+
+  const togglePlay = () => {
+    const v = videoRef.current; if (!v) return;
+    if (v.paused) { const p = v.play(); if (p && p.catch) p.catch(() => {}); }
+    else { v.pause(); }
+  };
+  const toggleMute = () => {
+    const v = videoRef.current; if (!v) return;
+    v.muted = !v.muted; setMuted(v.muted);
+  };
 
   return (
     <div className="series-back" onMouseDown={(e)=> e.target===e.currentTarget && onClose()}>
@@ -32,13 +58,26 @@ function SeriesOverlay({ id, onClose }) {
 
       <div className="series-modal">
         {/* left: vertical player */}
-        <div className="series-player" onClick={watch}>
-          {poster ? <img src={poster} alt={t.title}/> : <div className="sp-art" style={{background:tintBg}}/>}
+        <div className="series-player" onClick={hasTrailer ? togglePlay : watch}>
+          {hasTrailer
+            ? <video ref={videoRef} className="series-video" src={trailerUrl(t.video)} loop playsInline
+                poster={poster || undefined}
+                onPlay={()=>setPlaying(true)} onPause={()=>setPlaying(false)}
+                onTimeUpdate={(e)=>{ const v=e.currentTarget; setProg(v.duration ? v.currentTime/v.duration : 0); }} />
+            : (poster ? <img src={poster} alt={t.title}/> : <div className="sp-art" style={{background:tintBg}}/>)}
           <div className="sp-shade"/>
-          <button className="series-play" onClick={(e)=>{e.stopPropagation(); watch();}} aria-label="Play">
+          <button className={`series-play ${hasTrailer && playing ? 'is-hidden' : ''}`}
+            onClick={(e)=>{ e.stopPropagation(); hasTrailer ? togglePlay() : watch(); }}
+            aria-label={hasTrailer && playing ? 'Pause' : 'Play'}>
             <I.play s={34} f="var(--rs-navy)"/>
           </button>
-          <div className="series-progress"><i/></div>
+          {hasTrailer && (
+            <button className="series-mute" onClick={(e)=>{ e.stopPropagation(); toggleMute(); }}
+              aria-label={muted ? 'Unmute' : 'Mute'}>
+              {muted ? <I.volumeX s={20}/> : <I.volume s={20}/>}
+            </button>
+          )}
+          <div className="series-progress"><i style={hasTrailer ? { width:`${prog*100}%` } : undefined}/></div>
         </div>
 
         {/* right: info */}

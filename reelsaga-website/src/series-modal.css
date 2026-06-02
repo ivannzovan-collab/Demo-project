@@ -43,3 +43,12 @@
   .series-genres, .series-foot { justify-content:center; }
   .series-close { top:18px; right:18px; }
 }
+
+/* trailer playback inside the overlay */
+.series-player video { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; }
+.series-play { transition:transform .2s ease, opacity .25s ease; }
+.series-play.is-hidden { opacity:0; pointer-events:none; }
+.series-mute { position:absolute; right:14px; bottom:36px; width:42px; height:42px; border-radius:50%;
+  background:rgba(3,8,22,.55); color:#fff; display:grid; place-items:center; z-index:3;
+  backdrop-filter:blur(6px); -webkit-backdrop-filter:blur(6px); transition:background .2s; }
+.series-mute:hover { background:rgba(3,8,22,.85); }
