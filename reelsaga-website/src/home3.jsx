@@ -11,8 +11,9 @@ const BLURB = 'ReelSaga is the home of serialized vertical fiction. New chapters
 const pick = (ids) => ids.map(RS_GET).filter(Boolean);
 const COLLAGE = [FIG + 'cover-f.png', FIG + 'cover-d.png', FIG + 'cover-e.png', FIG + 'mustwatch-cover.png', FIG + 'cover-b.png', FIG + 'originals-strip.jpg', '/assets/images/poster-live-1.png', '/assets/images/poster-live-3.png'];
 
-function Collage() {
-  return <div className="fh-collage"><img className="collage-img" src={FIG + 'collage-bg.png'} alt="" /></div>;
+function Collage({ src }) {
+  return <div className="fh-collage"><img className="collage-img" src={src || FIG + 'collage-bg.png'} alt=""
+    onError={(e) => { if (e.currentTarget.src.indexOf('collage-bg.png') < 0) e.currentTarget.src = FIG + 'collage-bg.png'; }} /></div>;
 }
 
 /* Figma hero side arrows (PNG) */
@@ -43,7 +44,7 @@ function Hero() {
   const move = (d) => setI((v) => (v + d + SLIDES.length) % SLIDES.length);
   return (
     <section className="fh-hero">
-      <Collage />
+      <Collage src={FIG + 'hero-collage.png'} />
       <div className="fhw">
         <div className="fh-hero-grid">
           <button className="fh-side prev" onClick={() => move(-1)} aria-label="Previous"><SideArrow dir="prev" /></button>
