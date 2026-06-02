@@ -288,6 +288,6 @@ kbd { background:#0c1430; border:1px solid var(--rs-line); border-radius:6px; pa
   .ep-grid { gap:10px; }
 }
 
-/* search result: content-type tag (yellow), shown first */
-.sr-type { display:inline-block; background:var(--rs-yellow); color:var(--rs-navy); font-size:11px; font-weight:700;
-  text-transform:uppercase; letter-spacing:.05em; padding:2px 9px; border-radius:100px; margin-bottom:6px; }
+/* search result: content-type tag (yellow), shown first — fixed width + centered so tags line up */
+.sr-type { display:inline-block; min-width:96px; text-align:center; background:var(--rs-yellow); color:var(--rs-navy); font-size:11px; font-weight:700;
+  text-transform:uppercase; letter-spacing:.05em; padding:3px 10px; border-radius:100px; margin-bottom:6px; }

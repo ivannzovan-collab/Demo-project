@@ -53,13 +53,14 @@ function CatHero({ type, featured }) {
 
 /* ---------- Caption card (poster + title + genre below) ---------- */
 function CapCard({ t, bare }) {
-  const { openSeries } = useRS();
+  const { openSeries, asBook } = useRS();
   const img = t.image || t.titleArt;
+  const isBook = asBook || t.type === 'books'; // on the Books tab every cover reads as a book
   return (
     <div className="cap-card" onClick={() => openSeries(t.id)} role="button" tabIndex={0}>
       <div className="cap-cover">
         {img ? <img src={img} alt={t.title} /> : <div style={{ position: 'absolute', inset: 0, background: `linear-gradient(160deg,${t.tint || '#1b2950'},#0a1228)` }} />}
-        <div className="cap-play" style={{ padding: "0px 0px 24px" }}>{t.type === 'books' ? <span className="cap-read">Read</span> : <img className="trailer-btn" src="/assets/fig/trailer-btn.svg" alt="Trailer" />}</div>
+        <div className="cap-play" style={{ padding: "0px 0px 24px" }}>{isBook ? <span className="cap-read">Read</span> : <img className="trailer-btn" src="/assets/fig/trailer-btn.svg" alt="Trailer" />}</div>
       </div>
       {!bare && <div className="cap-title">{t.title}</div>}
       {!bare && <div className="cap-genre">{(t.genres || []).slice(0, 2).join(' | ')}</div>}
@@ -214,7 +215,7 @@ function Catalog({ type }) {
   const srcType = type === 'animated' ? 'realistic' : type;
   const all = RS_BY_TYPE(srcType);
   const pool = all.length >= 6 ? all : RS_DATA.titles;
-  if (type === 'books') return <RSCtx.Provider value={{ ...ctx, openSeries: (id) => ctx.go('book', { id }) }}><BooksPage pool={pool} /></RSCtx.Provider>;
+  if (type === 'books') return <RSCtx.Provider value={{ ...ctx, asBook: true, openSeries: (id) => ctx.go('book', { id }) }}><BooksPage pool={pool} /></RSCtx.Provider>;
 
   // Hand-curated Realistic page (matches Figma 109-2813); other types fall back to auto-picks.
   const isReal = srcType === 'realistic';

@@ -95,7 +95,11 @@ function FhCard({ t, mw, rank }) {
       {t.video && <CardTrailer video={t.video} active={trailerActive} />}
       <div className="cfade" />
       {rank && <div className="crank">{rank}</div>}
-      <div className="cplay"><img className="trailer-btn" src="/assets/fig/trailer-btn.svg" alt="Trailer" /></div>
+      <div className="cplay">
+        {t.type === 'books'
+          ? <span className="cap-read">Read</span>
+          : <img className="trailer-btn" src="/assets/fig/trailer-btn.svg" alt="Trailer" />}
+      </div>
       {t.titleArt ? <img className="clogo" src={t.titleArt} alt={t.title} /> : <div className="ctitle">{t.title}</div>}
     </div>
   );
