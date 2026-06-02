@@ -62,13 +62,13 @@
 .br-next:hover { background:#ffcf2e; }
 .br-next:active { transform:scale(.97); }
 .br-next svg { color:#050e27; }
-.br-prev { color:var(--rs-muted); font-weight:600; font-size:15px; transition:color .2s; }
+.br-prev { color:var(--rs-muted); font-weight:600; font-size:15px; }
 .br-prev:hover { color:var(--rs-yellow); }
 
 /* reading-mode toggle */
 .br-toggle { position:absolute; top:4px; right:0; display:flex; flex-direction:column; gap:12px; }
 .brt { width:88px; height:50px; border-radius:38px; background:#111c3a; border:2px solid transparent; display:grid; place-items:center;
-  color:#5b6680; transition:color .2s, border-color .2s, background .2s; }
+  color:#5b6680; }
 .brt:hover { color:#9aa3b8; }
 .brt.on { border-color:var(--rs-yellow); color:var(--rs-yellow); }
 

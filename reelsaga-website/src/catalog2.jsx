@@ -56,7 +56,7 @@ function CapCard({ t, bare }) {
     <div className="cap-card" onClick={() => openSeries(t.id)} role="button" tabIndex={0}>
       <div className="cap-cover">
         {img ? <img src={img} alt={t.title} /> : <div style={{ position: 'absolute', inset: 0, background: `linear-gradient(160deg,${t.tint || '#1b2950'},#0a1228)` }} />}
-        <div className="cap-play" style={{ padding: "0px 0px 24px" }}><img className="trailer-btn" src="/assets/fig/trailer-btn.svg" alt="Trailer" /></div>
+        <div className="cap-play" style={{ padding: "0px 0px 24px" }}>{t.type === 'books' ? <span className="cap-read">Read</span> : <img className="trailer-btn" src="/assets/fig/trailer-btn.svg" alt="Trailer" />}</div>
       </div>
       {!bare && <div className="cap-title">{t.title}</div>}
       {!bare && <div className="cap-genre">{(t.genres || []).slice(0, 2).join(' | ')}</div>}
@@ -169,6 +169,23 @@ function RankRow({ items }) {
 
 }
 
+function BookMarquee({ items }) {
+  const { openSeries } = useRS();
+  const row = [...items, ...items];
+  return (
+    <div className="book-marquee">
+      <div className="bm-track">
+        {row.map((t, k) => {
+          const img = t.image || t.titleArt;
+          return (
+            <div key={t.id + '-' + k} className="bm-card" onClick={() => openSeries(t.id)} role="button" tabIndex={0} aria-hidden={k >= items.length || undefined}>
+              {img ? <img src={img} alt={t.title} /> : <div className="bm-art" style={{ background: `linear-gradient(160deg,${t.tint || '#1b2950'},#0a1228)` }} />}
+            </div>);
+        })}
+      </div>
+    </div>);
+}
+
 function BooksPage({ pool }) {
   const { toast } = useRS();
   const heroF = pick(['classroom-queen', 'cursed-rival', 'two-alpha-kings']);
@@ -181,7 +198,7 @@ function BooksPage({ pool }) {
 
       <section className="fh-sec"><div className="fhw">
         <div className="fh-sep" />
-        <Spotlight items={spot} />
+        <BookMarquee items={cards} />
         <div className="fh-sep" style={{ marginTop: 40 }} />
       </div></section>
 

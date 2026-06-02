@@ -125,3 +125,21 @@
   .topg-card { height:auto; min-height:440px; padding:20px 22px 64px; }
   .topg-body h4 { font-size:24px; }
 }
+
+/* books: infinite auto-scrolling cover marquee (section under the hero) */
+.book-marquee { position:relative; overflow:hidden; padding:18px 0;
+  -webkit-mask-image:linear-gradient(90deg, transparent, #000 7%, #000 93%, transparent);
+  mask-image:linear-gradient(90deg, transparent, #000 7%, #000 93%, transparent); }
+.bm-track { display:flex; width:max-content; animation:bmScroll 45s linear infinite; }
+.book-marquee:hover .bm-track { animation-play-state:paused; }
+@keyframes bmScroll { from { transform:translateX(0); } to { transform:translateX(-50%); } }
+@media (prefers-reduced-motion: reduce){ .bm-track { animation:none; } }
+.bm-card { width:150px; aspect-ratio:2/3; flex:none; margin-right:18px; border-radius:10px; overflow:hidden; background:#0c1430;
+  box-shadow:0 10px 24px rgba(0,0,0,.5); cursor:pointer; transition:transform .3s; }
+.bm-card:hover { transform:translateY(-6px); }
+.bm-card img, .bm-card .bm-art { width:100%; height:100%; object-fit:cover; }
+
+/* books: Read pill replaces the trailer button on book caption cards */
+.cap-read { display:inline-flex; align-items:center; justify-content:center; width:169px; height:42px; max-width:none;
+  background:var(--rs-yellow); color:#111c3a; font-family:var(--rs-font); font-weight:800; font-size:18px;
+  letter-spacing:.12em; text-transform:uppercase; border-radius:100px; box-shadow:0 8px 18px rgba(0,0,0,.4); }

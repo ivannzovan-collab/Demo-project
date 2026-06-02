@@ -131,8 +131,9 @@ function SearchOverlay({ onClose }) {
             <div key={t.id} className="search-res" onClick={()=>open(t)}>
               <div className="sr-thumb">{t.image ? <img src={t.image} alt=""/> : <div style={{width:'100%',height:'100%',background:`linear-gradient(165deg,${t.tint||'#1b2950'},#0a1228)`}}/>}</div>
               <div style={{flex:1}}>
+                <span className="sr-type">{t.type==='books'?'Book':t.type==='animated'?'Animated':'Realistic'}</span>
                 <div style={{fontWeight:700,fontSize:15}}>{t.title}</div>
-                <div style={{color:'var(--rs-muted)',fontSize:13,marginTop:3}}>{t.genres.join(' · ')} · {t.type==='books'?'Book':t.type==='animated'?'Animated':'Realistic'}</div>
+                <div style={{color:'var(--rs-muted)',fontSize:13,marginTop:3}}>{t.genres.join(' · ')}</div>
               </div>
               <I.chevR s={18}/>
             </div>

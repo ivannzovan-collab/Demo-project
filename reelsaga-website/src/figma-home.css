@@ -195,3 +195,8 @@
 }
 
 /* hero uses the default 1396 content width, same as the other sections */
+
+/* carousel left-edge fade — mirrors .fh-rowfade, shown once the row is scrolled */
+.fh-row::before { content:''; position:absolute; top:0; left:0; bottom:10px; width:90px; z-index:4; pointer-events:none;
+  background:linear-gradient(270deg, rgba(5,14,39,0), var(--rs-navy-deep) 78%); opacity:0; transition:opacity .2s; }
+.fh-row.scrolled::before { opacity:1; }
