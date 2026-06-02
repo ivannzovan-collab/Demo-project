@@ -3,8 +3,8 @@ import React from 'react';
 /* ============================================================
    ReelSaga — hover/scroll trailer previews.
 
-   Videos live in S3 at:
-     https://ngs-video-prod.s3.us-east-1.amazonaws.com/trailers/{type}/{id}/{kind}.mp4
+   Videos stream from:
+     https://videos.nanobitgames.com/trailers/{type}/{id}/{kind}.mp4
        type : 'Anime' | 'Shorts'
        id   : the show's numeric id
        kind : 'TRAILER_720' | 'TEASER_720'
@@ -19,7 +19,7 @@ import React from 'react';
    All previews are muted, looped, and lazy-loaded (src is set only on first play).
    ============================================================ */
 
-const VIDEO_BASE = 'https://ngs-video-prod.s3.us-east-1.amazonaws.com/trailers';
+const VIDEO_BASE = 'https://videos.nanobitgames.com/trailers';
 
 function trailerUrl({ type, id, kind = 'TRAILER_720' }) {
   return `${VIDEO_BASE}/${type}/${id}/${kind}.mp4`;
