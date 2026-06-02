@@ -1,16 +1,12 @@
 import React from 'react';
 import { useRS, I, Chips, BrandMark } from './components.jsx';
 import { RS_DATA } from './data.js';
-/* global React, useRS, I, RS_DATA, Chips */
-/* ReelSaga — phone mockup + overlays */
+import { REELS } from './content.js';
+/* ReelSaga — phone mockup + sign-in / search overlays.
+   The looping phone reel (REELS) is defined in content.js. */
 const { useState: uS, useEffect: uE, useRef: uR } = React;
 
 /* ---------------- Animated phone reel ---------------- */
-const REELS = [
-  { id:'wolfsbane', img:'/assets/images/poster-live-3.png', title:'Wolfsbane', genres:['Werewolf','Romance'], ep:'Episode 12', likes:'48.2K' },
-  { id:'burning-vows', img:'/assets/images/poster-live-1.png', title:'Burning Vows', genres:['Drama','Romance'], ep:'Episode 7', likes:'31.7K' },
-  { id:'office-hours', img:'/assets/images/poster-live-2.png', title:'Office Hours', genres:['Forbidden','Romance'], ep:'Episode 21', likes:'27.4K' },
-];
 function PhoneMockup() {
   const { go } = useRS();
   const [idx, setIdx] = uS(0);

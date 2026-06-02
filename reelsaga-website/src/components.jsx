@@ -1,6 +1,8 @@
 import React from 'react';
-/* global React */
-/* ReelSaga — shared components. Exports to window. */
+import { NAV_TABS, FOOTER } from './content.js';
+/* ReelSaga — shared building blocks: icons, brand mark, chips, buttons,
+   the top navigation and the site footer. The nav tabs and the footer's
+   links/copy come from content.js. */
 const { useState, useEffect, useRef, useContext, createContext } = React;
 
 /* ---------------- App context (routing + global UI) ---------------- */
@@ -127,7 +129,6 @@ function PosterCard({ t, showRank }) {
 }
 
 /* ---------------- Nav ---------------- */
-const NAV_TABS = [['home','Home'],['realistic','Realistic'],['animated','Animated'],['books','Books']];
 function Nav() {
   const { view, go, openSignIn, openSearch } = useRS();
   const [scrolled, setScrolled] = useState(false);
@@ -169,14 +170,8 @@ function Nav() {
 /* ---------------- Footer ---------------- */
 function Footer() {
   const { go, toast } = useRS();
-  const col = (title, items) => (
-    <div>
-      <h5>{title}</h5>
-      <div className="footer-links">
-        {items.map(([label, fn]) => <a key={label} onClick={fn} style={{cursor:'pointer'}}>{label}</a>)}
-      </div>
-    </div>
-  );
+  // Turn a content.js link action ({ go } or { toast }) into a click handler.
+  const act = (a) => () => (a.go ? go(a.go) : toast(a.toast));
   const dl = () => toast('Heading to the App Store…');
   return (
     <footer className="footer">
@@ -184,22 +179,25 @@ function Footer() {
         <div className="footer-top">
           <div>
             <BrandMark variant="white" onClick={() => go('home')}/>
-            <p className="footer-blurb">The home of serialized vertical fiction. New chapters drop daily — crime, romance, sci-fi, slow-burn. Watch one, or fall into all twelve.</p>
+            <p className="footer-blurb">{FOOTER.blurb}</p>
             <div className="store-badges">
               <button className="store-badge" onClick={dl}><I.apple s={22}/><span><div className="sb-sm">Download on the</div><div className="sb-lg">App Store</div></span></button>
               <button className="store-badge" onClick={dl}><I.gplay s={20}/><span><div className="sb-sm">Get it on</div><div className="sb-lg">Google Play</div></span></button>
             </div>
           </div>
-          {col('Watch', [['Realistic',()=>go('realistic')],['Animated',()=>go('animated')],['Books',()=>go('books')],['New & trending',()=>go('realistic')]])}
-          {col('Company', [['About',()=>toast('About ReelSaga')],['Careers',()=>toast('We are hiring!')],['Press',()=>toast('Press kit')],['Blog',()=>go('blog')]])}
-          {col('Support', [['Help center',()=>toast('Help center')],['Creators',()=>toast('For creators')],['Terms',()=>toast('Terms of service')],['Privacy',()=>toast('Privacy policy')]])}
+          {FOOTER.columns.map((c) => (
+            <div key={c.title}>
+              <h5>{c.title}</h5>
+              <div className="footer-links">
+                {c.links.map(([label, a]) => <a key={label} onClick={act(a)} style={{cursor:'pointer'}}>{label}</a>)}
+              </div>
+            </div>
+          ))}
         </div>
         <div className="footer-bottom">
-          <span>© 2026 ReelSaga. A Nanobit studio, part of Stillfront Group.</span>
+          <span>{FOOTER.bottom}</span>
           <span style={{display:'flex',gap:20}}>
-            <a onClick={()=>toast('Terms')} style={{cursor:'pointer'}}>Terms</a>
-            <a onClick={()=>toast('Privacy')} style={{cursor:'pointer'}}>Privacy</a>
-            <a onClick={()=>toast('Cookies')} style={{cursor:'pointer'}}>Cookies</a>
+            {FOOTER.bottomLinks.map(([label, msg]) => <a key={label} onClick={() => toast(msg)} style={{cursor:'pointer'}}>{label}</a>)}
           </span>
         </div>
       </div>

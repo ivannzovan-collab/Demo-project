@@ -2,13 +2,14 @@ import React from 'react';
 import { RSCtx, Nav, I } from './components.jsx';
 import { Home } from './home3.jsx';
 import { Catalog } from './catalog2.jsx';
-import { TitleDetail } from './catalog.jsx';
 import { Blog, Article } from './blog2.jsx';
 import { SignInModal, SearchOverlay } from './widgets.jsx';
 import { SeriesOverlay } from './series-modal.jsx';
 import { BookDetail } from './book.jsx';
 import * as amplitude from '@amplitude/unified';
-/* global React, ReactDOM, RSCtx, Nav, Home, Catalog, TitleDetail, Blog, Article, SignInModal, SearchOverlay, I */
+/* ReelSaga — root component. Owns hash-based routing and the global
+   search / series / toast overlays. Each route renders one page component;
+   all page content lives in content.js + data.js, not here. */
 const { useState: aUS, useEffect: aUE, useCallback } = React;
 
 function App() {
@@ -57,7 +58,6 @@ function App() {
   switch (route.view) {
     case 'home': body = <Home/>; break;
     case 'realistic': case 'animated': case 'books': body = <Catalog key={route.view} type={route.view}/>; break;
-    case 'title': body = <TitleDetail key={route.params.id} id={route.params.id}/>; break;
     case 'book': body = <BookDetail key={route.params.id} id={route.params.id}/>; break;
     case 'blog': body = <Blog/>; break;
     case 'article': body = <Article key={route.params.id} id={route.params.id}/>; break;

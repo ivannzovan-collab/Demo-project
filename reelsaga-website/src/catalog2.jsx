@@ -1,24 +1,27 @@
 import React from 'react';
-import { useRS, I, RSCtx } from './components.jsx';
+import { useRS, RSCtx } from './components.jsx';
 import { RS_DATA, RS_BY_TYPE, RS_GET } from './data.js';
-import { FhRow, Kicker, ArrowBtn, SideArrow, FIG, pick, BLURB, RowChevron } from './home3.jsx';
-/* global React, useRS, I, RS_DATA, RS_BY_TYPE, RS_GET, FhRow, Kicker, ArrowBtn, SideArrow, FIG, pick, BLURB */
-/* ReelSaga — category landing page (Realistic / Animated / Books), per Figma node 109-2813 */
-const { useState: cS, useEffect: cE, useRef: cR } = React;
+import { FhRow, Kicker, ArrowBtn, SideArrow, pick, BLURB, RowChevron } from './home3.jsx';
+import { CATEGORIES, BOOKS, COPYRIGHT } from './content.js';
+/* ReelSaga — category landing pages (Realistic / Animated / Books).
+   All copy + which shows appear where comes from content.js (CATEGORIES, BOOKS);
+   this file only lays them out. */
+const { useState, useEffect, useRef } = React;
 
-const CAT_META = {
-  realistic: { label: 'Realistic', hero: ['Classroom Queen: ', 'Mafia Bloodline'] },
-  animated: { label: 'Animated', hero: ['Blade of the ', 'Fallen Lord'] },
-  books: { label: 'Books', hero: ['Two Alpha Kings, ', 'One Virgin Mate'] }
-};
+/* Resolve a list of show ids to the cover images stacked inside a "top genre" card. */
+const stack = (ids) => pick(ids).map((t) => t.image || t.titleArt).filter(Boolean);
 
 /* ---------- Category hero: single skewed poster, rotating ---------- */
 function CatHero({ type, featured }) {
   const { toast } = useRS();
-  const [i, setI] = cS(0);
-  const tmr = cR(0);
+  const [i, setI] = useState(0);
+  const timer = useRef(0);
   const slides = featured.length ? featured : [RS_DATA.titles[0]];
-  cE(() => {clearTimeout(tmr.current);tmr.current = setTimeout(() => setI((v) => (v + 1) % slides.length), 6500);return () => clearTimeout(tmr.current);}, [i, slides.length]);
+  useEffect(() => {
+    clearTimeout(timer.current);
+    timer.current = setTimeout(() => setI((v) => (v + 1) % slides.length), 6500);
+    return () => clearTimeout(timer.current);
+  }, [i, slides.length]);
   const move = (d) => setI((v) => (v + d + slides.length) % slides.length);
   const t = slides[i];
   const img = t.image || t.titleArt;
@@ -63,9 +66,11 @@ function CapCard({ t, bare }) {
     </div>);
 
 }
+
+/* Horizontal carousel of caption cards. */
 function CapRow({ items }) {
-  const track = cR(null);
-  const [scrolled, setScrolled] = cS(false);
+  const track = useRef(null);
+  const [scrolled, setScrolled] = useState(false);
   const onScroll = () => {const el = track.current;if (el) setScrolled(el.scrollLeft > 12);};
   const scroll = (d) => {const el = track.current;if (el) el.scrollBy({ left: d * el.clientWidth * 0.8, behavior: 'smooth' });};
   return (
@@ -80,7 +85,7 @@ function CapRow({ items }) {
 
 }
 
-/* ---------- Generic feature banner ---------- */
+/* ---------- Generic feature banner (image on the right) ---------- */
 function CatFeature({ id, cover, logo, title, badge }) {
   const { openSeries } = useRS();
   const t = RS_GET(id);
@@ -119,37 +124,10 @@ function TopGenre({ title, blurb, covers, accent, bg, go, route }) {
 
 }
 
-/* ======================= CATALOG PAGE ======================= */
-function Spotlight({ items }) {
-  const { openSeries } = useRS();
-  const [center, setCenter] = cS(Math.min(2, items.length - 1));
-  const move = (d) => setCenter((c) => Math.max(0, Math.min(items.length - 1, c + d)));
-  return (
-    <div className="spot-rel">
-      <div className="spot-glow" />
-      <button className="fh-rowarrow prev" onClick={() => move(-1)} aria-label="Previous"><RowChevron dir="prev" /></button>
-      <div className="spot-stage">
-        {items.map((t, k) => {
-          const dist = k - center;
-          if (Math.abs(dist) > 2) return null;
-          const cls = dist === 0 ? 'feat' : Math.abs(dist) === 1 ? 'mid' : 'peek';
-          const img = t.image || t.titleArt;
-          return (
-            <div key={t.id + '-' + k} className={`spot-card ${cls}`} onClick={() => {dist === 0 ? openSeries(t.id) : setCenter(k);}}>
-              {img ? <img src={img} alt={t.title} /> : <div className="spot-art" style={{ background: `linear-gradient(160deg,${t.tint || '#1b2950'},#0a1228)` }} />}
-              {!img && <div className="spot-name">{t.title}</div>}
-            </div>);
-
-        })}
-      </div>
-      <button className="fh-rowarrow next" onClick={() => move(1)} aria-label="Next"><RowChevron dir="next" /></button>
-    </div>);
-
-}
-
+/* ---------- Ranked carousel (numbered) used on the Books page ---------- */
 function RankRow({ items }) {
-  const track = cR(null);
-  const [scrolled, setScrolled] = cS(false);
+  const track = useRef(null);
+  const [scrolled, setScrolled] = useState(false);
   const onScroll = () => {const el = track.current;if (el) setScrolled(el.scrollLeft > 12);};
   const scroll = (d) => {const el = track.current;if (el) el.scrollBy({ left: d * el.clientWidth * 0.8, behavior: 'smooth' });};
   return (
@@ -169,9 +147,10 @@ function RankRow({ items }) {
 
 }
 
+/* ---------- Infinite-scrolling book strip (under the Books hero) ---------- */
 function BookMarquee({ items }) {
   const { openSeries } = useRS();
-  const row = [...items, ...items];
+  const row = [...items, ...items]; // duplicated so the loop is seamless
   return (
     <div className="book-marquee">
       <div className="bm-track">
@@ -186,41 +165,43 @@ function BookMarquee({ items }) {
     </div>);
 }
 
+/* ======================= BOOKS PAGE ======================= */
 function BooksPage({ pool }) {
   const { toast } = useRS();
-  const heroF = pick(['classroom-queen', 'cursed-rival', 'two-alpha-kings']);
-  const spot = pick(['phantoms-kiss', 'cursed-rival', 'suburban-strangler', 'two-alpha-kings', 'bound-roses']);
-  const cards = pick(['two-alpha-kings', 'billionaire-alphas', 'silver-fox', 'cursed-rival', 'bride-dies-twice', 'classroom-queen', 'phantoms-kiss', 'bound-roses']);
-  const ranked = pick(['cursed-rival', 'bride-dies-twice', 'silver-fox', 'billionaire-alphas', 'two-alpha-kings']);
+  const hero = pick(BOOKS.hero);
+  const marquee = pick(BOOKS.marquee);
+  const newReleases = pick(BOOKS.newReleases);
+  const trending = pick(BOOKS.trending);
+  const more = pick(BOOKS.more);
   return (
     <div className="page fh cat-page">
-      <CatHero type="books" featured={heroF.length ? heroF : pool.slice(0, 3)} />
+      <CatHero type="books" featured={hero.length ? hero : pool.slice(0, 3)} />
 
       <section className="fh-sec"><div className="fhw">
         <div className="fh-sep" />
-        <BookMarquee items={cards} />
+        <BookMarquee items={marquee} />
         <div className="fh-sep" style={{ marginTop: 40 }} />
       </div></section>
 
       <section className="fh-sec"><div className="fhw">
-        <Kicker word="New Releases" sep={false} compact />
-        <CapRow items={cards} />
+        <Kicker word={BOOKS.sections.newReleases} sep={false} />
+        <CapRow items={newReleases} />
         <div className="fh-sep" style={{ marginTop: 34 }} />
       </div></section>
 
       <section className="fh-sec"><div className="fhw">
-        <Kicker word="Trending" sep={false} compact />
-        <RankRow items={ranked} />
+        <Kicker word={BOOKS.sections.trending} sep={false} />
+        <RankRow items={trending} />
         <div className="fh-sep" style={{ marginTop: 34 }} />
       </div></section>
 
       <section className="fh-sec" style={{ paddingBottom: 30 }}><div className="fhw">
-        <Kicker word="Neka kategorija" sep={false} compact />
-        <CapRow items={[...cards].reverse()} />
+        <Kicker word={BOOKS.sections.more} sep={false} />
+        <CapRow items={more} />
       </div></section>
 
       <footer className="fh-foot"><div className="fhw fh-foot-in">
-        <span className="fcopy">2026 Reel saga</span>
+        <span className="fcopy">{COPYRIGHT}</span>
         <div className="flinks">
           <a onClick={() => toast('Privacy Policy')}>Privacy Policy</a>
           <a onClick={() => toast('Terms')}>Terms</a>
@@ -230,82 +211,72 @@ function BooksPage({ pool }) {
 
 }
 
+/* ======================= REALISTIC / ANIMATED PAGE ======================= */
 function Catalog({ type }) {
   const ctx = useRS();
   const { go, toast } = ctx;
-  cE(() => {window.scrollTo(0, 0);}, [type]);
+  useEffect(() => {window.scrollTo(0, 0);}, [type]);
+
   // Animated mirrors the Realistic page's design + curation (same hero, trending and rows).
   const srcType = type === 'animated' ? 'realistic' : type;
   const all = RS_BY_TYPE(srcType);
   const pool = all.length >= 6 ? all : RS_DATA.titles;
-  const meta = CAT_META[srcType] || CAT_META.realistic;
   if (type === 'books') return <RSCtx.Provider value={{ ...ctx, openSeries: (id) => ctx.go('book', { id }) }}><BooksPage pool={pool} /></RSCtx.Provider>;
 
-  // exact curation for the Realistic page (matches Figma 109-2813)
-  const REAL = {
-    hero: pick(['classroom-queen', 'two-alpha-kings', 'bride-dies-twice']),
-    trending: pick(['bride-dies-twice', 'two-alpha-kings', 'classroom-queen', 'billionaire-alphas', 'cursed-rival', 'silver-fox', 'eyes-of-storm', 'suburban-strangler'])
-  };
+  // Hand-curated Realistic page (matches Figma 109-2813); other types fall back to auto-picks.
   const isReal = srcType === 'realistic';
+  const realHero = pick(CATEGORIES.realistic.hero);
+  const realTrending = pick(CATEGORIES.realistic.trending);
 
   const featuredAuto = pool.filter((t) => t.hot || t.rank).slice(0, 3);
-  const featured = isReal ? REAL.hero : featuredAuto.length ? featuredAuto : pool.slice(0, 3);
-  const trending = isReal ? REAL.trending :
+  const featured = isReal ? realHero : featuredAuto.length ? featuredAuto : pool.slice(0, 3);
+  const trending = isReal ? realTrending :
   [...pool].filter((t) => t.rank || t.hot).concat(pool).filter((v, i, a) => a.indexOf(v) === i).slice(0, 8);
   const fresh = pool.filter((t) => t.new).concat(pool).filter((v, i, a) => a.indexOf(v) === i).slice(0, 8);
   const rec = [...pool].reverse().slice(0, 8);
   const guilty = pool.filter((t) => t.genres.some((g) => ['Steamy', 'Romance', 'Billionaire', 'Billionaires'].includes(g))).concat(pool).filter((v, i, a) => a.indexOf(v) === i).slice(0, 8);
 
-  const stack = (ids) => pick(ids).map((t) => t.image || t.titleArt).filter(Boolean);
+  const { sections, feature, topGenres } = CATEGORIES;
 
   return (
     <div className="page fh cat-page">
       <CatHero type={type} featured={featured.length ? featured : pool.slice(0, 3)} />
       <section className="fh-sec"><div className="fhw">
         <div className="fh-sep" />
-        <Kicker word="Trending" sep={false} compact />
+        <Kicker word={sections.trending} sep={false} />
         <div className="trending-glow"><FhRow items={trending} /></div>
         <div className="fh-sep" style={{ marginTop: 34 }} />
       </div></section>
 
       <section className="fh-sec"><div className="fhw">
-        <Kicker word="New Releases" sep={false} compact />
+        <Kicker word={sections.newReleases} sep={false} />
         <CapRow items={fresh} />
         <div className="fh-sep" style={{ marginTop: 34 }} />
       </div></section>
 
       <section className="fh-sec"><div className="fhw">
-        <Kicker word="Recommended" sep={false} compact />
+        <Kicker word={sections.recommended} sep={false} />
         <CapRow items={rec} />
-        <CatFeature id="bound-roses" cover={FIG + 'mustwatch-cover.png'} logo={FIG + 'mustwatch-logo.png'} title="How I Became the Alpha Queen" />
+        <CatFeature id={feature.id} cover={feature.cover} logo={feature.logo} title={feature.title} />
         <div className="fh-sep" style={{ marginTop: 40 }} />
       </div></section>
 
       <section className="fh-sec"><div className="fhw">
-        <Kicker word="Guilty Pleasure" sep={false} compact />
+        <Kicker word={sections.guilty} sep={false} />
         <CapRow items={guilty} />
         <div className="fh-sep" style={{ marginTop: 34 }} />
       </div></section>
 
       <section className="fh-sec" style={{ paddingBottom: 30 }}><div className="fhw">
         <div className="topg-grid">
-          <TopGenre go={go} route="realistic" title="Top Romance" accent="rgba(120,60,180,.5)"
-            bg="linear-gradient(180deg, #1B163F 0%, #121A33 100%)"
-            blurb="The slow-burns, the fake-dating, the one-bed tropes you keep coming back for."
-            covers={stack(['bride-dies-twice', 'two-alpha-kings'])} />
-          <TopGenre go={go} route="realistic" title="Top Drama" accent="rgba(56,86,170,.5)"
-            bg="linear-gradient(180deg, #111C3A 0%, #121A33 100%)"
-            blurb="Family secrets, courtroom reckonings and the lies that finally catch up."
-            covers={stack(['two-alpha-kings', 'billionaire-alphas'])} />
-          <TopGenre go={go} route="animated" title="Top Supernatural" accent="rgba(170,120,50,.5)"
-            bg="linear-gradient(180deg, #2B2418 0%, #131A33 100%)"
-            blurb="Fated mates, cursed bloodlines and the monsters who fall in love."
-            covers={stack(['billionaire-alphas', 'classroom-queen'])} />
+          {topGenres.map((g) => (
+            <TopGenre key={g.title} go={go} route={g.route} title={g.title} accent={g.accent} bg={g.bg} blurb={g.blurb} covers={stack(g.covers)} />
+          ))}
         </div>
       </div></section>
 
       <footer className="fh-foot"><div className="fhw fh-foot-in">
-        <span className="fcopy">2026 Reel saga</span>
+        <span className="fcopy">{COPYRIGHT}</span>
         <div className="flinks">
           <a onClick={() => toast('Privacy Policy')}>Privacy Policy</a>
           <a onClick={() => toast('Terms')}>Terms</a>
