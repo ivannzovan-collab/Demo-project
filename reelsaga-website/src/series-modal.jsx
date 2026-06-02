@@ -13,6 +13,7 @@ function SeriesOverlay({ id, onClose }) {
   const [playing, setPlaying] = smS(false);
   const [muted, setMuted] = smS(true);
   const [prog, setProg] = smS(0);
+  const [ended, setEnded] = smS(false);
   const hasTrailer = !!(t && t.video);
 
   smE(() => {
@@ -22,10 +23,11 @@ function SeriesOverlay({ id, onClose }) {
     return () => { window.removeEventListener('keydown', esc); document.body.style.overflow = ''; };
   }, [id]);
 
-  // Autoplay the trailer (muted) when the overlay opens for a series that has one.
+  // Autoplay the trailer (muted, once) when the overlay opens for a series that has one.
   smE(() => {
     const v = videoRef.current;
     if (!v || !hasTrailer) return;
+    setEnded(false);
     v.muted = true; setMuted(true);
     const p = v.play(); if (p && p.catch) p.catch(() => {});
   }, [id, hasTrailer]);
@@ -41,6 +43,11 @@ function SeriesOverlay({ id, onClose }) {
     const v = videoRef.current; if (!v) return;
     if (v.paused) { const p = v.play(); if (p && p.catch) p.catch(() => {}); }
     else { v.pause(); }
+  };
+  const restart = () => {
+    const v = videoRef.current; if (!v) return;
+    v.currentTime = 0; setEnded(false);
+    const p = v.play(); if (p && p.catch) p.catch(() => {});
   };
   const toggleMute = () => {
     const v = videoRef.current; if (!v) return;
@@ -58,18 +65,19 @@ function SeriesOverlay({ id, onClose }) {
 
       <div className="series-modal">
         {/* left: vertical player */}
-        <div className="series-player" onClick={hasTrailer ? togglePlay : watch}>
+        <div className="series-player" onClick={hasTrailer ? (ended ? restart : togglePlay) : watch}>
           {hasTrailer
-            ? <video ref={videoRef} className="series-video" src={trailerUrl(t.video)} loop playsInline
+            ? <video ref={videoRef} className="series-video" src={trailerUrl(t.video)} playsInline
                 poster={poster || undefined}
-                onPlay={()=>setPlaying(true)} onPause={()=>setPlaying(false)}
+                onPlay={()=>{ setPlaying(true); setEnded(false); }} onPause={()=>setPlaying(false)}
+                onEnded={()=>{ setPlaying(false); setEnded(true); }}
                 onTimeUpdate={(e)=>{ const v=e.currentTarget; setProg(v.duration ? v.currentTime/v.duration : 0); }} />
             : (poster ? <img src={poster} alt={t.title}/> : <div className="sp-art" style={{background:tintBg}}/>)}
           <div className="sp-shade"/>
-          <button className={`series-play ${hasTrailer && playing ? 'is-hidden' : ''}`}
-            onClick={(e)=>{ e.stopPropagation(); hasTrailer ? togglePlay() : watch(); }}
-            aria-label={hasTrailer && playing ? 'Pause' : 'Play'}>
-            <I.play s={34} f="var(--rs-navy)"/>
+          <button className={`series-play ${hasTrailer && playing ? 'is-hidden' : ''} ${ended ? 'series-play--replay' : ''}`}
+            onClick={(e)=>{ e.stopPropagation(); if (!hasTrailer) return watch(); ended ? restart() : togglePlay(); }}
+            aria-label={ended ? 'Replay' : (playing ? 'Pause' : 'Play')}>
+            {ended ? <I.replay s={34}/> : <I.play s={34}/>}
           </button>
           {hasTrailer && (
             <button className="series-mute" onClick={(e)=>{ e.stopPropagation(); toggleMute(); }}
