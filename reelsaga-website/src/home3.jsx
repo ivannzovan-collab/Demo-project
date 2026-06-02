@@ -60,7 +60,7 @@ function Hero() {
           </div>
           <div className="fh-fan swap" key={'fan' + i}>
             <div className="fan-glow" />
-            {s.fan.map((p, k) => <div key={k} className="pslice" style={{ animationDelay: `${(s.fan.length - 1 - k) * 0.16}s` }}><img src={p} alt="" /></div>)}
+            {s.fan.map((p, k) => <div key={k} className="pslice" style={{ animationDelay: `${k * 0.16}s` }}><img src={p} alt="" /></div>)}
           </div>
           <button className="fh-side next" onClick={() => move(1)} aria-label="Next"><SideArrow dir="next" /></button>
         </div>
