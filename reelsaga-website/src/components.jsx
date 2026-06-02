@@ -1,5 +1,5 @@
 import React from 'react';
-import { NAV_TABS, FOOTER } from './content.js';
+import { NAV_TABS, FOOTER, PAGE_FOOTER, COPYRIGHT } from './content.js';
 /* ReelSaga — shared building blocks: icons, brand mark, chips, buttons,
    the top navigation and the site footer. The nav tabs and the footer's
    links/copy come from content.js. */
@@ -167,7 +167,27 @@ function Nav() {
   );
 }
 
-/* ---------------- Footer ---------------- */
+/* ---------------- Per-page footer (small copyright + links) ----------------
+   Shared by every page. Links come from content.js (PAGE_FOOTER). The Book
+   reader uses slightly different class names, so pass variant="book". */
+function PageFooter({ variant = 'fh', style }) {
+  const { toast } = useRS();
+  const c = variant === 'book'
+    ? { foot: 'book-foot', inner: 'fhw bf-in', copy: 'bf-copy', links: 'bf-links' }
+    : { foot: 'fh-foot', inner: 'fhw fh-foot-in', copy: 'fcopy', links: 'flinks' };
+  return (
+    <footer className={c.foot} style={style}>
+      <div className={c.inner}>
+        <span className={c.copy}>{COPYRIGHT}</span>
+        <div className={c.links}>
+          {PAGE_FOOTER.map(([label, msg]) => <a key={label} onClick={() => toast(msg)}>{label}</a>)}
+        </div>
+      </div>
+    </footer>
+  );
+}
+
+/* ---------------- Footer (large, legacy marketing footer) ---------------- */
 function Footer() {
   const { go, toast } = useRS();
   // Turn a content.js link action ({ go } or { toast }) into a click handler.
@@ -206,5 +226,5 @@ function Footer() {
 }
 
 export {
-  RSCtx, useRS, I, useReveal, BrandMark, Chips, DownloadBtn, WatchBtn, PosterCard, Nav, Footer, NAV_TABS,
+  RSCtx, useRS, I, useReveal, BrandMark, Chips, DownloadBtn, WatchBtn, PosterCard, Nav, Footer, PageFooter, NAV_TABS,
 };

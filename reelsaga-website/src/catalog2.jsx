@@ -1,8 +1,8 @@
 import React from 'react';
-import { useRS, RSCtx } from './components.jsx';
+import { useRS, RSCtx, PageFooter } from './components.jsx';
 import { RS_DATA, RS_BY_TYPE, RS_GET } from './data.js';
 import { FhRow, Kicker, ArrowBtn, SideArrow, pick, BLURB, RowChevron } from './home3.jsx';
-import { CATEGORIES, BOOKS, COPYRIGHT } from './content.js';
+import { CATEGORIES, BOOKS } from './content.js';
 /* ReelSaga — category landing pages (Realistic / Animated / Books).
    All copy + which shows appear where comes from content.js (CATEGORIES, BOOKS);
    this file only lays them out. */
@@ -167,7 +167,6 @@ function BookMarquee({ items }) {
 
 /* ======================= BOOKS PAGE ======================= */
 function BooksPage({ pool }) {
-  const { toast } = useRS();
   const hero = pick(BOOKS.hero);
   const marquee = pick(BOOKS.marquee);
   const newReleases = pick(BOOKS.newReleases);
@@ -200,13 +199,7 @@ function BooksPage({ pool }) {
         <CapRow items={more} />
       </div></section>
 
-      <footer className="fh-foot"><div className="fhw fh-foot-in">
-        <span className="fcopy">{COPYRIGHT}</span>
-        <div className="flinks">
-          <a onClick={() => toast('Privacy Policy')}>Privacy Policy</a>
-          <a onClick={() => toast('Terms')}>Terms</a>
-        </div>
-      </div></footer>
+      <PageFooter />
     </div>);
 
 }
@@ -214,7 +207,7 @@ function BooksPage({ pool }) {
 /* ======================= REALISTIC / ANIMATED PAGE ======================= */
 function Catalog({ type }) {
   const ctx = useRS();
-  const { go, toast } = ctx;
+  const { go } = ctx;
   useEffect(() => {window.scrollTo(0, 0);}, [type]);
 
   // Animated mirrors the Realistic page's design + curation (same hero, trending and rows).
@@ -275,13 +268,7 @@ function Catalog({ type }) {
         </div>
       </div></section>
 
-      <footer className="fh-foot"><div className="fhw fh-foot-in">
-        <span className="fcopy">{COPYRIGHT}</span>
-        <div className="flinks">
-          <a onClick={() => toast('Privacy Policy')}>Privacy Policy</a>
-          <a onClick={() => toast('Terms')}>Terms</a>
-        </div>
-      </div></footer>
+      <PageFooter />
     </div>);
 
 }

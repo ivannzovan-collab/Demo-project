@@ -1,7 +1,7 @@
 import React from 'react';
-import { useRS, I } from './components.jsx';
+import { useRS, I, PageFooter } from './components.jsx';
 import { RS_GET } from './data.js';
-import { READER, COPYRIGHT } from './content.js';
+import { READER } from './content.js';
 /* ReelSaga — Book detail + chapter reader (Figma node 173:318).
    The book/cover/synopsis come from data.js; the chapter text lives in
    content.js (READER.chapters) so it can be edited without touching this file. */
@@ -90,13 +90,7 @@ function BookDetail({ id }) {
         </div>
       </div></section>
 
-      <footer className="book-foot"><div className="fhw bf-in">
-        <span className="bf-copy">{COPYRIGHT}</span>
-        <div className="bf-links">
-          <a onClick={() => toast('Privacy Policy')}>Privacy Policy</a>
-          <a onClick={() => toast('Terms')}>Terms</a>
-        </div>
-      </div></footer>
+      <PageFooter variant="book" />
     </div>
   );
 }

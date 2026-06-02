@@ -21,6 +21,12 @@ export const BLURB =
 
 export const COPYRIGHT = '2026 Reel saga';
 
+/* Small footer shown at the bottom of every page: [label, toast message]. */
+export const PAGE_FOOTER = [
+  ['Privacy Policy', 'Privacy Policy'],
+  ['Terms', 'Terms'],
+];
+
 /* ---------------- Top navigation ---------------- */
 export const NAV_TABS = [
   ['home', 'Home'],

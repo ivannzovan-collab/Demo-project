@@ -1,7 +1,7 @@
 import React from 'react';
-import { useRS, I } from './components.jsx';
+import { useRS, PageFooter } from './components.jsx';
 import { RS_GET } from './data.js';
-import { HOME, BLURB, FIG, COPYRIGHT } from './content.js';
+import { HOME, BLURB, FIG } from './content.js';
 import { CardTrailer, useTrailerActive } from './trailer.jsx';
 /* ReelSaga — Home page. All copy + curation comes from content.js (HOME);
    this file is just presentation. */
@@ -228,13 +228,7 @@ function Home() {
         </div>
       </section>
 
-      <footer className="fh-foot"><div className="fhw fh-foot-in">
-        <span className="fcopy">{COPYRIGHT}</span>
-        <div className="flinks">
-          <a onClick={() => toast('Privacy Policy')}>Privacy Policy</a>
-          <a onClick={() => toast('Terms')}>Terms</a>
-        </div>
-      </div></footer>
+      <PageFooter />
     </div>
   );
 }

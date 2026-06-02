@@ -1,6 +1,6 @@
 import React from 'react';
-import { useRS } from './components.jsx';
-import { BLOG, COPYRIGHT } from './content.js';
+import { useRS, PageFooter } from './components.jsx';
+import { BLOG } from './content.js';
 /* ReelSaga — Blog list + Article pages. All copy + imagery comes from
    content.js (BLOG); this file only arranges it. */
 const { useEffect } = React;
@@ -29,7 +29,7 @@ function CatRowBlock({ onOpen }) {
 }
 
 function Blog() {
-  const { toast, go } = useRS();
+  const { go } = useRS();
   useEffect(() => { window.scrollTo(0, 0); }, []);
   const open = (id) => go('article', { id });
   return (
@@ -70,19 +70,12 @@ function Blog() {
 
       <CatRowBlock onOpen={open}/>
 
-      <footer className="fh-foot" style={{ marginTop: 50 }}><div className="fhw fh-foot-in">
-        <span className="fcopy">{COPYRIGHT}</span>
-        <div className="flinks">
-          <a onClick={() => toast('Privacy Policy')}>Privacy Policy</a>
-          <a onClick={() => toast('Terms')}>Terms</a>
-        </div>
-      </div></footer>
+      <PageFooter style={{ marginTop: 50 }} />
     </div>
   );
 }
 
 function Article({ id }) {
-  const { toast } = useRS();
   useEffect(() => { window.scrollTo(0, 0); }, [id]);
   return (
     <div className="page blog-article">
@@ -97,13 +90,7 @@ function Article({ id }) {
         <div className="ba-inset"><img src={BLOG.articleInset} alt=""/></div>
         <p>{BLOG.articleBody[0]}</p>
       </article>
-      <footer className="fh-foot" style={{ marginTop: 50 }}><div className="fhw fh-foot-in">
-        <span className="fcopy">{COPYRIGHT}</span>
-        <div className="flinks">
-          <a onClick={() => toast('Privacy Policy')}>Privacy Policy</a>
-          <a onClick={() => toast('Terms')}>Terms</a>
-        </div>
-      </div></footer>
+      <PageFooter style={{ marginTop: 50 }} />
     </div>
   );
 }
