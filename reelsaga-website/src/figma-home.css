@@ -61,7 +61,7 @@
 /* hero side arrows — Figma icon_close_light (38.63 circle + chevron, 0.4 opacity) */
 .fh-side { position:absolute; top:50%; transform:translateY(-50%); width:61px; height:61px; display:grid; place-items:center; z-index:6; background:none; border:0; opacity:.4; transition:opacity .2s; }
 .fh-side:hover { opacity:.9; }
-.fh-side.prev { left:-64px; } .fh-side.next { right:-52px; }
+.fh-side.prev { left:-84px; } .fh-side.next { right:-72px; }
 @media (max-width:1440px){ .fh-side.prev { left:-8px; } .fh-side.next { right:-8px; } }
 @media (max-width:1300px){ .fh-side { display:none; } }
 
@@ -194,5 +194,4 @@
   .fh-review { padding:24px 22px; }
 }
 
-/* hero content column narrowed (other sections keep 1396) */
-.fh-hero .fhw { max-width:1307px; }
+/* hero uses the default 1396 content width, same as the other sections */
