@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "zip": "npm run build && rm -f reelsaga-website-dist.zip && cd dist && zip -qr ../reelsaga-website-dist.zip . && echo Created reelsaga-website-dist.zip"
   },
   "dependencies": {
     "@amplitude/unified": "^1.1.11",
