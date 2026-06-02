@@ -106,7 +106,7 @@ function SignInModal({ onClose }) {
 
 /* ---------------- Search overlay ---------------- */
 function SearchOverlay({ onClose }) {
-  const { go } = useRS();
+  const { go, openSeries } = useRS();
   const [q, setQ] = uS('');
   const inp = uR(null);
   uE(() => { inp.current && inp.current.focus();
@@ -117,7 +117,7 @@ function SearchOverlay({ onClose }) {
   const results = ql ? RS_DATA.titles.filter(t =>
     t.title.toLowerCase().includes(ql) || t.genres.some(g => g.toLowerCase().includes(ql))
   ).slice(0, 7) : RS_DATA.titles.filter(t => t.hot || t.rank).slice(0, 5);
-  const open = (id) => { onClose(); go('title', { id }); };
+  const open = (t) => { onClose(); if (t.type === 'books') go('book', { id: t.id }); else openSeries(t.id); };
   return (
     <div className="search-wrap" onMouseDown={(e)=> e.target===e.currentTarget && onClose()}>
       <div className="search-box">
@@ -128,7 +128,7 @@ function SearchOverlay({ onClose }) {
         <div className="search-results">
           {!ql && <div className="search-hint" style={{textAlign:'left',padding:'8px 14px',textTransform:'uppercase',letterSpacing:'.1em',fontWeight:700,color:'var(--rs-muted)'}}>Trending now</div>}
           {results.map(t => (
-            <div key={t.id} className="search-res" onClick={()=>open(t.id)}>
+            <div key={t.id} className="search-res" onClick={()=>open(t)}>
               <div className="sr-thumb">{t.image ? <img src={t.image} alt=""/> : <div style={{width:'100%',height:'100%',background:`linear-gradient(165deg,${t.tint||'#1b2950'},#0a1228)`}}/>}</div>
               <div style={{flex:1}}>
                 <div style={{fontWeight:700,fontSize:15}}>{t.title}</div>
