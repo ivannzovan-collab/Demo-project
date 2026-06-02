@@ -117,7 +117,7 @@ function PosterCard({ t, showRank }) {
       {!showRank && (t.hot || t.new) && (
         <div className="pbadge"><span className={`badge-pill ${t.hot ? 'badge-hot' : 'badge-new'}`}>{t.hot ? 'Hot' : 'New'}</span></div>
       )}
-      <div className="pplay"><span className="trailer-btn"><I.trailerPlay s={26}/>Trailer</span></div>
+      <div className="pplay"><img className="trailer-btn" src="/assets/fig/trailer-btn.svg" alt="Trailer" /></div>
       <div className="pbody">
         <div className="ptitle">{t.title}</div>
         <div className="pgenres"><Chips genres={t.genres} variant="mute" max={2}/></div>

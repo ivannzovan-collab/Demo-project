@@ -146,12 +146,10 @@ img { display:block; max-width:100%; }
 /* play hover overlay → TRAILER button */
 .poster .pplay { position:absolute; inset:0; display:grid; place-items:center; opacity:0; transition:opacity .25s; }
 .poster:hover .pplay { opacity:1; }
-.trailer-btn { display:inline-flex; align-items:center; justify-content:center; gap:7px; width:158px; height:37px; flex:none;
-  background:var(--rs-yellow); color:var(--rs-navy); font-weight:800; font-size:15px; letter-spacing:.04em; text-transform:uppercase;
-  border-radius:100px; box-shadow:0 8px 20px rgba(0,0,0,.45); transform:translateY(6px) scale(.92);
-  transition:transform .25s cubic-bezier(.2,.7,.2,1); max-width:88%; }
+.trailer-btn { display:block; width:168px; height:auto; flex:none;
+  filter:drop-shadow(0 8px 18px rgba(0,0,0,.4)); transform:translateY(6px) scale(.92);
+  transition:transform .25s cubic-bezier(.2,.7,.2,1); }
 .poster:hover .trailer-btn { transform:none; }
-.trailer-btn svg { flex:none; width:28px; height:28px; margin-left:-4px; }
 
 /* styled (image-less) poster surface */
 .poster-art { position:absolute; inset:0; }

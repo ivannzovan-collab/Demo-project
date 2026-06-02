@@ -56,7 +56,7 @@ function CapCard({ t, bare }) {
     <div className="cap-card" onClick={() => openSeries(t.id)} role="button" tabIndex={0}>
       <div className="cap-cover">
         {img ? <img src={img} alt={t.title} /> : <div style={{ position: 'absolute', inset: 0, background: `linear-gradient(160deg,${t.tint || '#1b2950'},#0a1228)` }} />}
-        <div className="cap-play" style={{ padding: "0px 0px 24px" }}><span className="trailer-btn" style={{ textAlign: "center", margin: "0px", fontSize: "25px", fontWeight: "600" }}><I.trailerPlay s={26} />Trailer</span></div>
+        <div className="cap-play" style={{ padding: "0px 0px 24px" }}><img className="trailer-btn" src="/assets/fig/trailer-btn.svg" alt="Trailer" /></div>
       </div>
       {!bare && <div className="cap-title">{t.title}</div>}
       {!bare && <div className="cap-genre">{(t.genres || []).slice(0, 2).join(' | ')}</div>}
