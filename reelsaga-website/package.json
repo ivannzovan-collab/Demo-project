@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
     "zip": "npm run build && rm -f reelsaga-website-dist.zip && cd dist && zip -qr ../reelsaga-website-dist.zip . && echo Created reelsaga-website-dist.zip"
   },
   "dependencies": {
@@ -15,7 +16,10 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
+    "@types/react": "^19.2.16",
+    "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^6.0.3",
     "vite": "^5.4.10"
   }
 }

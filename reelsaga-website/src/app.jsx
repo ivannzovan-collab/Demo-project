@@ -1,79 +1,89 @@
 import React from 'react';
-import { RSCtx, Nav, I } from './components.jsx';
-import { Home } from './home3.jsx';
-import { Catalog } from './catalog2.jsx';
-import { Blog, Article } from './blog2.jsx';
-import { SignInModal, SearchOverlay } from './widgets.jsx';
-import { SeriesOverlay } from './series-modal.jsx';
-import { BookDetail } from './book.jsx';
-import * as amplitude from '@amplitude/unified';
-/* ReelSaga — root component. Owns hash-based routing and the global
-   search / series / toast overlays. Each route renders one page component;
-   all page content lives in content.js + data.js, not here. */
-const { useState: aUS, useEffect: aUE, useCallback } = React;
+import { RSCtx } from './hooks/useRS';
+import { track } from './lib/analytics';
+import I from './components/common/icons';
+import Header from './components/layout/Header';
+import HomePage from './pages/HomePage';
+import CategoryPage from './pages/CategoryPage';
+import BooksPage from './pages/BooksPage';
+import BookPage from './pages/BookPage';
+import BlogPage from './pages/BlogPage';
+import ArticlePage from './pages/ArticlePage';
+import AuthModal from './components/auth/AuthModal';
+import SearchOverlay from './components/layout/SearchOverlay';
+import SeriesModal from './components/series/SeriesModal';
 
+/* App shell: hash-based routing + the global search / series / toast overlays.
+   Holds no content — each route renders a page; pages own their composition. */
 function App() {
-  const [route, setRoute] = aUS({ view:'home', params:{} });
-  const [signIn, setSignIn] = aUS(false);
-  const [search, setSearch] = aUS(false);
-  const [series, setSeries] = aUS(null);
-  const [toastMsg, setToastMsg] = aUS(null);
+  const [route, setRoute] = React.useState({ view: 'home', params: {} });
+  const [signIn, setSignIn] = React.useState(false);
+  const [search, setSearch] = React.useState(false);
+  const [series, setSeries] = React.useState(null);
+  const [toastMsg, setToastMsg] = React.useState(null);
   const toastTimer = React.useRef(0);
 
-  const go = useCallback((view, params={}) => {
-    amplitude.track('Page Viewed', { view, ...(params.id ? { id: params.id } : {}) });
+  const go = React.useCallback((view, params = {}) => {
+    track('Page Viewed', { view, ...(params.id ? { id: params.id } : {}) });
     setRoute({ view, params });
-    window.history.pushState({ view, params }, '', '#' + view + (params.id ? '/'+params.id : ''));
-    window.scrollTo({ top:0, behavior:'auto' });
+    window.history.pushState({ view, params }, '', '#' + view + (params.id ? '/' + params.id : ''));
+    window.scrollTo({ top: 0, behavior: 'auto' });
   }, []);
 
-  const toast = useCallback((msg) => {
+  const toast = React.useCallback((msg) => {
     setToastMsg(msg);
     clearTimeout(toastTimer.current);
-    toastTimer.current = setTimeout(()=>setToastMsg(null), 2800);
+    toastTimer.current = setTimeout(() => setToastMsg(null), 2800);
   }, []);
 
-  // back/forward
-  aUE(() => {
-    const onPop = (e) => { if (e.state && e.state.view) setRoute({ view:e.state.view, params:e.state.params||{} }); else setRoute({ view:'home', params:{} }); window.scrollTo(0,0); };
+  // browser back/forward + initial hash
+  React.useEffect(() => {
+    const onPop = (e) => { if (e.state && e.state.view) setRoute({ view: e.state.view, params: e.state.params || {} }); else setRoute({ view: 'home', params: {} }); window.scrollTo(0, 0); };
     window.addEventListener('popstate', onPop);
-    // initial hash
-    const h = window.location.hash.replace('#','');
-    if (h) { const [v,id] = h.split('/'); if (v) setRoute({ view:v, params: id?{id}:{} }); }
+    const h = window.location.hash.replace('#', '');
+    if (h) { const [v, id] = h.split('/'); if (v) setRoute({ view: v, params: id ? { id } : {} }); }
     return () => window.removeEventListener('popstate', onPop);
   }, []);
 
-  // cmd+k search
-  aUE(() => {
+  // cmd/ctrl+k or "/" opens search
+  React.useEffect(() => {
     const k = (e) => {
-      if ((e.metaKey||e.ctrlKey) && e.key.toLowerCase()==='k') { e.preventDefault(); setSearch(s=>!s); }
+      if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') { e.preventDefault(); setSearch((s) => !s); }
       if (e.key === '/' && !/INPUT|TEXTAREA/.test(document.activeElement.tagName)) { e.preventDefault(); setSearch(true); }
     };
     window.addEventListener('keydown', k); return () => window.removeEventListener('keydown', k);
   }, []);
 
-  const ctx = { view: route.view, params: route.params, go, openSignIn:()=>setSignIn(true), openSearch:()=>setSearch(true), openSeries:(id)=>{ amplitude.track('Series Opened', { id }); setSeries(id); }, toast };
+  const ctx = {
+    view: route.view, params: route.params, go,
+    openSignIn: () => setSignIn(true),
+    openSearch: () => setSearch(true),
+    openSeries: (id) => { track('Series Opened', { id }); setSeries(id); },
+    toast,
+  };
 
   let body;
   switch (route.view) {
-    case 'home': body = <Home/>; break;
-    case 'realistic': case 'animated': case 'books': body = <Catalog key={route.view} type={route.view}/>; break;
-    case 'book': body = <BookDetail key={route.params.id} id={route.params.id}/>; break;
-    case 'blog': body = <Blog/>; break;
-    case 'article': body = <Article key={route.params.id} id={route.params.id}/>; break;
-    default: body = <Home/>;
+    case 'home': body = <HomePage />; break;
+    case 'realistic': case 'animated': body = <CategoryPage key={route.view} type={route.view} />; break;
+    case 'books': body = <BooksPage key="books" />; break;
+    case 'book': body = <BookPage key={route.params.id} id={route.params.id} />; break;
+    case 'blog': body = <BlogPage />; break;
+    case 'article': body = <ArticlePage key={route.params.id} id={route.params.id} />; break;
+    default: body = <HomePage />;
   }
 
   return (
     <RSCtx.Provider value={ctx}>
-      <Nav/>
+      <Header />
       {body}
-      {signIn && <SignInModal onClose={()=>setSignIn(false)}/>}
-      {search && <SearchOverlay onClose={()=>setSearch(false)}/>}
-      {series && <SeriesOverlay id={series} onClose={()=>setSeries(null)}/>}
-      {toastMsg && <div className="toast"><I.check s={18}/>{toastMsg}</div>}
+      {signIn && <AuthModal onClose={() => setSignIn(false)} />}
+      {search && <SearchOverlay onClose={() => setSearch(false)} />}
+      {series && <SeriesModal id={series} onClose={() => setSeries(null)} />}
+      {toastMsg && <div className="toast"><I.check s={18} />{toastMsg}</div>}
     </RSCtx.Provider>
   );
 }
 
 export { App };
+export default App;

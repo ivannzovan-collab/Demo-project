@@ -1,8 +1,8 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import * as amplitude from '@amplitude/unified';
+import { initAnalytics, track } from './lib/analytics';
 
-// Stylesheets — loaded in the same order as the original prototype's index.html
+// Stylesheets — loaded in the same order as the original prototype.
 import './styles.css';
 import './sections.css';
 import './home.css';
@@ -13,14 +13,10 @@ import './blog2.css';
 import './series-modal.css';
 import './book.css';
 
-import { App } from './app.jsx';
+import App from './app.jsx';
 
-// Amplitude Analytics + Session Replay — client-side only, initialized exactly once
-// at app startup. autocapture tracks key interactions (page views, clicks, etc.).
-if (typeof window !== 'undefined') {
-  amplitude.initAll('eb163fb30edb7f327e93dcf51bb3c059', { serverZone: 'EU', analytics: { autocapture: true }, sessionReplay: { sampleRate: 1 } });
-  // Explicit test event — fires once on load to confirm the connection.
-  amplitude.track('App Loaded');
-}
+// Amplitude analytics + Session Replay — client-side only, initialised once.
+initAnalytics();
+track('App Loaded');
 
 createRoot(document.getElementById('root')).render(<App />);
