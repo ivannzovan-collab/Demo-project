@@ -113,3 +113,6 @@ ai-engine/temp/
 *.tmp
 *.temp
 .cache/
+
+# Build/deliverable archives
+*.zip
