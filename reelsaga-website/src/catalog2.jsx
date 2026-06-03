@@ -154,20 +154,25 @@ function RankRow({ items }) {
    it along, which zooms the new centre in and the old one out. */
 function Spotlight({ items }) {
   const { openSeries } = useRS();
-  const [center, setCenter] = useState(Math.min(2, items.length - 1));
-  const move = (d) => setCenter((c) => Math.max(0, Math.min(items.length - 1, c + d)));
+  const n = items.length;
+  const [center, setCenter] = useState(Math.min(2, n - 1));
+  const move = (d) => setCenter((c) => (c + d + n) % n); // wraps around past either end
   return (
     <div className="spot-rel">
       <div className="spot-glow" />
       <button className="fh-rowarrow prev" onClick={() => move(-1)} aria-label="Previous"><RowChevron dir="prev" /></button>
       <div className="spot-stage">
         {items.map((t, k) => {
-          const dist = k - center;
+          // shortest signed distance from the centre, so the row loops both ways
+          let dist = k - center;
+          if (dist > n / 2) dist -= n;
+          else if (dist < -n / 2) dist += n;
           if (Math.abs(dist) > 2) return null; // only the centre, its neighbours and the edge peeks
           const cls = dist === 0 ? 'feat' : Math.abs(dist) === 1 ? 'mid' : 'peek';
           const img = t.image || t.titleArt;
+          // flex `order` keeps the zoomed cover centred even after wrapping
           return (
-            <div key={t.id + '-' + k} className={`spot-card ${cls}`} onClick={() => (dist === 0 ? openSeries(t.id) : setCenter(k))}>
+            <div key={t.id + '-' + k} className={`spot-card ${cls}`} style={{ order: dist + 2 }} onClick={() => (dist === 0 ? openSeries(t.id) : setCenter(k))}>
               {img ? <img src={img} alt={t.title} /> : <div className="spot-art" style={{ background: `linear-gradient(160deg,${t.tint || '#1b2950'},#0a1228)` }} />}
               {!img && <div className="spot-name">{t.title}</div>}
             </div>);

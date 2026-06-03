@@ -91,8 +91,9 @@
 
 /* ---------- BOOKS: spotlight coverflow ---------- */
 .spot-rel { position:relative; padding:24px 0 14px; overflow:hidden; }
-.spot-glow { position:absolute; left:50%; top:50%; transform:translate(-50%,-50%); width:1100px; height:660px; z-index:0; pointer-events:none;
-  background:url('/assets/fig/spot-glow.png') center/100% 100% no-repeat; }
+.spot-glow { position:absolute; left:50%; top:50%; transform:translate(-50%,-50%); width:1200px; height:680px; z-index:0; pointer-events:none;
+  background:radial-gradient(ellipse 50% 50% at 50% 50%,
+    rgba(254,194,0,.60) 0%, rgba(254,194,0,.38) 28%, rgba(254,194,0,.16) 48%, rgba(254,194,0,.05) 65%, transparent 78%); }
 .spot-stage { display:flex; align-items:center; justify-content:center; gap:26px; min-height:440px; position:relative; z-index:1; }
 .spot-card { position:relative; width:228px; aspect-ratio:2/3; flex:none; border-radius:14px; overflow:hidden; cursor:pointer;
   box-shadow:0 18px 40px rgba(0,0,0,.55); transition:width .4s cubic-bezier(.2,.7,.2,1), opacity .4s, transform .4s, box-shadow .4s; background:#0c1430; }
