@@ -1,0 +1,2752 @@
+{
+  "domain": "https://reel-saga.com",
+  "generated": "2026-06-03",
+  "counts": {
+    "books": 180,
+    "realistic_series": 45,
+    "anime_series": 23,
+    "unique_ips": 237,
+    "total_urls": 960
+  },
+  "titles": [
+    {
+      "slug": "101-ways-to-bubble-wrap-a-soulmate",
+      "title": "101 Ways to Bubble Wrap a Soulmate",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "werewolf"
+      ]
+    },
+    {
+      "slug": "90-days-to-die-for-a-billion-dollars",
+      "title": "90 Days to Die for a Billion Dollars",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "accidentally-fake-dating-a-werewolf",
+      "title": "Accidentally Fake Dating a Werewolf",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "werewolf"
+      ]
+    },
+    {
+      "slug": "accidentally-hired-as-a-hitwoman",
+      "title": "Accidentally Hired as a Hitwoman",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "mafia"
+      ]
+    },
+    {
+      "slug": "accidentally-kidnapping-the-best-man",
+      "title": "Accidentally Kidnapping the Best Man",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "accidentally-mated-to-the-alpha-king",
+      "title": "Accidentally Mated To The Alpha King",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "werewolf"
+      ]
+    },
+    {
+      "slug": "accidentally-pregnant-by-my-ex-boyfriend",
+      "title": "Accidentally Pregnant by My Ex-Boyfriend",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "forbidden",
+        "secretbaby"
+      ]
+    },
+    {
+      "slug": "accidentally-sexting-my-boss",
+      "title": "Accidentally Sexting My Boss",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "forbidden"
+      ]
+    },
+    {
+      "slug": "accidentally-spray-painting-the-bosss-car",
+      "title": "Accidentally Spray Painting the Boss's Car",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "forbidden"
+      ]
+    },
+    {
+      "slug": "after-breakup-he-proposes",
+      "title": "After Breakup, He Proposes",
+      "has_book": false,
+      "has_realistic": true,
+      "has_anime": false,
+      "has_audiobook": false,
+      "has_series_audio": false,
+      "themes": [
+        "secondchance"
+      ]
+    },
+    {
+      "slug": "after-divorce-the-billionaire-crushed-on-me",
+      "title": "After Divorce, The Billionaire Crushed on Me",
+      "has_book": false,
+      "has_realistic": true,
+      "has_anime": false,
+      "has_audiobook": false,
+      "has_series_audio": false,
+      "themes": [
+        "billionaire",
+        "secondchance"
+      ]
+    },
+    {
+      "slug": "after-hours-with-mr-alpha-and-mrs-claus",
+      "title": "After hours with Mr. Alpha and Mrs. Claus",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "werewolf"
+      ]
+    },
+    {
+      "slug": "alpha-is-not-my-type",
+      "title": "Alpha Is Not My Type",
+      "has_book": false,
+      "has_realistic": true,
+      "has_anime": false,
+      "has_audiobook": false,
+      "has_series_audio": false,
+      "themes": [
+        "werewolf"
+      ]
+    },
+    {
+      "slug": "an-heir-between-us",
+      "title": "An Heir Between Us",
+      "has_book": false,
+      "has_realistic": true,
+      "has_anime": false,
+      "has_audiobook": false,
+      "has_series_audio": false,
+      "themes": [
+        "secretbaby"
+      ]
+    },
+    {
+      "slug": "another-kind-of-exchange-wife",
+      "title": "Another Kind of Exchange Wife",
+      "has_book": false,
+      "has_realistic": true,
+      "has_anime": false,
+      "has_audiobook": false,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "autistic-me-gets-entangled-with-a-love-angel",
+      "title": "Autistic Me Gets Entangled with a Love Angel",
+      "has_book": false,
+      "has_realistic": false,
+      "has_anime": true,
+      "has_audiobook": false,
+      "has_series_audio": false,
+      "themes": [
+        "supernatural"
+      ]
+    },
+    {
+      "slug": "baby-daddy-roulette",
+      "title": "Baby Daddy Roulette",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "secretbaby"
+      ]
+    },
+    {
+      "slug": "bedded-by-my-rivals-son",
+      "title": "Bedded by My Rival's Son",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "forbidden"
+      ]
+    },
+    {
+      "slug": "best-friends-with-baby-benefits",
+      "title": "Best Friends with Baby Benefits",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "secretbaby"
+      ]
+    },
+    {
+      "slug": "billionaire-alphas-fated-mate",
+      "title": "Billionaire Alpha's Fated Mate",
+      "has_book": false,
+      "has_realistic": true,
+      "has_anime": false,
+      "has_audiobook": false,
+      "has_series_audio": false,
+      "themes": [
+        "werewolf",
+        "billionaire",
+        "supernatural"
+      ]
+    },
+    {
+      "slug": "billionaire-daddy-the-hunt-is-on",
+      "title": "Billionaire Daddy, the Hunt is On!",
+      "has_book": false,
+      "has_realistic": true,
+      "has_anime": false,
+      "has_audiobook": false,
+      "has_series_audio": false,
+      "themes": [
+        "billionaire"
+      ]
+    },
+    {
+      "slug": "billionaire-playboys-replacement-bride",
+      "title": "Billionaire Playboy's Replacement Bride",
+      "has_book": false,
+      "has_realistic": true,
+      "has_anime": false,
+      "has_audiobook": false,
+      "has_series_audio": false,
+      "themes": [
+        "billionaire"
+      ]
+    },
+    {
+      "slug": "bound-to-the-cursed-alpha",
+      "title": "Bound to The Cursed Alpha",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "werewolf",
+        "supernatural"
+      ]
+    },
+    {
+      "slug": "bride-of-the-black-orchid",
+      "title": "Bride Of The Black Orchid",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "captured-by-the-immortal-i-was-sent-to-kill",
+      "title": "Captured by The Immortal I Was Sent to Kill",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "supernatural"
+      ]
+    },
+    {
+      "slug": "chained-by-the-werewolf-hunter",
+      "title": "Chained By The Werewolf Hunter",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "werewolf"
+      ]
+    },
+    {
+      "slug": "chatterbox-sweetheart-and-silent-ceo",
+      "title": "Chatterbox Sweetheart and Silent CEO",
+      "has_book": false,
+      "has_realistic": true,
+      "has_anime": false,
+      "has_audiobook": false,
+      "has_series_audio": false,
+      "themes": [
+        "billionaire"
+      ]
+    },
+    {
+      "slug": "claimed-by-my-boyfriends-brother",
+      "title": "Claimed by My Boyfriend's Brother",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "forbidden"
+      ]
+    },
+    {
+      "slug": "claimed-by-my-fathers-lethal-experiment",
+      "title": "Claimed by My Father's Lethal Experiment",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "forbidden",
+        "thriller"
+      ]
+    },
+    {
+      "slug": "claimed-by-the-cold-mob-boss",
+      "title": "Claimed by the Cold Mob Boss",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "mafia",
+        "forbidden"
+      ]
+    },
+    {
+      "slug": "claimed-by-the-fire-captain",
+      "title": "Claimed by the Fire Captain",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "claimed-by-the-golden-boy-a-racing-scandal",
+      "title": "Claimed by the Golden Boy: A Racing Scandal",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "claimed-by-two-alphas",
+      "title": "Claimed By Two Alphas",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "werewolf"
+      ]
+    },
+    {
+      "slug": "claimed-for-rent-by-my-hot-landlord",
+      "title": "Claimed For Rent By My Hot Landlord",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "classmate-abe-with-zero-inspiration",
+      "title": "Classmate Abe with Zero Inspiration",
+      "has_book": false,
+      "has_realistic": false,
+      "has_anime": true,
+      "has_audiobook": false,
+      "has_series_audio": false,
+      "themes": [
+        "werewolf"
+      ]
+    },
+    {
+      "slug": "classroom-queen-mafia-bloodline",
+      "title": "Classroom Queen: Mafia Bloodline",
+      "has_book": true,
+      "has_realistic": true,
+      "has_anime": true,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "mafia"
+      ]
+    },
+    {
+      "slug": "cooking-up-with-my-rival",
+      "title": "Cooking Up With My Rival",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "forbidden"
+      ]
+    },
+    {
+      "slug": "cuffed-by-my-rival",
+      "title": "Cuffed by My Rival",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "forbidden"
+      ]
+    },
+    {
+      "slug": "cuffed-by-the-hotel-manager",
+      "title": "Cuffed By The Hotel Manager",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "cuffed-to-my-silver-fox-captain",
+      "title": "Cuffed to My Silver Fox Captain",
+      "has_book": false,
+      "has_realistic": true,
+      "has_anime": false,
+      "has_audiobook": false,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "cuffing-my-sexy-pilot",
+      "title": "Cuffing My Sexy Pilot",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "cursed-by-my-dead-husbands-rival",
+      "title": "Cursed By My Dead Husband's Rival",
+      "has_book": false,
+      "has_realistic": false,
+      "has_anime": true,
+      "has_audiobook": false,
+      "has_series_audio": false,
+      "themes": [
+        "forbidden",
+        "supernatural"
+      ]
+    },
+    {
+      "slug": "detention-after-dark",
+      "title": "Detention After Dark",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "dirty-talking-with-the-bodyguard",
+      "title": "Dirty Talking With the Bodyguard",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "divorce-a-billionaire-to-marry-him",
+      "title": "Divorce A Billionaire To Marry Him!",
+      "has_book": false,
+      "has_realistic": true,
+      "has_anime": false,
+      "has_audiobook": false,
+      "has_series_audio": false,
+      "themes": [
+        "billionaire",
+        "secondchance"
+      ]
+    },
+    {
+      "slug": "divorced-to-build-my-queendom",
+      "title": "Divorced to Build My Queendom",
+      "has_book": false,
+      "has_realistic": true,
+      "has_anime": false,
+      "has_audiobook": false,
+      "has_series_audio": false,
+      "themes": [
+        "billionaire",
+        "secondchance"
+      ]
+    },
+    {
+      "slug": "doctors-orders",
+      "title": "Doctor's Orders",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "dont-mess-with-the-blind-heiress",
+      "title": "Don't Mess with the Blind Heiress",
+      "has_book": false,
+      "has_realistic": true,
+      "has_anime": false,
+      "has_audiobook": false,
+      "has_series_audio": false,
+      "themes": [
+        "billionaire",
+        "secretbaby"
+      ]
+    },
+    {
+      "slug": "double-booked",
+      "title": "Double Booked",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "double-trouble",
+      "title": "Double Trouble",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "enemies-with-benefits-the-ceos-matchmaker-strikes",
+      "title": "Enemies with Benefits: The CEOs Matchmaker Strikes",
+      "has_book": false,
+      "has_realistic": true,
+      "has_anime": false,
+      "has_audiobook": false,
+      "has_series_audio": false,
+      "themes": [
+        "billionaire"
+      ]
+    },
+    {
+      "slug": "eyes-of-the-storm",
+      "title": "Eyes Of The Storm",
+      "has_book": false,
+      "has_realistic": false,
+      "has_anime": true,
+      "has_audiobook": false,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "fake-wife-to-a-mafia-boss",
+      "title": "Fake Wife To A Mafia Boss",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "mafia",
+        "forbidden"
+      ]
+    },
+    {
+      "slug": "falling-for-my-fake-wedding-date",
+      "title": "Falling For My Fake Wedding Date",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "finding-my-billionaire-boyfriends-killer",
+      "title": "Finding My Billionaire Boyfriend's Killer",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "billionaire",
+        "thriller"
+      ]
+    },
+    {
+      "slug": "flashback-fiancee-have-we-met",
+      "title": "Flashback Fiancée: Have We Met?",
+      "has_book": false,
+      "has_realistic": true,
+      "has_anime": false,
+      "has_audiobook": false,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "fly-me-away-my-captain-husband",
+      "title": "Fly Me Away My Captain Husband",
+      "has_book": false,
+      "has_realistic": true,
+      "has_anime": false,
+      "has_audiobook": false,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "framed-by-his-rich-friends",
+      "title": "Framed by His Rich Friends",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "billionaire"
+      ]
+    },
+    {
+      "slug": "from-bump-to-spark",
+      "title": "From Bump to Spark",
+      "has_book": false,
+      "has_realistic": true,
+      "has_anime": false,
+      "has_audiobook": false,
+      "has_series_audio": false,
+      "themes": [
+        "secretbaby"
+      ]
+    },
+    {
+      "slug": "good-girl-gone-bad",
+      "title": "Good Girl Gone Bad",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "good-luck-alphas-halloween-baby",
+      "title": "Good Luck! Alpha's Halloween Baby",
+      "has_book": false,
+      "has_realistic": true,
+      "has_anime": false,
+      "has_audiobook": false,
+      "has_series_audio": false,
+      "themes": [
+        "werewolf",
+        "secretbaby"
+      ]
+    },
+    {
+      "slug": "hands-off-ex-husband",
+      "title": "Hands off, Ex-Husband!",
+      "has_book": false,
+      "has_realistic": true,
+      "has_anime": false,
+      "has_audiobook": false,
+      "has_series_audio": false,
+      "themes": [
+        "forbidden",
+        "secondchance"
+      ]
+    },
+    {
+      "slug": "he-took-executive-control-over-me",
+      "title": "He Took Executive Control Over Me",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "billionaire"
+      ]
+    },
+    {
+      "slug": "he-wont-let-my-boss-take-me",
+      "title": "He Won't Let My Boss Take Me",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "forbidden"
+      ]
+    },
+    {
+      "slug": "his-forced-mafia-queen",
+      "title": "His Forced Mafia Queen",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "mafia"
+      ]
+    },
+    {
+      "slug": "hooking-up-with-my-friends-ex",
+      "title": "Hooking Up With My Friend's Ex",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "forbidden"
+      ]
+    },
+    {
+      "slug": "hot-and-heavy-with-my-personal-trainer",
+      "title": "Hot And Heavy With My Personal Trainer",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "hot-girl-hiding-in-my-barn",
+      "title": "Hot Girl Hiding In My Barn",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "how-i-became-the-alpha-queen",
+      "title": "How I Became the Alpha Queen",
+      "has_book": false,
+      "has_realistic": true,
+      "has_anime": false,
+      "has_audiobook": false,
+      "has_series_audio": false,
+      "themes": [
+        "werewolf"
+      ]
+    },
+    {
+      "slug": "i-became-my-bullys-bride",
+      "title": "I Became My Bully's Bride",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "forbidden"
+      ]
+    },
+    {
+      "slug": "i-became-the-alphas-toy",
+      "title": "I Became The Alpha's Toy",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "werewolf"
+      ]
+    },
+    {
+      "slug": "i-bought-the-alpha-who-exiled-me",
+      "title": "I Bought The Alpha Who Exiled Me",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "werewolf"
+      ]
+    },
+    {
+      "slug": "i-broke-all-his-rules",
+      "title": "I Broke All His Rules",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "i-crashed-my-baby-daddys-wedding",
+      "title": "I Crashed My Baby Daddy's Wedding",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "secretbaby"
+      ]
+    },
+    {
+      "slug": "i-divorced-the-day-i-gave-birth",
+      "title": "I Divorced the Day I Gave Birth",
+      "has_book": false,
+      "has_realistic": true,
+      "has_anime": false,
+      "has_audiobook": false,
+      "has_series_audio": false,
+      "themes": [
+        "secondchance"
+      ]
+    },
+    {
+      "slug": "i-got-it-bad-for-the-preachers-son",
+      "title": "I Got It Bad For The Preacher's Son",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "forbidden"
+      ]
+    },
+    {
+      "slug": "i-married-the-demon-king-who-needs-me-to-live",
+      "title": "I Married the Demon King Who Needs Me to Live",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "supernatural"
+      ]
+    },
+    {
+      "slug": "i-married-the-mafia-king-by-mistake",
+      "title": "I Married the Mafia King by Mistake",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "mafia"
+      ]
+    },
+    {
+      "slug": "i-seduced-my-stepbrother",
+      "title": "I Seduced My Stepbrother",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "forbidden"
+      ]
+    },
+    {
+      "slug": "i-seduced-the-mafia-brothers-i-was-sent-to-kill",
+      "title": "I Seduced the Mafia Brothers I Was Sent to Kill",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "mafia"
+      ]
+    },
+    {
+      "slug": "i-sent-my-baby-daddy-to-prison",
+      "title": "I Sent My Baby Daddy To Prison",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "secretbaby"
+      ]
+    },
+    {
+      "slug": "i-was-asked-to-speak-for-the-dead",
+      "title": "I Was Asked to Speak for the Dead",
+      "has_book": false,
+      "has_realistic": false,
+      "has_anime": true,
+      "has_audiobook": false,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "i-was-bought-by-the-alpha-mob",
+      "title": "I Was Bought By The Alpha Mob",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "werewolf"
+      ]
+    },
+    {
+      "slug": "im-the-nanny-to-my-babys-father",
+      "title": "I'm the Nanny to My Baby's Father",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "secretbaby"
+      ]
+    },
+    {
+      "slug": "in-the-ring-with-the-mafia-king",
+      "title": "In The Ring With The Mafia King",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "mafia"
+      ]
+    },
+    {
+      "slug": "kidnapped-by-the-exiled-alpha",
+      "title": "Kidnapped by The Exiled Alpha",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "werewolf"
+      ]
+    },
+    {
+      "slug": "kissing-lessons-with-my-best-friend",
+      "title": "Kissing Lessons With My Best Friend",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "knocked-up-by-the-hitman",
+      "title": "Knocked Up by the Hitman",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "mafia",
+        "secretbaby"
+      ]
+    },
+    {
+      "slug": "lets-get-physical",
+      "title": "Let's Get Physical",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "love-me-again-my-hidden-lover",
+      "title": "Love Me Again, My Hidden Lover",
+      "has_book": false,
+      "has_realistic": true,
+      "has_anime": false,
+      "has_audiobook": false,
+      "has_series_audio": false,
+      "themes": [
+        "secondchance"
+      ]
+    },
+    {
+      "slug": "maid-of-dishonor",
+      "title": "Maid of Dishonor",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "marked-by-the-tattoo-artist",
+      "title": "Marked By The Tattoo Artist",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "matchmaking-my-billionaire-ex-husband",
+      "title": "Matchmaking My Billionaire Ex Husband",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "billionaire",
+        "secondchance"
+      ]
+    },
+    {
+      "slug": "mated-to-the-wrong-brother",
+      "title": "Mated To The Wrong Brother",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "werewolf"
+      ]
+    },
+    {
+      "slug": "meow-and-forever",
+      "title": "Meow And Forever",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "my-architect-is-trying-to-ruin-me",
+      "title": "My Architect is Trying to Ruin Me",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "my-best-friends-dirty-secret",
+      "title": "My Best Friend's Dirty Secret",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "forbidden"
+      ]
+    },
+    {
+      "slug": "my-best-friends-son",
+      "title": "My Best Friend's Son",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "forbidden"
+      ]
+    },
+    {
+      "slug": "my-billionaire-husband-is-a-vampire-king",
+      "title": "My Billionaire Husband is a Vampire King",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": true,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "billionaire",
+        "supernatural"
+      ]
+    },
+    {
+      "slug": "my-boyfriends-dad-became-my-sugar-daddy",
+      "title": "My Boyfriend's Dad Became My Sugar Daddy",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "billionaire"
+      ]
+    },
+    {
+      "slug": "my-cold-blooded-alpha-king",
+      "title": "My Cold Blooded Alpha King",
+      "has_book": false,
+      "has_realistic": true,
+      "has_anime": false,
+      "has_audiobook": false,
+      "has_series_audio": false,
+      "themes": [
+        "werewolf"
+      ]
+    },
+    {
+      "slug": "my-crushs-psycho-boyfriend",
+      "title": "My Crush's Psycho Boyfriend",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "thriller"
+      ]
+    },
+    {
+      "slug": "my-deadly-one-night-stand",
+      "title": "My Deadly One Night Stand",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "thriller"
+      ]
+    },
+    {
+      "slug": "my-escort-boy-is-a-billionaire",
+      "title": "My Escort Boy Is a Billionaire",
+      "has_book": false,
+      "has_realistic": true,
+      "has_anime": false,
+      "has_audiobook": false,
+      "has_series_audio": false,
+      "themes": [
+        "billionaire"
+      ]
+    },
+    {
+      "slug": "my-fake-hitman-husband",
+      "title": "My Fake Hitman Husband",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "mafia"
+      ]
+    },
+    {
+      "slug": "my-highway-alpha",
+      "title": "My Highway Alpha",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "werewolf"
+      ]
+    },
+    {
+      "slug": "my-hot-neighbor-might-be-a-serial-killer",
+      "title": "My Hot Neighbor Might Be a Serial Killer",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "thriller"
+      ]
+    },
+    {
+      "slug": "my-husbands-pregnant-mistress",
+      "title": "My Husband's Pregnant Mistress",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "secretbaby"
+      ]
+    },
+    {
+      "slug": "my-man-remembered-hes-rich",
+      "title": "My Man Remembered He's Rich",
+      "has_book": false,
+      "has_realistic": true,
+      "has_anime": false,
+      "has_audiobook": false,
+      "has_series_audio": false,
+      "themes": [
+        "billionaire"
+      ]
+    },
+    {
+      "slug": "my-naughty-golf-lessons",
+      "title": "My Naughty Golf Lessons",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "my-naughty-movie-date-with-a-stranger",
+      "title": "My Naughty Movie Date With A Stranger",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "my-naughty-room-service",
+      "title": "My Naughty Room Service",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "my-neighbor-won-the-lottery-and-my-heart",
+      "title": "My Neighbor Won The Lottery... And My Heart",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "billionaire"
+      ]
+    },
+    {
+      "slug": "my-one-deadly-night-with-the-demon",
+      "title": "My One Deadly Night With The Demon",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": true,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "thriller",
+        "supernatural"
+      ]
+    },
+    {
+      "slug": "my-one-night-stepbrother",
+      "title": "My One-Night Stepbrother",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "forbidden"
+      ]
+    },
+    {
+      "slug": "my-patient-knows-where-i-live",
+      "title": "My Patient Knows Where I Live",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "my-saviors-dark-demand",
+      "title": "My Savior's Dark Demand",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "my-twins-have-two-daddies",
+      "title": "My Twins Have Two Daddies",
+      "has_book": false,
+      "has_realistic": false,
+      "has_anime": true,
+      "has_audiobook": false,
+      "has_series_audio": false,
+      "themes": [
+        "secretbaby"
+      ]
+    },
+    {
+      "slug": "naughty-lessons-from-my-brothers-best-friend",
+      "title": "Naughty Lessons from My Brother's Best Friend",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "forbidden"
+      ]
+    },
+    {
+      "slug": "naughty-lessons-from-the-ice-king",
+      "title": "Naughty Lessons from the Ice King",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "never-divorce-a-billionaire-wife",
+      "title": "Never Divorce a Billionaire Wife",
+      "has_book": false,
+      "has_realistic": true,
+      "has_anime": false,
+      "has_audiobook": false,
+      "has_series_audio": false,
+      "themes": [
+        "billionaire",
+        "secondchance"
+      ]
+    },
+    {
+      "slug": "objection-the-legal-queen-in-charge-now",
+      "title": "Objection! The Legal Queen in Charge Now",
+      "has_book": false,
+      "has_realistic": true,
+      "has_anime": false,
+      "has_audiobook": false,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "once-upon-a-divorce-the-double-life-of-lady-diana",
+      "title": "Once Upon a Divorce: The Double Life of Lady Diana",
+      "has_book": false,
+      "has_realistic": true,
+      "has_anime": false,
+      "has_audiobook": false,
+      "has_series_audio": false,
+      "themes": [
+        "secondchance"
+      ]
+    },
+    {
+      "slug": "one-night-stand-with-the-enemy",
+      "title": "One Night Stand With the Enemy",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "ordered-to-assassinate-my-boring-husband",
+      "title": "Ordered to Assassinate My Boring Husband",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "mafia"
+      ]
+    },
+    {
+      "slug": "perfectly-doomed",
+      "title": "Perfectly Doomed",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "posting-my-pleasure-an-anonymous-affair",
+      "title": "Posting My Pleasure: An Anonymous Affair",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "pregnant-by-my-best-friends-brother",
+      "title": "Pregnant By My Best Friend's Brother",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "forbidden",
+        "secretbaby"
+      ]
+    },
+    {
+      "slug": "pregnant-by-my-exs-brother",
+      "title": "Pregnant by My Ex's Brother",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "forbidden",
+        "secretbaby"
+      ]
+    },
+    {
+      "slug": "pregnant-staged-and-sabotaged",
+      "title": "Pregnant, Staged and Sabotaged",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "secretbaby"
+      ]
+    },
+    {
+      "slug": "pretty-little-thief",
+      "title": "Pretty Little Thief",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "reborn-female-ceo-ex-husband-cries",
+      "title": "Reborn Female CEO, Ex-husband Cries",
+      "has_book": false,
+      "has_realistic": true,
+      "has_anime": false,
+      "has_audiobook": false,
+      "has_series_audio": false,
+      "themes": [
+        "billionaire",
+        "forbidden",
+        "secondchance"
+      ]
+    },
+    {
+      "slug": "reborn-to-break-him",
+      "title": "Reborn to Break Him",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "secondchance"
+      ]
+    },
+    {
+      "slug": "revenge-queen",
+      "title": "Revenge Queen",
+      "has_book": false,
+      "has_realistic": true,
+      "has_anime": false,
+      "has_audiobook": false,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "roommates-with-benefits",
+      "title": "Roommates With Benefits",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "werewolf"
+      ]
+    },
+    {
+      "slug": "ruin-me-alpha",
+      "title": "Ruin me, Alpha",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "werewolf"
+      ]
+    },
+    {
+      "slug": "scandal-on-the-tennis-court",
+      "title": "Scandal On The Tennis Court",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "seduced-by-the-darker-brother",
+      "title": "Seduced by The Darker Brother",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "seducing-my-boyfriends-alpha",
+      "title": "Seducing My Boyfriend's Alpha",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "werewolf"
+      ]
+    },
+    {
+      "slug": "seducing-my-exs-dad",
+      "title": "Seducing My Ex's Dad",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "forbidden"
+      ]
+    },
+    {
+      "slug": "she-is-my-luna",
+      "title": "She is My Luna",
+      "has_book": false,
+      "has_realistic": true,
+      "has_anime": false,
+      "has_audiobook": false,
+      "has_series_audio": false,
+      "themes": [
+        "werewolf"
+      ]
+    },
+    {
+      "slug": "she-was-never-just-the-job",
+      "title": "She Was Never Just The Job",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "shelter-in-the-mafia",
+      "title": "Shelter in the Mafia",
+      "has_book": false,
+      "has_realistic": true,
+      "has_anime": false,
+      "has_audiobook": false,
+      "has_series_audio": false,
+      "themes": [
+        "mafia"
+      ]
+    },
+    {
+      "slug": "snowed-in-with-the-enemy",
+      "title": "Snowed in With The Enemy",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "sold-to-the-mafia-hunting-my-sisters-killer",
+      "title": "Sold to the Mafia: Hunting My Sister's Killer",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "mafia",
+        "thriller"
+      ]
+    },
+    {
+      "slug": "sold-to-the-night-king",
+      "title": "Sold to The Night King",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "mafia"
+      ]
+    },
+    {
+      "slug": "stolen-by-the-irish-mob",
+      "title": "Stolen by the Irish Mob",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "mafia"
+      ]
+    },
+    {
+      "slug": "stolen-to-the-wolf-of-moscow",
+      "title": "Stolen to The Wolf of Moscow",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "werewolf",
+        "mafia"
+      ]
+    },
+    {
+      "slug": "superstars-stalker",
+      "title": "Superstar's Stalker",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "thriller"
+      ]
+    },
+    {
+      "slug": "surrender-to-my-dominant-doctor",
+      "title": "Surrender to My Dominant Doctor",
+      "has_book": false,
+      "has_realistic": true,
+      "has_anime": false,
+      "has_audiobook": false,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "surviving-his-cruel-game",
+      "title": "Surviving His Cruel Game",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "thriller"
+      ]
+    },
+    {
+      "slug": "surviving-on-a-lost-island-with-a-spoiled-heiress",
+      "title": "Surviving on a Lost Island with a Spoiled Heiress",
+      "has_book": false,
+      "has_realistic": false,
+      "has_anime": true,
+      "has_audiobook": false,
+      "has_series_audio": false,
+      "themes": [
+        "billionaire",
+        "secretbaby"
+      ]
+    },
+    {
+      "slug": "taming-the-devil-off-the-record",
+      "title": "Taming the Devil: Off The Record",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "supernatural"
+      ]
+    },
+    {
+      "slug": "teasing-the-tarot-reader",
+      "title": "Teasing The Tarot Reader",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "tempting-luna",
+      "title": "Tempting Luna",
+      "has_book": false,
+      "has_realistic": true,
+      "has_anime": false,
+      "has_audiobook": false,
+      "has_series_audio": false,
+      "themes": [
+        "werewolf"
+      ]
+    },
+    {
+      "slug": "terms-of-submission",
+      "title": "Terms of Submission",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "the-accidental-mom-fluencer",
+      "title": "The Accidental Mom-fluencer",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "secretbaby"
+      ]
+    },
+    {
+      "slug": "the-alpha-detective",
+      "title": "The Alpha Detective",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "werewolf",
+        "thriller"
+      ]
+    },
+    {
+      "slug": "the-alpha-i-saved-wouldnt-let-me-go",
+      "title": "The Alpha I Saved Wouldn't Let Me Go",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "werewolf"
+      ]
+    },
+    {
+      "slug": "the-alpha-werewolfs-fangirl",
+      "title": "The Alpha Werewolf's Fangirl",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "werewolf"
+      ]
+    },
+    {
+      "slug": "the-alphas-forbidden-mates",
+      "title": "The Alpha's Forbidden Mates",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "werewolf"
+      ]
+    },
+    {
+      "slug": "the-alphas-mating-run",
+      "title": "The Alpha's Mating Run",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "werewolf"
+      ]
+    },
+    {
+      "slug": "the-alphas-stolen-bride",
+      "title": "The Alpha's Stolen Bride",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "werewolf"
+      ]
+    },
+    {
+      "slug": "the-alphas-stolen-bride-blood-reckoning",
+      "title": "The Alpha's Stolen Bride: Blood Reckoning",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "werewolf"
+      ]
+    },
+    {
+      "slug": "the-alphas-triplets",
+      "title": "The Alpha's Triplets",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "werewolf",
+        "secretbaby"
+      ]
+    },
+    {
+      "slug": "the-assassin-bride",
+      "title": "The Assassin Bride",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "mafia"
+      ]
+    },
+    {
+      "slug": "the-awakening-of-the-heiress",
+      "title": "The Awakening of the Heiress",
+      "has_book": false,
+      "has_realistic": true,
+      "has_anime": false,
+      "has_audiobook": false,
+      "has_series_audio": false,
+      "themes": [
+        "billionaire",
+        "secretbaby"
+      ]
+    },
+    {
+      "slug": "the-baby-bump-bucket-list",
+      "title": "The Baby Bump Bucket List",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "secretbaby"
+      ]
+    },
+    {
+      "slug": "the-bad-girls-fixer",
+      "title": "The Bad Girl's Fixer",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "thriller"
+      ]
+    },
+    {
+      "slug": "the-billionaire-who-bought-me",
+      "title": "The Billionaire Who Bought Me",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "billionaire"
+      ]
+    },
+    {
+      "slug": "the-billionaires-fake-wife",
+      "title": "The Billionaire's Fake Wife",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "billionaire"
+      ]
+    },
+    {
+      "slug": "the-billionaires-vengeful-proposal",
+      "title": "The Billionaire's Vengeful Proposal",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "billionaire",
+        "thriller"
+      ]
+    },
+    {
+      "slug": "the-blindfolded-bride",
+      "title": "The Blindfolded Bride",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "the-boss-ladys-scandalous-pregnancy",
+      "title": "The Boss Lady's Scandalous Pregnancy",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "forbidden",
+        "secretbaby"
+      ]
+    },
+    {
+      "slug": "the-boy-who-said-no-finally-says-yes",
+      "title": "The Boy Who Said No Finally Says Yes",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "the-bride-who-dies-twice",
+      "title": "The Bride Who Dies Twice",
+      "has_book": true,
+      "has_realistic": true,
+      "has_anime": true,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "the-ceos-assistant",
+      "title": "The CEO's Assistant",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "billionaire"
+      ]
+    },
+    {
+      "slug": "the-cheerleaders-hickey-competition",
+      "title": "The Cheerleader's Hickey Competition",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "the-crowns-dirty-secret",
+      "title": "The Crown's Dirty Secret",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "the-demon-surgeons-secret",
+      "title": "The Demon Surgeon's Secret",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "supernatural"
+      ]
+    },
+    {
+      "slug": "the-devil-who-took-my-innocence",
+      "title": "The Devil Who Took My Innocence",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "supernatural"
+      ]
+    },
+    {
+      "slug": "the-doctor-that-got-away",
+      "title": "The Doctor that Got Away",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "the-doctors-forbidden-patient",
+      "title": "The Doctor's Forbidden Patient",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "the-dominant-witch-and-her-cowardly-ceo",
+      "title": "The Dominant Witch and Her Cowardly CEO",
+      "has_book": false,
+      "has_realistic": false,
+      "has_anime": true,
+      "has_audiobook": false,
+      "has_series_audio": false,
+      "themes": [
+        "billionaire",
+        "supernatural"
+      ]
+    },
+    {
+      "slug": "the-dons-wrong-wife",
+      "title": "The Don's Wrong Wife",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "mafia"
+      ]
+    },
+    {
+      "slug": "the-double-baby-scandal",
+      "title": "The Double Baby Scandal",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "secretbaby"
+      ]
+    },
+    {
+      "slug": "the-enforcers-forbidden-princess",
+      "title": "The Enforcer's Forbidden Princess",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "mafia"
+      ]
+    },
+    {
+      "slug": "the-era-of-global-crisis",
+      "title": "The Era of Global Crisis",
+      "has_book": false,
+      "has_realistic": false,
+      "has_anime": true,
+      "has_audiobook": false,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "the-fake-princess",
+      "title": "The Fake Princess",
+      "has_book": false,
+      "has_realistic": false,
+      "has_anime": true,
+      "has_audiobook": false,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "the-fire-captains-naughty-trainee",
+      "title": "The Fire Captain's Naughty Trainee",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "the-game-of-heirs",
+      "title": "The Game of Heirs",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "secretbaby"
+      ]
+    },
+    {
+      "slug": "the-gold-diggers-seduction-scheme",
+      "title": "The Gold Digger's Seduction Scheme",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "billionaire"
+      ]
+    },
+    {
+      "slug": "the-hairdressers-fake-baby-daddy",
+      "title": "The Hairdresser's Fake Baby Daddy",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "secretbaby"
+      ]
+    },
+    {
+      "slug": "the-heart-of-an-alpha",
+      "title": "The Heart Of An Alpha",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "werewolf"
+      ]
+    },
+    {
+      "slug": "the-heirs-vengeful-claim-the-widows-debt",
+      "title": "The Heir's Vengeful Claim: The Widow's Debt",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "thriller",
+        "secretbaby"
+      ]
+    },
+    {
+      "slug": "the-hitmans-favourite-witness",
+      "title": "The Hitman's Favourite Witness",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "mafia",
+        "thriller"
+      ]
+    },
+    {
+      "slug": "the-immortal-girl-and-her-hapless-grim-reaper",
+      "title": "The Immortal Girl and Her Hapless Grim Reaper",
+      "has_book": false,
+      "has_realistic": false,
+      "has_anime": true,
+      "has_audiobook": false,
+      "has_series_audio": false,
+      "themes": [
+        "supernatural"
+      ]
+    },
+    {
+      "slug": "the-innkeepers-hidden-heir",
+      "title": "The Innkeeper's Hidden Heir",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "secretbaby"
+      ]
+    },
+    {
+      "slug": "the-mafia-boss-kept-my-love-notes",
+      "title": "The Mafia Boss Kept My Love Notes",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "mafia",
+        "forbidden"
+      ]
+    },
+    {
+      "slug": "the-mafia-kings-amnesiac-bride",
+      "title": "The Mafia King's Amnesiac Bride",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "mafia",
+        "thriller"
+      ]
+    },
+    {
+      "slug": "the-mafia-queens-forbidden-consort",
+      "title": "The Mafia Queen's Forbidden Consort",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "mafia"
+      ]
+    },
+    {
+      "slug": "the-marriage-pact",
+      "title": "The Marriage pact",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "the-mayors-naughty-christmas",
+      "title": "The Mayor's Naughty Christmas",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "the-mechanics-mercy",
+      "title": "The Mechanic's Mercy",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "the-missing-heiress-spoiled-by-three-billionaire-brothers",
+      "title": "The Missing Heiress Spoiled by Three Billionaire Brothers",
+      "has_book": false,
+      "has_realistic": true,
+      "has_anime": false,
+      "has_audiobook": false,
+      "has_series_audio": false,
+      "themes": [
+        "billionaire",
+        "secretbaby"
+      ]
+    },
+    {
+      "slug": "the-naughty-teacher",
+      "title": "The Naughty Teacher",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "forbidden"
+      ]
+    },
+    {
+      "slug": "the-other-wifes-funeral",
+      "title": "The Other Wife's Funeral",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "thriller"
+      ]
+    },
+    {
+      "slug": "the-phantoms-kiss",
+      "title": "The Phantom's Kiss",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": true,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "supernatural"
+      ]
+    },
+    {
+      "slug": "the-playboy-who-wanted-to-die",
+      "title": "The Playboy Who Wanted To Die",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "the-princes-hidden-heir",
+      "title": "The Prince's Hidden Heir",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "secretbaby"
+      ]
+    },
+    {
+      "slug": "the-princes-ugly-bride",
+      "title": "The Prince's Ugly Bride",
+      "has_book": false,
+      "has_realistic": true,
+      "has_anime": false,
+      "has_audiobook": false,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "the-professor-who-left-me-pregnant",
+      "title": "The Professor Who Left Me Pregnant",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "forbidden",
+        "secretbaby"
+      ]
+    },
+    {
+      "slug": "the-quarterbacks-brother-seduced-me",
+      "title": "The Quarterback's Brother Seduced Me",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "the-quarterbacks-forbidden-scandal",
+      "title": "The Quarterback's Forbidden Scandal",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "the-queen-and-her-two-sons",
+      "title": "The Queen and Her Two Sons",
+      "has_book": false,
+      "has_realistic": false,
+      "has_anime": true,
+      "has_audiobook": false,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "the-real-heiress-strikes-back",
+      "title": "The Real Heiress Strikes Back",
+      "has_book": false,
+      "has_realistic": true,
+      "has_anime": false,
+      "has_audiobook": false,
+      "has_series_audio": false,
+      "themes": [
+        "billionaire",
+        "secretbaby"
+      ]
+    },
+    {
+      "slug": "the-rivals-secret-baby",
+      "title": "The Rival's Secret Baby",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "forbidden",
+        "secretbaby"
+      ]
+    },
+    {
+      "slug": "the-royal-baby-scandal",
+      "title": "The Royal Baby Scandal",
+      "has_book": true,
+      "has_realistic": true,
+      "has_anime": true,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "secretbaby"
+      ]
+    },
+    {
+      "slug": "the-school-musical-brought-back-my-ex",
+      "title": "The School Musical Brought Back My Ex",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "the-secret-they-buried-at-blackwell",
+      "title": "The Secret They Buried at Blackwell",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "thriller"
+      ]
+    },
+    {
+      "slug": "the-spy-in-mafias-bed",
+      "title": "The Spy in Mafia's Bed",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "mafia",
+        "thriller"
+      ]
+    },
+    {
+      "slug": "the-suburban-strangler",
+      "title": "The Suburban Strangler",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": true,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "thriller"
+      ]
+    },
+    {
+      "slug": "the-surgeon-who-stole-my-face",
+      "title": "The Surgeon Who Stole My Face",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": true,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "the-surgeons-naughty-night-shift",
+      "title": "The Surgeon's Naughty Night Shift",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "the-vegas-king-caught-me-cheating",
+      "title": "The Vegas King Caught Me Cheating",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "the-villainesss-revenge",
+      "title": "The Villainess's Revenge!",
+      "has_book": false,
+      "has_realistic": false,
+      "has_anime": true,
+      "has_audiobook": false,
+      "has_series_audio": false,
+      "themes": [
+        "supernatural"
+      ]
+    },
+    {
+      "slug": "the-young-lady-who-manipulates-fate",
+      "title": "The Young Lady Who Manipulates Fate",
+      "has_book": false,
+      "has_realistic": false,
+      "has_anime": true,
+      "has_audiobook": false,
+      "has_series_audio": false,
+      "themes": [
+        "supernatural"
+      ]
+    },
+    {
+      "slug": "tied-up-by-my-college-fling",
+      "title": "Tied Up By My College Fling",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "too-late-to-beg-for-forgiveness",
+      "title": "Too Late to Beg for Forgiveness",
+      "has_book": false,
+      "has_realistic": true,
+      "has_anime": false,
+      "has_audiobook": false,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "trapped-with-my-nemesis",
+      "title": "Trapped with My Nemesis",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "forbidden"
+      ]
+    },
+    {
+      "slug": "two-alpha-kings-one-virgin-mate",
+      "title": "Two Alpha Kings, One Virgin Mate",
+      "has_book": false,
+      "has_realistic": true,
+      "has_anime": false,
+      "has_audiobook": false,
+      "has_series_audio": false,
+      "themes": [
+        "werewolf"
+      ]
+    },
+    {
+      "slug": "ugly-cinderella-and-her-hobo-billionaire",
+      "title": "Ugly Cinderella and Her Hobo Billionaire",
+      "has_book": false,
+      "has_realistic": true,
+      "has_anime": false,
+      "has_audiobook": false,
+      "has_series_audio": false,
+      "themes": [
+        "billionaire"
+      ]
+    },
+    {
+      "slug": "werewolf-hunter-turned-werewolf",
+      "title": "Werewolf Hunter Turned Werewolf",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "werewolf"
+      ]
+    },
+    {
+      "slug": "what-brilliant-men-become",
+      "title": "What Brilliant Men Become",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": []
+    },
+    {
+      "slug": "whose-baby-is-it-anyway",
+      "title": "Whose Baby Is It Anyway?",
+      "has_book": true,
+      "has_realistic": false,
+      "has_anime": false,
+      "has_audiobook": true,
+      "has_series_audio": false,
+      "themes": [
+        "secretbaby"
+      ]
+    },
+    {
+      "slug": "yes-mr-ceo-we-have-a-baby",
+      "title": "Yes Mr. CEO, We Have A Baby!",
+      "has_book": false,
+      "has_realistic": true,
+      "has_anime": false,
+      "has_audiobook": false,
+      "has_series_audio": false,
+      "themes": [
+        "billionaire",
+        "secretbaby"
+      ]
+    },
+    {
+      "slug": "zombie-superman",
+      "title": "Zombie Superman",
+      "has_book": false,
+      "has_realistic": false,
+      "has_anime": true,
+      "has_audiobook": false,
+      "has_series_audio": false,
+      "themes": [
+        "supernatural"
+      ]
+    }
+  ]
+}
