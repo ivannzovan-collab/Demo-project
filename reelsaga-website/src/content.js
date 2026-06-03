@@ -116,7 +116,8 @@ export const CATEGORIES = {
 /* ---------------- BOOKS PAGE ---------------- */
 export const BOOKS = {
   hero: ['classroom-queen', 'cursed-rival', 'two-alpha-kings'],
-  marquee: ['two-alpha-kings', 'billionaire-alphas', 'silver-fox', 'cursed-rival', 'bride-dies-twice', 'classroom-queen', 'phantoms-kiss', 'bound-roses'],
+  // Coverflow under the hero — the 3rd id starts centered/zoomed; reorder to taste.
+  spotlight: ['two-alpha-kings', 'silver-fox', 'fake-dating-werewolf', 'eyes-of-storm', 'bound-roses'],
   newReleases: ['two-alpha-kings', 'billionaire-alphas', 'silver-fox', 'cursed-rival', 'bride-dies-twice', 'classroom-queen', 'phantoms-kiss', 'bound-roses'],
   trending: ['cursed-rival', 'bride-dies-twice', 'silver-fox', 'billionaire-alphas', 'two-alpha-kings'],
   more: ['bound-roses', 'phantoms-kiss', 'classroom-queen', 'bride-dies-twice', 'cursed-rival', 'silver-fox', 'billionaire-alphas', 'two-alpha-kings'],

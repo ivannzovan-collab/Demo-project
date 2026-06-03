@@ -148,28 +148,39 @@ function RankRow({ items }) {
 
 }
 
-/* ---------- Infinite-scrolling book strip (under the Books hero) ---------- */
-function BookMarquee({ items }) {
+/* ---------- Coverflow under the Books hero ----------
+   The centered cover is zoomed (.feat); the covers either side shrink
+   (.mid / .peek). The white arrows — or a click on a side cover — scroll
+   it along, which zooms the new centre in and the old one out. */
+function Spotlight({ items }) {
   const { openSeries } = useRS();
-  const row = [...items, ...items]; // duplicated so the loop is seamless
+  const [center, setCenter] = useState(Math.min(2, items.length - 1));
+  const move = (d) => setCenter((c) => Math.max(0, Math.min(items.length - 1, c + d)));
   return (
-    <div className="book-marquee">
-      <div className="bm-track">
-        {row.map((t, k) => {
+    <div className="spot-rel">
+      <div className="spot-glow" />
+      <button className="fh-rowarrow prev" onClick={() => move(-1)} aria-label="Previous"><RowChevron dir="prev" /></button>
+      <div className="spot-stage">
+        {items.map((t, k) => {
+          const dist = k - center;
+          if (Math.abs(dist) > 2) return null; // only the centre, its neighbours and the edge peeks
+          const cls = dist === 0 ? 'feat' : Math.abs(dist) === 1 ? 'mid' : 'peek';
           const img = t.image || t.titleArt;
           return (
-            <div key={t.id + '-' + k} className="bm-card" onClick={() => openSeries(t.id)} role="button" tabIndex={0} aria-hidden={k >= items.length || undefined}>
-              {img ? <img src={img} alt={t.title} /> : <div className="bm-art" style={{ background: `linear-gradient(160deg,${t.tint || '#1b2950'},#0a1228)` }} />}
+            <div key={t.id + '-' + k} className={`spot-card ${cls}`} onClick={() => (dist === 0 ? openSeries(t.id) : setCenter(k))}>
+              {img ? <img src={img} alt={t.title} /> : <div className="spot-art" style={{ background: `linear-gradient(160deg,${t.tint || '#1b2950'},#0a1228)` }} />}
+              {!img && <div className="spot-name">{t.title}</div>}
             </div>);
         })}
       </div>
+      <button className="fh-rowarrow next" onClick={() => move(1)} aria-label="Next"><RowChevron dir="next" /></button>
     </div>);
 }
 
 /* ======================= BOOKS PAGE ======================= */
 function BooksPage({ pool }) {
   const hero = pick(BOOKS.hero);
-  const marquee = pick(BOOKS.marquee);
+  const spotlight = pick(BOOKS.spotlight);
   const newReleases = pick(BOOKS.newReleases);
   const trending = pick(BOOKS.trending);
   const more = pick(BOOKS.more);
@@ -179,7 +190,7 @@ function BooksPage({ pool }) {
 
       <section className="fh-sec"><div className="fhw">
         <div className="fh-sep" />
-        <BookMarquee items={marquee} />
+        <Spotlight items={spotlight} />
         <div className="fh-sep" style={{ marginTop: 40 }} />
       </div></section>
 
