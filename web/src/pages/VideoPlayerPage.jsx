@@ -1,6 +1,8 @@
 import { useState, useRef, useEffect } from 'react';
 import { useParams, useNavigate, useSearchParams } from 'react-router-dom';
 import { MOCK_MOVIES } from '../data/mockData';
+import { findSeriesMovie } from '../data/seriesMedia';
+import { getCatalog } from '../lib/userState';
 import './VideoPlayerPage.css';
 
 function VideoPlayerPage() {
@@ -8,7 +10,8 @@ function VideoPlayerPage() {
   const navigate = useNavigate();
   const [searchParams] = useSearchParams();
 
-  const movie = MOCK_MOVIES.find(m => m.id === movieId);
+  const movie =
+    MOCK_MOVIES.find(m => m.id === movieId) || findSeriesMovie(getCatalog(), movieId);
   const startEpisode = parseInt(searchParams.get('episode') || '0');
 
   const [currentEpisodeIndex, setCurrentEpisodeIndex] = useState(startEpisode);

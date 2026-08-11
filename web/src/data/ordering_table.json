@@ -1,0 +1,4178 @@
+{
+ "generated": "2026-08-10",
+ "score_fallback": 54.3,
+ "chips": {
+  "videos": [
+   "Hidden Identity",
+   "Revenge & Betrayal",
+   "CEO & Billionaire",
+   "Romance",
+   "Thriller",
+   "Werewolves",
+   "Enemies to Lovers",
+   "Secret Baby",
+   "Fantasy",
+   "Second Chance",
+   "Arranged Marriage",
+   "Forced Proximity"
+  ],
+  "books": [
+   "Romance",
+   "Enemies to Lovers",
+   "Hidden Identity",
+   "Forbidden Love",
+   "Thriller",
+   "Werewolves",
+   "Steamy Romance",
+   "Hot Bites",
+   "Forced Proximity",
+   "CEO & Billionaire",
+   "Secret Baby",
+   "Mafia"
+  ],
+  "match_patterns": {
+   "Hidden Identity": "hidden identity|secret identity|secret,| secret |scandal",
+   "Revenge & Betrayal": "betrayal|revenge",
+   "CEO & Billionaire": "billionaire|ceo",
+   "Romance": "romance",
+   "Thriller": "thriller|crime|suspense|mystery",
+   "Werewolves": "werewol|wolf|luna|alpha|mates|fated mate",
+   "Enemies to Lovers": "enemies",
+   "Secret Baby": "secret baby|baby|pregnan",
+   "Fantasy": "fantasy|supernatural|vampire",
+   "Second Chance": "second chance",
+   "Arranged Marriage": "arranged marriage|contract marriage",
+   "Forced Proximity": "forced proximity",
+   "Forbidden Love": "forbidden",
+   "Steamy Romance": "steamy",
+   "Hot Bites": "hot bites",
+   "Mafia": "mafia"
+  }
+ },
+ "series": [
+  {
+   "id": 9,
+   "title": "Superstar Alpha's Stalker",
+   "formats": [
+    "anime"
+   ],
+   "tags": [
+    "Drama",
+    "Scandal",
+    "Mystery",
+    "Opposites Atrract"
+   ],
+   "score": 43.6,
+   "free_ep": true
+  },
+  {
+   "id": 13,
+   "title": "One Night Stand With the Enemy",
+   "formats": [
+    "anime"
+   ],
+   "tags": [
+    "Drama",
+    "Scandal",
+    "Enemies",
+    "Enemies To Lovers"
+   ],
+   "score": 35.6,
+   "free_ep": true
+  },
+  {
+   "id": 14,
+   "title": "The Royal Baby Scandal",
+   "formats": [
+    "realistic",
+    "anime"
+   ],
+   "tags": [
+    "Pregnancy",
+    "Love Triangle",
+    "Billionaires",
+    "Forbidden Love"
+   ],
+   "score": 69.7,
+   "free_ep": true
+  },
+  {
+   "id": 16,
+   "title": "The Alpha's Stolen Bride",
+   "formats": [
+    "anime"
+   ],
+   "tags": [
+    "Werewolves",
+    "Angst",
+    "Mates",
+    "Fated Mates"
+   ],
+   "score": 58.0,
+   "free_ep": true
+  },
+  {
+   "id": 36,
+   "title": "The Bride Who Dies Twice",
+   "formats": [
+    "realistic",
+    "anime"
+   ],
+   "tags": [
+    "Drama",
+    "Scandal",
+    "Amnesia"
+   ],
+   "score": 75.4,
+   "free_ep": true
+  },
+  {
+   "id": 41,
+   "title": "The Suburban Strangler",
+   "formats": [
+    "anime"
+   ],
+   "tags": [
+    "Crime",
+    "Drama",
+    "Thriller",
+    "Amateur Investigaor",
+    "Rogue Cop"
+   ],
+   "score": 44.7,
+   "free_ep": true
+  },
+  {
+   "id": 43,
+   "title": "The Phantom's Kiss",
+   "formats": [
+    "anime"
+   ],
+   "tags": [
+    "Crime",
+    "Theft",
+    "Thriller",
+    "Drama",
+    "Rogue Cop"
+   ],
+   "score": 54.3,
+   "free_ep": true
+  },
+  {
+   "id": 54,
+   "title": "The Surgeon Who Stole My Face",
+   "formats": [
+    "anime"
+   ],
+   "tags": [
+    "Crime",
+    "Psychological",
+    "Suspense",
+    "Drama",
+    "Revenge",
+    "Detective"
+   ],
+   "score": 40.0,
+   "free_ep": true
+  },
+  {
+   "id": 89,
+   "title": "His Forced Mafia Queen",
+   "formats": [
+    "anime"
+   ],
+   "tags": [
+    "Crime",
+    "Power Play",
+    "Danger",
+    "Mafia",
+    "Enemies To Lovers"
+   ],
+   "score": 47.6,
+   "free_ep": true
+  },
+  {
+   "id": 90,
+   "title": "Accidentally Kidnapping the Best Man — (Realistic title: Oops! I Kidnapped the Sexy Best Man)",
+   "formats": [
+    "realistic",
+    "anime"
+   ],
+   "tags": [
+    "Romance",
+    "Comedy",
+    "Kidnapping",
+    "Scandal",
+    "Forced Proximity"
+   ],
+   "score": 78.1,
+   "free_ep": true
+  },
+  {
+   "id": 104,
+   "title": "Classroom Queen: Mafia Bloodline",
+   "formats": [
+    "realistic",
+    "anime"
+   ],
+   "tags": [
+    "Crime",
+    "Werewolves",
+    "Pregnancy",
+    "Secret Identity",
+    "Enemies To Lovers"
+   ],
+   "score": 72.8,
+   "free_ep": true
+  },
+  {
+   "id": 105,
+   "title": "My One Deadly Night With The Demon",
+   "formats": [
+    "anime"
+   ],
+   "tags": [
+    "Romance",
+    "Supernatural",
+    "Steamy Romance",
+    "Devil'S Bargain",
+    "Supernatural Romance",
+    "Dream Connection",
+    "Protective Vigilante"
+   ],
+   "score": 31.6,
+   "free_ep": true
+  },
+  {
+   "id": 106,
+   "title": "My Billionaire Husband is a Vampire King",
+   "formats": [
+    "anime"
+   ],
+   "tags": [
+    "Billionaires",
+    "Supernatural",
+    "Horror",
+    "Drama",
+    "Betrayal",
+    "Toxic Attraction"
+   ],
+   "score": 44.3,
+   "free_ep": true
+  },
+  {
+   "id": 123,
+   "title": "Surrender to My Dominant Doctor",
+   "formats": [
+    "realistic"
+   ],
+   "tags": [
+    "Billionaires",
+    "Doctor",
+    "Power Play",
+    "Love Triangle",
+    "Strangers To Lovers",
+    "Toxic Attraction"
+   ],
+   "score": 44.3,
+   "free_ep": true
+  },
+  {
+   "id": 124,
+   "title": "Love Me Again, My Hidden Lover",
+   "formats": [
+    "realistic"
+   ],
+   "tags": [
+    "Billionaires",
+    "Second Chance",
+    "Secret",
+    "Pregnancy",
+    "Enemies To Lovers",
+    "Betrayal"
+   ],
+   "score": 48.9,
+   "free_ep": true
+  },
+  {
+   "id": 125,
+   "title": "Alpha Is Not My Type",
+   "formats": [
+    "realistic"
+   ],
+   "tags": [
+    "Werewolves",
+    "Mates",
+    "Forbidden",
+    "Enemies To Lovers",
+    "Protective Hero"
+   ],
+   "score": 70.0,
+   "free_ep": true
+  },
+  {
+   "id": 126,
+   "title": "The Real Heiress Strikes Back",
+   "formats": [
+    "realistic"
+   ],
+   "tags": [
+    "Drama",
+    "Betrayal",
+    "Doctor",
+    "Hidden Identity",
+    "Revenge"
+   ],
+   "score": 66.8,
+   "free_ep": true
+  },
+  {
+   "id": 127,
+   "title": "Another Kind of Exchange Wife",
+   "formats": [
+    "realistic"
+   ],
+   "tags": [
+    "Drama",
+    "Revenge",
+    "Love Triangle",
+    "Protective Hero",
+    "Marriage Swap"
+   ],
+   "score": 66.5,
+   "free_ep": true
+  },
+  {
+   "id": 128,
+   "title": "After Divorce, The Billionaire Crushed on Me",
+   "formats": [
+    "realistic"
+   ],
+   "tags": [
+    "Billionaires",
+    "Betrayal",
+    "Second Chance",
+    "Mafia",
+    "Rags To Riches"
+   ],
+   "score": 62.2,
+   "free_ep": true
+  },
+  {
+   "id": 129,
+   "title": "My Escort Boy Is a Billionaire",
+   "formats": [
+    "realistic"
+   ],
+   "tags": [
+    "Billionaires",
+    "Arranged Marriage",
+    "Betrayal",
+    "Drama",
+    "Hidden Identity",
+    "Revenge"
+   ],
+   "score": 36.9,
+   "free_ep": true
+  },
+  {
+   "id": 130,
+   "title": "Ugly Cinderella and Her Hobo Billionaire",
+   "formats": [
+    "realistic"
+   ],
+   "tags": [
+    "Billionaires",
+    "Secret",
+    "Strangers",
+    "Drama",
+    "Hidden Identity"
+   ],
+   "score": 64.0,
+   "free_ep": true
+  },
+  {
+   "id": 131,
+   "title": "Reborn Female CEO, Ex-husband Cries",
+   "formats": [
+    "realistic"
+   ],
+   "tags": [
+    "Drama",
+    "Revenge",
+    "Secret",
+    "Betrayal",
+    "Hidden Identity"
+   ],
+   "score": 68.3,
+   "free_ep": true
+  },
+  {
+   "id": 132,
+   "title": "Good Luck! Alpha's Halloween Baby",
+   "formats": [
+    "realistic"
+   ],
+   "tags": [
+    "Werewolves",
+    "Ons",
+    "Mates",
+    "Secret Baby",
+    "Protective Hero"
+   ],
+   "score": 65.9,
+   "free_ep": true
+  },
+  {
+   "id": 133,
+   "title": "Cuffed to My Silver Fox Captain",
+   "formats": [
+    "realistic"
+   ],
+   "tags": [
+    "Crime",
+    "Suspense",
+    "Age Gap",
+    "Forbidden",
+    "Betrayal",
+    "Protective Hero"
+   ],
+   "score": 43.7,
+   "free_ep": true
+  },
+  {
+   "id": 134,
+   "title": "My Man Remembered He's Rich",
+   "formats": [
+    "realistic"
+   ],
+   "tags": [
+    "Billionaires",
+    "Strangers",
+    "Amnesia",
+    "Strangers To Lovers",
+    "Fake Dating"
+   ],
+   "score": 65.3,
+   "free_ep": true
+  },
+  {
+   "id": 135,
+   "title": "The Awakening of the Heiress",
+   "formats": [
+    "realistic"
+   ],
+   "tags": [
+    "Billionaires",
+    "Steamy Romance",
+    "Secret",
+    "Hidden Identity",
+    "Revenge"
+   ],
+   "score": 54.3,
+   "free_ep": true
+  },
+  {
+   "id": 136,
+   "title": "Two Alpha Kings, One Virgin Mate",
+   "formats": [
+    "realistic"
+   ],
+   "tags": [
+    "Werewolves",
+    "Mates",
+    "Love Triangle",
+    "Contract Relationship",
+    "Secret Baby"
+   ],
+   "score": 59.6,
+   "free_ep": true
+  },
+  {
+   "id": 137,
+   "title": "Fly Me Away My Captain Husband",
+   "formats": [
+    "realistic"
+   ],
+   "tags": [
+    "Pregnancy",
+    "Ons",
+    "Uniform",
+    "Protective Hero",
+    "Strangers To Lovers"
+   ],
+   "score": 56.5,
+   "free_ep": true
+  },
+  {
+   "id": 138,
+   "title": "From Bump to Spark",
+   "formats": [
+    "realistic"
+   ],
+   "tags": [
+    "Pregnancy",
+    "Strangers",
+    "Ons",
+    "Contract Surrogacy",
+    "Billionaire Romance"
+   ],
+   "score": 71.8,
+   "free_ep": true
+  },
+  {
+   "id": 139,
+   "title": "Chatterbox Sweetheart and Silent CEO",
+   "formats": [
+    "realistic"
+   ],
+   "tags": [
+    "Romance",
+    "Second Chance",
+    "Slow Burn",
+    "Drama",
+    "Grumpyxsunshine",
+    "Enemies To Lovers"
+   ],
+   "score": 45.8,
+   "free_ep": true
+  },
+  {
+   "id": 140,
+   "title": "Never Divorce a Billionaire Wife",
+   "formats": [
+    "realistic"
+   ],
+   "tags": [
+    "Billionaires",
+    "Secret",
+    "Revenge",
+    "Scandal",
+    "Hidden Identity",
+    "Betrayal"
+   ],
+   "score": 54.3,
+   "free_ep": true
+  },
+  {
+   "id": 141,
+   "title": "After Breakup, He Proposes",
+   "formats": [
+    "realistic"
+   ],
+   "tags": [
+    "Romance",
+    "Betrayal",
+    "Second Chance",
+    "Pregnancy",
+    "Lovers To Enemies To Lovers"
+   ],
+   "score": 40.3,
+   "free_ep": true
+  },
+  {
+   "id": 142,
+   "title": "Too Late to Beg for Forgiveness",
+   "formats": [
+    "realistic"
+   ],
+   "tags": [
+    "Drama",
+    "Secret",
+    "Betrayal",
+    "Adopted",
+    "Hidden Illness"
+   ],
+   "score": 44.0,
+   "free_ep": true
+  },
+  {
+   "id": 143,
+   "title": "Billionaire Alpha’s Fated Mate",
+   "formats": [
+    "realistic"
+   ],
+   "tags": [
+    "Werewolves",
+    "Mates",
+    "Betrayal",
+    "Billionaire Romance",
+    "Enemies To Lovers"
+   ],
+   "score": 60.0,
+   "free_ep": true
+  },
+  {
+   "id": 144,
+   "title": "Divorced to Build My Queendom",
+   "formats": [
+    "realistic"
+   ],
+   "tags": [
+    "Drama",
+    "Betrayal",
+    "Secret",
+    "Hidden Identity",
+    "Revenge"
+   ],
+   "score": 38.0,
+   "free_ep": true
+  },
+  {
+   "id": 145,
+   "title": "The Missing Heiress Spoiled by Three Billionaire Brothers",
+   "formats": [
+    "realistic"
+   ],
+   "tags": [
+    "Billionaires",
+    "Betrayal",
+    "Secret",
+    "Love Triangle",
+    "Hidden Identity",
+    "Reverse Harem"
+   ],
+   "score": 66.6,
+   "free_ep": true
+  },
+  {
+   "id": 146,
+   "title": "I Divorced the Day I Gave Birth",
+   "formats": [
+    "realistic"
+   ],
+   "tags": [
+    "Drama",
+    "Secret",
+    "Betrayal",
+    "Hidden Identity",
+    "Revenge"
+   ],
+   "score": 52.0,
+   "free_ep": true
+  },
+  {
+   "id": 147,
+   "title": "An Heir Between Us",
+   "formats": [
+    "realistic"
+   ],
+   "tags": [
+    "Billionaires",
+    "Strangers",
+    "Second Chance",
+    "Pregnancy",
+    "Secret Baby",
+    "Stolen Identity"
+   ],
+   "score": 41.9,
+   "free_ep": true
+  },
+  {
+   "id": 148,
+   "title": "Don't Mess with the Blind Heiress",
+   "formats": [
+    "realistic"
+   ],
+   "tags": [
+    "Drama",
+    "Mystery",
+    "Bodyguard",
+    "Revenge",
+    "Forced Proximity"
+   ],
+   "score": 47.9,
+   "free_ep": true
+  },
+  {
+   "id": 149,
+   "title": "How I Became the Alpha Queen",
+   "formats": [
+    "realistic"
+   ],
+   "tags": [
+    "Werewolves",
+    "Betrayal",
+    "Mates",
+    "Strangers To Lovers",
+    "Forced Proximity"
+   ],
+   "score": 59.1,
+   "free_ep": true
+  },
+  {
+   "id": 150,
+   "title": "Shelter in the Mafia",
+   "formats": [
+    "realistic"
+   ],
+   "tags": [
+    "Crime",
+    "Mafia",
+    "Betrayal",
+    "Strangers To Lovers"
+   ],
+   "score": 49.8,
+   "free_ep": true
+  },
+  {
+   "id": 151,
+   "title": "Billionaire Playboy's Replacement Bride",
+   "formats": [
+    "realistic"
+   ],
+   "tags": [
+    "Billionaires",
+    "Ons",
+    "Arranged Marriage",
+    "Steamy Romance",
+    "Strangers To Lovers",
+    "Secret Identity"
+   ],
+   "score": 58.3,
+   "free_ep": true
+  },
+  {
+   "id": 152,
+   "title": "Tempting Luna",
+   "formats": [
+    "realistic"
+   ],
+   "tags": [
+    "Werewolves",
+    "Arranged Marriage",
+    "One Bed",
+    "Secret Identity"
+   ],
+   "score": 37.8,
+   "free_ep": true
+  },
+  {
+   "id": 153,
+   "title": "She is My Luna",
+   "formats": [
+    "realistic"
+   ],
+   "tags": [
+    "Werewolves",
+    "Fake Dating",
+    "Strangers",
+    "Strangers To Lovers",
+    "Forced Proximity"
+   ],
+   "score": 51.5,
+   "free_ep": true
+  },
+  {
+   "id": 154,
+   "title": "Billionaire Daddy, the Hunt is On!",
+   "formats": [
+    "realistic"
+   ],
+   "tags": [
+    "Billionaires",
+    "Supernatural",
+    "Secret",
+    "Pregnancy",
+    "Forced Proximity"
+   ],
+   "score": 50.9,
+   "free_ep": true
+  },
+  {
+   "id": 155,
+   "title": "Revenge Queen",
+   "formats": [
+    "realistic"
+   ],
+   "tags": [
+    "Werewolves",
+    "Betrayal",
+    "Secret",
+    "Revenge",
+    "Secret Identity"
+   ],
+   "score": 51.3,
+   "free_ep": true
+  },
+  {
+   "id": 156,
+   "title": "Flashback Fiancée: Have We Met?",
+   "formats": [
+    "realistic"
+   ],
+   "tags": [
+    "Romance",
+    "Amnesia",
+    "Arranged Marriage",
+    "Second Chance",
+    "Forced Proximity"
+   ],
+   "score": 50.9,
+   "free_ep": true
+  },
+  {
+   "id": 170,
+   "title": "Once Upon a Divorce: The Double Life of Lady Diana",
+   "formats": [
+    "realistic"
+   ],
+   "tags": [
+    "Billionaires",
+    "Betrayal",
+    "Arranged Marriage",
+    "Mafia",
+    "Revenge",
+    "Strangers To Lovers"
+   ],
+   "score": 58.2,
+   "free_ep": true
+  },
+  {
+   "id": 171,
+   "title": "My Cold Blooded Alpha King",
+   "formats": [
+    "realistic"
+   ],
+   "tags": [
+    "Werewolves",
+    "Forbidden",
+    "Mates",
+    "Strangers To Lovers"
+   ],
+   "score": 52.6,
+   "free_ep": true
+  },
+  {
+   "id": 172,
+   "title": "Yes Mr. CEO, We Have A Baby!",
+   "formats": [
+    "realistic"
+   ],
+   "tags": [
+    "Drama",
+    "Scandal",
+    "Mystery",
+    "Revenge",
+    "Secret Baby"
+   ],
+   "score": 57.0,
+   "free_ep": true
+  },
+  {
+   "id": 173,
+   "title": "Divorce A Billionaire To Marry Him!",
+   "formats": [
+    "realistic"
+   ],
+   "tags": [
+    "Romance",
+    "Arranged Marriage",
+    "Secret",
+    "Drama",
+    "Forced Proximity",
+    "Second Chance"
+   ],
+   "score": 50.8,
+   "free_ep": true
+  },
+  {
+   "id": 174,
+   "title": "Objection! The Legal Queen in Charge Now",
+   "formats": [
+    "realistic"
+   ],
+   "tags": [
+    "Billionaires",
+    "Betrayal",
+    "Second Chance",
+    "Mafia",
+    "Hidden Identity",
+    "Lovers To Enemies"
+   ],
+   "score": 53.4,
+   "free_ep": true
+  },
+  {
+   "id": 175,
+   "title": "Hands off, Ex-Husband!",
+   "formats": [
+    "realistic"
+   ],
+   "tags": [
+    "Drama",
+    "Revenge",
+    "Doctor",
+    "Betrayal"
+   ],
+   "score": 76.5,
+   "free_ep": true
+  },
+  {
+   "id": 176,
+   "title": "Enemies with Benefits: The CEOs Matchmaker Strikes",
+   "formats": [
+    "realistic"
+   ],
+   "tags": [
+    "Billionaires",
+    "Secret",
+    "One Bed",
+    "Drama",
+    "Enemies To Lovers",
+    "Secret Identity"
+   ],
+   "score": 68.5,
+   "free_ep": true
+  },
+  {
+   "id": 177,
+   "title": "The Prince's Ugly Bride",
+   "formats": [
+    "realistic"
+   ],
+   "tags": [
+    "Drama",
+    "Arranged Marriage",
+    "Forbidden",
+    "Marriage Of Convenience",
+    "Enemies To Lovers"
+   ],
+   "score": 54.0,
+   "free_ep": true
+  },
+  {
+   "id": 186,
+   "title": "Boss up, My CEO!",
+   "formats": [
+    "realistic"
+   ],
+   "tags": [
+    "Billionaires",
+    "Enemies",
+    "Arranged Marriage",
+    "Drama",
+    "Second Chance",
+    "Corporate Drama"
+   ],
+   "score": 60.6,
+   "free_ep": true
+  },
+  {
+   "id": 194,
+   "title": "The Era of Global Crisis",
+   "formats": [
+    "anime"
+   ],
+   "tags": [
+    "Drama",
+    "Scifi",
+    "Action",
+    "Time Travel"
+   ],
+   "score": 30.4,
+   "free_ep": true
+  },
+  {
+   "id": 195,
+   "title": "Classmate Abe with Zero Inspiration",
+   "formats": [
+    "anime"
+   ],
+   "tags": [
+    "Drama",
+    "Supernatural",
+    "Young Adult",
+    "Grumpy X Sunshine"
+   ],
+   "score": 54.3,
+   "free_ep": true
+  },
+  {
+   "id": 196,
+   "title": "The Young Lady Who Manipulates Fate (Daughter C Remake Version)",
+   "formats": [
+    "anime"
+   ],
+   "tags": [
+    "Drama",
+    "Fantasy",
+    "Action",
+    "Reincarnation"
+   ],
+   "score": 54.3,
+   "free_ep": true
+  },
+  {
+   "id": 197,
+   "title": "The Villainess's Revenge!",
+   "formats": [
+    "anime"
+   ],
+   "tags": [
+    "Drama",
+    "Revenge",
+    "Romance",
+    "Mates",
+    "Reincarnation"
+   ],
+   "score": 32.3,
+   "free_ep": true
+  },
+  {
+   "id": 198,
+   "title": "The Queen and Her Two Sons",
+   "formats": [
+    "anime"
+   ],
+   "tags": [
+    "Drama",
+    "Supernatural",
+    "Romance",
+    "Reincarnation",
+    "Hidden Identity"
+   ],
+   "score": 38.0,
+   "free_ep": true
+  },
+  {
+   "id": 199,
+   "title": "Zombie Superman",
+   "formats": [
+    "anime"
+   ],
+   "tags": [
+    "Drama",
+    "Scifi",
+    "Action",
+    "Superhero",
+    "Zombie Apocalypse"
+   ],
+   "score": 54.3,
+   "free_ep": true
+  },
+  {
+   "id": 200,
+   "title": "I Was Asked to Speak for the Dead",
+   "formats": [
+    "anime"
+   ],
+   "tags": [
+    "Crime",
+    "Supernatural",
+    "Mystery",
+    "Drama",
+    "Ghost Whisperer",
+    "Amateur Investigator"
+   ],
+   "score": 54.3,
+   "free_ep": true
+  },
+  {
+   "id": 201,
+   "title": "The Dominant Witch and Her Cowardly CEO",
+   "formats": [
+    "anime"
+   ],
+   "tags": [
+    "Drama",
+    "Supernatural",
+    "Young Adult",
+    "Opposites"
+   ],
+   "score": 54.3,
+   "free_ep": true
+  },
+  {
+   "id": 202,
+   "title": "The Immortal Girl and Her Hapless Grim Reaper",
+   "formats": [
+    "anime"
+   ],
+   "tags": [
+    "Drama",
+    "Supernatural",
+    "Young Adult",
+    "Can'T Die",
+    "Grumpy X Sunshine"
+   ],
+   "score": 54.3,
+   "free_ep": true
+  },
+  {
+   "id": 203,
+   "title": "Autistic Me Gets Entangled with a Love Angel",
+   "formats": [
+    "anime"
+   ],
+   "tags": [
+    "Romance",
+    "Supernatural",
+    "Young Adult",
+    "Drama",
+    "Introverted Hero"
+   ],
+   "score": 54.3,
+   "free_ep": true
+  },
+  {
+   "id": 204,
+   "title": "The Fake Princess",
+   "formats": [
+    "anime"
+   ],
+   "tags": [
+    "Romance",
+    "Secret",
+    "Suspense",
+    "Drama",
+    "Mistaken Identity"
+   ],
+   "score": 54.3,
+   "free_ep": true
+  },
+  {
+   "id": 206,
+   "title": "Eyes Of The Storm",
+   "formats": [
+    "anime"
+   ],
+   "tags": [
+    "Drama",
+    "Identity Swap",
+    "Scifi",
+    "Evil Stepmother",
+    "Enemy To Ally"
+   ],
+   "score": 41.5,
+   "free_ep": true
+  },
+  {
+   "id": 219,
+   "title": "Cursed By My Dead Husband's Rival",
+   "formats": [
+    "anime"
+   ],
+   "tags": [
+    "Drama",
+    "Fantasy",
+    "Thriller",
+    "Gothic",
+    "Enemies To Lovers"
+   ],
+   "score": 55.5,
+   "free_ep": true
+  },
+  {
+   "id": 244,
+   "title": "The Last Dragon War: Rise of The Ash Queen",
+   "formats": [
+    "realistic"
+   ],
+   "tags": [
+    "Drama",
+    "Fantasy",
+    "Action",
+    "Dragons",
+    "Slow-Burn Revenge"
+   ],
+   "score": 77.9,
+   "free_ep": true
+  },
+  {
+   "id": 275,
+   "title": "Fake Dating My Quarterback Rival",
+   "formats": [
+    "realistic"
+   ],
+   "tags": [
+    "Lgbtq",
+    "Bl",
+    "Fake Dating",
+    "Sports"
+   ],
+   "score": 71.8,
+   "free_ep": true
+  },
+  {
+   "id": 276,
+   "title": "How Ronaldo Saved the World Cup",
+   "formats": [
+    "realistic"
+   ],
+   "tags": [
+    "Crime",
+    "World Cup",
+    "Mystery",
+    "Amateur Detective"
+   ],
+   "score": 35.4,
+   "free_ep": true
+  },
+  {
+   "id": 286,
+   "title": "The Sheriff's Alpha Son Is My True Mate",
+   "formats": [
+    "realistic"
+   ],
+   "tags": [
+    "Werewolves",
+    "Mystery",
+    "Steamy Romance",
+    "Fated Mates",
+    "High School"
+   ],
+   "score": 76.4,
+   "free_ep": true
+  }
+ ],
+ "books": [
+  {
+   "id": 1,
+   "title": "Accidentally Fake Dating a Werewolf",
+   "pos": 0,
+   "tags": [
+    "Werewolves",
+    "Mates",
+    "One Bed",
+    "Fake Dating",
+    "Roommates"
+   ]
+  },
+  {
+   "id": 2,
+   "title": "The Alpha's Triplets",
+   "pos": 1,
+   "tags": [
+    "Werewolves",
+    "Danger",
+    "Mates",
+    "Second Chance"
+   ]
+  },
+  {
+   "id": 3,
+   "title": "The Doctor's Forbidden Patient",
+   "pos": 2,
+   "tags": [
+    "Romance",
+    "Angst",
+    "Doctor",
+    "Forbidden",
+    "Forbidden Romance"
+   ]
+  },
+  {
+   "id": 4,
+   "title": "Knocked Up by the Hitman",
+   "pos": 3,
+   "tags": [
+    "Pregnancy",
+    "Enemies",
+    "Adrenaline",
+    "Enemies To Lovers"
+   ]
+  },
+  {
+   "id": 5,
+   "title": "The Billionaire's Fake Wife",
+   "pos": 4,
+   "tags": [
+    "Billionaires",
+    "One Bed",
+    "Slow Burn",
+    "Scandal",
+    "Fake Dating"
+   ]
+  },
+  {
+   "id": 6,
+   "title": "Framed by His Rich Friends",
+   "pos": 5,
+   "tags": [
+    "Billionaires",
+    "Secret",
+    "Theft",
+    "Forbidden",
+    "Opposites Atrract",
+    "Forced Proximity"
+   ]
+  },
+  {
+   "id": 7,
+   "title": "Double Trouble",
+   "pos": 6,
+   "tags": [
+    "Hot Bites",
+    "Threesome",
+    "Love Triangle",
+    "Twins"
+   ]
+  },
+  {
+   "id": 8,
+   "title": "I Became The Alpha's Toy",
+   "pos": 7,
+   "tags": [
+    "Werewolves",
+    "Mates",
+    "Danger",
+    "Fated Mates",
+    "Forced Proximity"
+   ]
+  },
+  {
+   "id": 9,
+   "title": "Superstar Alpha's Stalker",
+   "pos": 8,
+   "tags": [
+    "Drama",
+    "Scandal",
+    "Mystery",
+    "Opposites Atrract"
+   ]
+  },
+  {
+   "id": 10,
+   "title": "Maid of Dishonor",
+   "pos": 9,
+   "tags": [
+    "Hot Bites",
+    "Wedding",
+    "Secret",
+    "Forbidden",
+    "Forbidden Love"
+   ]
+  },
+  {
+   "id": 11,
+   "title": "Claimed by the Fire Captain",
+   "pos": 10,
+   "tags": [
+    "Hot Bites",
+    "Roleplay",
+    "Uniform",
+    "Forbidden",
+    "Rescue Romance"
+   ]
+  },
+  {
+   "id": 12,
+   "title": "My Deadly One Night Stand",
+   "pos": 11,
+   "tags": [
+    "Steamy Romance",
+    "Thriller",
+    "Suspense",
+    "Bodyguard"
+   ]
+  },
+  {
+   "id": 13,
+   "title": "One Night Stand With the Enemy",
+   "pos": 12,
+   "tags": [
+    "Drama",
+    "Scandal",
+    "Enemies",
+    "Enemies To Lovers"
+   ]
+  },
+  {
+   "id": 14,
+   "title": "The Royal Baby Scandal",
+   "pos": 13,
+   "tags": [
+    "Pregnancy",
+    "Love Triangle",
+    "Billionaires",
+    "Forbidden Love"
+   ]
+  },
+  {
+   "id": 15,
+   "title": "The Playboy Who Wanted To Die",
+   "pos": 14,
+   "tags": [
+    "Billionaires",
+    "Suspense",
+    "Forbidden",
+    "Bodyguard",
+    "Enemies To Lovers"
+   ]
+  },
+  {
+   "id": 16,
+   "title": "The Alpha's Stolen Bride",
+   "pos": 15,
+   "tags": [
+    "Werewolves",
+    "Angst",
+    "Mates",
+    "Fated Mates"
+   ]
+  },
+  {
+   "id": 17,
+   "title": "I Seduced My Stepbrother",
+   "pos": 16,
+   "tags": [
+    "Hot Bites",
+    "Forbidden",
+    "Secret",
+    "Stepbrother"
+   ]
+  },
+  {
+   "id": 18,
+   "title": "Trapped With My Nemesis",
+   "pos": 17,
+   "tags": [
+    "Hot Bites",
+    "Enemies",
+    "One Bed",
+    "Scandal",
+    "Fake Dating"
+   ]
+  },
+  {
+   "id": 19,
+   "title": "The Alpha Vegas King Caught Me Cheating",
+   "pos": 18,
+   "tags": [
+    "Steamy Romance",
+    "One Bed",
+    "Power Play",
+    "Enemies To Lovers",
+    "Forced Proximity"
+   ]
+  },
+  {
+   "id": 20,
+   "title": "Seducing My Ex's Dad",
+   "pos": 19,
+   "tags": [
+    "Hot Bites",
+    "Age Gap",
+    "Forbidden"
+   ]
+  },
+  {
+   "id": 21,
+   "title": "My Savior's Dark Demand",
+   "pos": 20,
+   "tags": [
+    "Hot Bites",
+    "Bad Boy",
+    "Strangers",
+    "Forbidden"
+   ]
+  },
+  {
+   "id": 22,
+   "title": "The Cheerleader's Hickey Competition",
+   "pos": 21,
+   "tags": [
+    "Hot Bites",
+    "Wlw",
+    "Power Play",
+    "Scandal",
+    "Rivals"
+   ]
+  },
+  {
+   "id": 23,
+   "title": "He Won't Let My Boss Take Me",
+   "pos": 22,
+   "tags": [
+    "Steamy Romance",
+    "Danger",
+    "Adrenaline",
+    "Teacher-Student"
+   ]
+  },
+  {
+   "id": 24,
+   "title": "My Best Friend's Dirty Secret",
+   "pos": 23,
+   "tags": [
+    "Hot Bites",
+    "Voyeurism",
+    "Friends",
+    "Forbidden",
+    "Friends To Lovers"
+   ]
+  },
+  {
+   "id": 25,
+   "title": "Detention After Dark",
+   "pos": 24,
+   "tags": [
+    "Hot Bites",
+    "Forbidden",
+    "Age Gap",
+    "Teacher/Student"
+   ]
+  },
+  {
+   "id": 26,
+   "title": "The Alpha Took Executive Control Over Me",
+   "pos": 25,
+   "tags": [
+    "Hot Bites",
+    "Forbidden",
+    "Power Play",
+    "Enemies To Lovers"
+   ]
+  },
+  {
+   "id": 27,
+   "title": "Best Friends with Baby Benefits",
+   "pos": 26,
+   "tags": [
+    "Pregnancy",
+    "Friends",
+    "Dual Pov",
+    "Friends To Lovers"
+   ]
+  },
+  {
+   "id": 28,
+   "title": "After Hours With Mr. Alpha And Mrs. Claus",
+   "pos": 27,
+   "tags": [
+    "Hot Bites",
+    "Christmas",
+    "Roleplay",
+    "Scandal"
+   ]
+  },
+  {
+   "id": 29,
+   "title": "I Sent My Baby Daddy to Prison",
+   "pos": 28,
+   "tags": [
+    "Drama",
+    "Dual Pov",
+    "Amnesia",
+    "Second Chance"
+   ]
+  },
+  {
+   "id": 30,
+   "title": "Mayor Alpha's Naughty Christmas",
+   "pos": 29,
+   "tags": [
+    "Steamy Romance",
+    "Enemies",
+    "Christmas",
+    "Friends To Lovers",
+    "Second Chance"
+   ]
+  },
+  {
+   "id": 31,
+   "title": "My Neighbor Won The Lottery... And My Heart",
+   "pos": 30,
+   "tags": [
+    "Billionaires",
+    "Angst",
+    "Scandal",
+    "Single Dad",
+    "Friends To Lovers"
+   ]
+  },
+  {
+   "id": 32,
+   "title": "The Quarterback's Brother Seduced Me",
+   "pos": 31,
+   "tags": [
+    "Hot Bites",
+    "Forbidden",
+    "Secret",
+    "Brother'S Best Friend"
+   ]
+  },
+  {
+   "id": 33,
+   "title": "The Mechanic's Mercy",
+   "pos": 32,
+   "tags": [
+    "Hot Bites",
+    "Strangers",
+    "Uniform",
+    "Forbidden",
+    "Strangers To Lovers"
+   ]
+  },
+  {
+   "id": 34,
+   "title": "Terms of Submission",
+   "pos": 33,
+   "tags": [
+    "Hot Bites",
+    "Enemies",
+    "Power Play",
+    "Scandal",
+    "Enemies To Lovers"
+   ]
+  },
+  {
+   "id": 35,
+   "title": "Posting My Pleasure: An Anonymous Affair",
+   "pos": 34,
+   "tags": [
+    "Steamy Romance",
+    "Power Play",
+    "Secret",
+    "Strangers To Lovers"
+   ]
+  },
+  {
+   "id": 36,
+   "title": "The Bride Who Dies Twice",
+   "pos": 35,
+   "tags": [
+    "Drama",
+    "Scandal",
+    "Amnesia"
+   ]
+  },
+  {
+   "id": 37,
+   "title": "101 Ways to Bubble Wrap a Soulmate",
+   "pos": 36,
+   "tags": [
+    "Romance",
+    "Soulmate",
+    "Angst",
+    "Mates",
+    "Fated Mates"
+   ]
+  },
+  {
+   "id": 38,
+   "title": "Cooking Up With My Rival",
+   "pos": 37,
+   "tags": [
+    "Drama",
+    "Reality",
+    "Secret",
+    "Rivals"
+   ]
+  },
+  {
+   "id": 39,
+   "title": "Baby Daddy Roulette",
+   "pos": 38,
+   "tags": [
+    "Pregnancy",
+    "Ons",
+    "Secret",
+    "Bodyguard",
+    "Rivals"
+   ]
+  },
+  {
+   "id": 40,
+   "title": "My Husband's Pregnant Mistress",
+   "pos": 39,
+   "tags": [
+    "Pregnancy",
+    "Angst",
+    "Love Triangle",
+    "Second Chance"
+   ]
+  },
+  {
+   "id": 41,
+   "title": "The Suburban Strangler",
+   "pos": 40,
+   "tags": [
+    "Crime",
+    "Drama",
+    "Thriller",
+    "Amateur Investigaor",
+    "Rogue Cop"
+   ]
+  },
+  {
+   "id": 42,
+   "title": "The Heart Of An Alpha",
+   "pos": 41,
+   "tags": [
+    "Werewolves",
+    "Mates",
+    "Enemies",
+    "Enemies To Lovers"
+   ]
+  },
+  {
+   "id": 43,
+   "title": "The Phantom's Kiss",
+   "pos": 42,
+   "tags": [
+    "Crime",
+    "Theft",
+    "Thriller",
+    "Drama",
+    "Rogue Cop"
+   ]
+  },
+  {
+   "id": 44,
+   "title": "Meow And Forever",
+   "pos": 43,
+   "tags": [
+    "Romance",
+    "Love Triangle",
+    "Slow Burn"
+   ]
+  },
+  {
+   "id": 45,
+   "title": "Hot Girl Hiding In My Barn",
+   "pos": 44,
+   "tags": [
+    "Romance",
+    "Wlw",
+    "Celebrity",
+    "Scandal",
+    "Strangers To Lovers"
+   ]
+  },
+  {
+   "id": 46,
+   "title": "The Alpha Werewolf’s Fangirl",
+   "pos": 45,
+   "tags": [
+    "Werewolves",
+    "Forbidden",
+    "Strangers",
+    "Strangers To Lovers"
+   ]
+  },
+  {
+   "id": 47,
+   "title": "Claimed By Two Alphas",
+   "pos": 46,
+   "tags": [
+    "Hot Bites",
+    "Werewolves",
+    "Mfm",
+    "Fated Mates"
+   ]
+  },
+  {
+   "id": 48,
+   "title": "My Highway Alpha",
+   "pos": 47,
+   "tags": [
+    "Hot Bites",
+    "Werewolves",
+    "Danger",
+    "Strangers To Lovers"
+   ]
+  },
+  {
+   "id": 49,
+   "title": "Whose Baby Is It Anyway?",
+   "pos": 48,
+   "tags": [
+    "Hot Bites",
+    "Pregnancy",
+    "Drama",
+    "Love Triangle"
+   ]
+  },
+  {
+   "id": 50,
+   "title": "I Crashed My Baby Daddy's Wedding",
+   "pos": 49,
+   "tags": [
+    "Hot Bites",
+    "Pregnancy",
+    "Scandal",
+    "Comedy",
+    "Best Man"
+   ]
+  },
+  {
+   "id": 51,
+   "title": "Chained By The Werewolf Hunter",
+   "pos": 50,
+   "tags": [
+    "Hot Bites",
+    "Werewolves",
+    "Enemies",
+    "Enemies To Lovers",
+    "Forced Proximity"
+   ]
+  },
+  {
+   "id": 52,
+   "title": "The Alpha's Forbidden Mates",
+   "pos": 51,
+   "tags": [
+    "Hot Bites",
+    "Werewolves",
+    "Fmf",
+    "Forced Proximity"
+   ]
+  },
+  {
+   "id": 53,
+   "title": "The Billionaire Who Bought Me",
+   "pos": 52,
+   "tags": [
+    "Billionaires",
+    "Enemies",
+    "Mystery",
+    "Drama",
+    "Enemies To Lovers"
+   ]
+  },
+  {
+   "id": 54,
+   "title": "The Surgeon Who Stole My Face",
+   "pos": 53,
+   "tags": [
+    "Crime",
+    "Psychological",
+    "Suspense",
+    "Drama",
+    "Revenge",
+    "Detective"
+   ]
+  },
+  {
+   "id": 55,
+   "title": "I Bought The Alpha Who Exiled Me",
+   "pos": 54,
+   "tags": [
+    "Werewolves",
+    "Enemies",
+    "Scifi",
+    "Enemies To Lovers"
+   ]
+  },
+  {
+   "id": 56,
+   "title": "The Double Baby Scandal",
+   "pos": 55,
+   "tags": [
+    "Pregnancy",
+    "Suspense",
+    "Betrayal",
+    "Forced Proximity"
+   ]
+  },
+  {
+   "id": 57,
+   "title": "The Devil Who Took My Innocence",
+   "pos": 56,
+   "tags": [
+    "Crime",
+    "Secret",
+    "Danger",
+    "Drama",
+    "Forced Proximity",
+    "Enemies To Lovers"
+   ]
+  },
+  {
+   "id": 58,
+   "title": "Sold to The Night King",
+   "pos": 57,
+   "tags": [
+    "Drama",
+    "Supernatural",
+    "Enemies",
+    "Enemies To Lovers"
+   ]
+  },
+  {
+   "id": 59,
+   "title": "My Crush's Psycho Boyfriend",
+   "pos": 58,
+   "tags": [
+    "Drama",
+    "Horror",
+    "Slasher",
+    "The Hidden Villain"
+   ]
+  },
+  {
+   "id": 60,
+   "title": "Surviving His Cruel Game",
+   "pos": 59,
+   "tags": [
+    "Drama",
+    "Survival",
+    "Enemies",
+    "Enemies To Lovers"
+   ]
+  },
+  {
+   "id": 61,
+   "title": "My Hot Neighbor Might Be a Serial Killer",
+   "pos": 60,
+   "tags": [
+    "Crime",
+    "Murder Mystery",
+    "Enemies",
+    "Drama",
+    "Enemies To Lovers"
+   ]
+  },
+  {
+   "id": 62,
+   "title": "Cuffed by My Rival",
+   "pos": 61,
+   "tags": [
+    "Hot Bites",
+    "Bl",
+    "Power Play",
+    "Forbidden",
+    "Enemies To Lovers"
+   ]
+  },
+  {
+   "id": 63,
+   "title": "I Got It Bad For The Preacher's Son",
+   "pos": 62,
+   "tags": [
+    "Romance",
+    "Young Adult",
+    "Secret",
+    "Scandal",
+    "Bad Girl X Good Boy"
+   ]
+  },
+  {
+   "id": 64,
+   "title": "Good Girl Gone Bad",
+   "pos": 63,
+   "tags": [
+    "Romance",
+    "Young Adult",
+    "Forced Proximity",
+    "Forbidden",
+    "Good Girl X Bad Boy"
+   ]
+  },
+  {
+   "id": 65,
+   "title": "The Game of Heirs",
+   "pos": 64,
+   "tags": [
+    "Crime",
+    "Mafia",
+    "Power Play",
+    "The Chessmaster"
+   ]
+  },
+  {
+   "id": 66,
+   "title": "The Billionaire’s Vengeful Proposal",
+   "pos": 65,
+   "tags": [
+    "Billionaires",
+    "Revenge",
+    "Betrayal",
+    "Drama",
+    "Second Chance"
+   ]
+  },
+  {
+   "id": 67,
+   "title": "The Alpha's Mating Run",
+   "pos": 66,
+   "tags": [
+    "Werewolves",
+    "Mates",
+    "Suspense",
+    "Fake Dating"
+   ]
+  },
+  {
+   "id": 68,
+   "title": "Claimed by My Father’s Lethal Experiment",
+   "pos": 67,
+   "tags": [
+    "Drama",
+    "Scifi",
+    "Mates",
+    "Enemies To Lovers"
+   ]
+  },
+  {
+   "id": 69,
+   "title": "Accidentally Pregnant by My Ex-Boyfriend",
+   "pos": 68,
+   "tags": [
+    "Pregnancy",
+    "Angst",
+    "Enemies",
+    "Enemies To Lovers"
+   ]
+  },
+  {
+   "id": 70,
+   "title": "Doctor's Orders",
+   "pos": 69,
+   "tags": [
+    "Hot Bites",
+    "Forbidden",
+    "Doctor",
+    "Doctor X Patient"
+   ]
+  },
+  {
+   "id": 71,
+   "title": "Kissing Lessons With My Best Friend",
+   "pos": 70,
+   "tags": [
+    "Hot Bites",
+    "Friends",
+    "Roleplay",
+    "Forbidden",
+    "Best Friends To Lovers"
+   ]
+  },
+  {
+   "id": 72,
+   "title": "Hooking Up With My Friend's Ex",
+   "pos": 71,
+   "tags": [
+    "Hot Bites",
+    "Forbidden",
+    "Secret",
+    "Forced Proximity"
+   ]
+  },
+  {
+   "id": 73,
+   "title": "Roommates With Benefits",
+   "pos": 72,
+   "tags": [
+    "Hot Bites",
+    "Threesome",
+    "Friends",
+    "Love Triangle"
+   ]
+  },
+  {
+   "id": 74,
+   "title": "Double Booked",
+   "pos": 73,
+   "tags": [
+    "Hot Bites",
+    "Threesome",
+    "Strangers",
+    "Love Triangle",
+    "Forced Proximity"
+   ]
+  },
+  {
+   "id": 75,
+   "title": "The Marriage Pact",
+   "pos": 74,
+   "tags": [
+    "Romance",
+    "Friends",
+    "Wedding",
+    "Love Triangle",
+    "Friends To Lovers"
+   ]
+  },
+  {
+   "id": 76,
+   "title": "Claimed by My Boyfriend's Brother",
+   "pos": 75,
+   "tags": [
+    "Drama",
+    "Love Triangle",
+    "Suspense"
+   ]
+  },
+  {
+   "id": 77,
+   "title": "My One-Night Stepbrother",
+   "pos": 76,
+   "tags": [
+    "Steamy Romance",
+    "Forbidden",
+    "Revenge",
+    "Stepbrother"
+   ]
+  },
+  {
+   "id": 78,
+   "title": "Taming the Devil: Off The Record",
+   "pos": 77,
+   "tags": [
+    "Steamy Romance",
+    "Forbidden",
+    "Enemies",
+    "Enemies To Lovers"
+   ]
+  },
+  {
+   "id": 79,
+   "title": "In The Ring With The Mafia King",
+   "pos": 78,
+   "tags": [
+    "Crime",
+    "Nanny",
+    "Secret",
+    "Mafia",
+    "Strangers To Lovers"
+   ]
+  },
+  {
+   "id": 80,
+   "title": "The Assassin Bride",
+   "pos": 79,
+   "tags": [
+    "Crime",
+    "Enemies",
+    "Danger",
+    "Mafia",
+    "Enemies To Lovers"
+   ]
+  },
+  {
+   "id": 81,
+   "title": "The Naughty Teacher",
+   "pos": 80,
+   "tags": [
+    "Steamy Romance",
+    "Age Gap",
+    "Forbidden",
+    "Good Girl X Bad Boy"
+   ]
+  },
+  {
+   "id": 82,
+   "title": "Scandal On The Tennis Court",
+   "pos": 81,
+   "tags": [
+    "Romance",
+    "Sports",
+    "Fake Dating",
+    "Scandal",
+    "Lovers To Enemies To Lovers"
+   ]
+  },
+  {
+   "id": 83,
+   "title": "My Boyfriend's Dad Became My Sugar Daddy",
+   "pos": 82,
+   "tags": [
+    "Steamy Romance",
+    "Age Gap",
+    "Billionaire",
+    "Forced Proximity"
+   ]
+  },
+  {
+   "id": 84,
+   "title": "The Bad Girl's Fixer",
+   "pos": 83,
+   "tags": [
+    "Steamy Romance",
+    "One Bed",
+    "Revenge",
+    "Bodyguard",
+    "Forced Proximity"
+   ]
+  },
+  {
+   "id": 85,
+   "title": "The Crown's Dirty Secret",
+   "pos": 84,
+   "tags": [
+    "Drama",
+    "Scandal",
+    "Arranged Marriage",
+    "Enemies To Lovers"
+   ]
+  },
+  {
+   "id": 86,
+   "title": "Seduced by The Darker Brother",
+   "pos": 85,
+   "tags": [
+    "Drama",
+    "Suspense",
+    "Love Triangle",
+    "Boyfriend'S Brother"
+   ]
+  },
+  {
+   "id": 87,
+   "title": "I’m the Nanny to My Baby’s Father",
+   "pos": 86,
+   "tags": [
+    "Billionaires",
+    "Secret Baby",
+    "Second Change",
+    "Drama",
+    "Nanny"
+   ]
+  },
+  {
+   "id": 88,
+   "title": "Naughty Lessons from My Brother's Best Friend",
+   "pos": 87,
+   "tags": [
+    "Steamy Romance",
+    "Forbidden",
+    "Roleplay",
+    "Good Girl X Bad Boy"
+   ]
+  },
+  {
+   "id": 89,
+   "title": "His Forced Mafia Queen",
+   "pos": 88,
+   "tags": [
+    "Crime",
+    "Power Play",
+    "Danger",
+    "Mafia",
+    "Enemies To Lovers"
+   ]
+  },
+  {
+   "id": 90,
+   "title": "Accidentally Kidnapping the Best Man — (Realistic title: Oops! I Kidnapped the Sexy Best Man)",
+   "pos": 89,
+   "tags": [
+    "Romance",
+    "Comedy",
+    "Kidnapping",
+    "Scandal",
+    "Forced Proximity"
+   ]
+  },
+  {
+   "id": 91,
+   "title": "Accidentally Hired as a Hitwoman",
+   "pos": 90,
+   "tags": [
+    "Romance",
+    "Comedy",
+    "Suspense",
+    "Mafia",
+    "Grumpy/Sunshine",
+    "Mistaken Identity"
+   ]
+  },
+  {
+   "id": 92,
+   "title": "The Enforcer's Forbidden Princess",
+   "pos": 91,
+   "tags": [
+    "Crime",
+    "Danger",
+    "Forbidden",
+    "Bodyguard",
+    "Enemies To Lovers",
+    "Forced Proximity"
+   ]
+  },
+  {
+   "id": 93,
+   "title": "The Gold Digger’s Seduction Scheme",
+   "pos": 92,
+   "tags": [
+    "Billionaires",
+    "Suspense",
+    "Fake Dating",
+    "Scandal",
+    "Gold Digger"
+   ]
+  },
+  {
+   "id": 94,
+   "title": "Accidentally Spray Painting the Boss’s Car",
+   "pos": 93,
+   "tags": [
+    "Romance",
+    "Scandal",
+    "Comedy",
+    "Fake Dating",
+    "Forced Proximity"
+   ]
+  },
+  {
+   "id": 95,
+   "title": "Ordered to Assassinate My Boring Husband",
+   "pos": 94,
+   "tags": [
+    "Steamy Romance",
+    "Enemies",
+    "Scandal",
+    "Enemies To Lovers"
+   ]
+  },
+  {
+   "id": 96,
+   "title": "I Married the Mafia King by Mistake",
+   "pos": 95,
+   "tags": [
+    "Crime",
+    "Suspense",
+    "Danger",
+    "Mafia",
+    "Enemies To Lovers"
+   ]
+  },
+  {
+   "id": 97,
+   "title": "The Prince’s Hidden Heir",
+   "pos": 96,
+   "tags": [
+    "Pregnancy",
+    "Scandal",
+    "Secret Baby",
+    "Hidden Identity",
+    "Forced Proximity"
+   ]
+  },
+  {
+   "id": 98,
+   "title": "Pregnant by My Ex’s Brother",
+   "pos": 97,
+   "tags": [
+    "Pregnancy",
+    "Revenge",
+    "Forbidden",
+    "Enemies To Lovers",
+    "Forced Proximity"
+   ]
+  },
+  {
+   "id": 99,
+   "title": "Reborn to Break Him",
+   "pos": 98,
+   "tags": [
+    "Drama",
+    "Love Triangle",
+    "Suspense",
+    "Second Chance"
+   ]
+  },
+  {
+   "id": 100,
+   "title": "Claimed by the Cold Mob Boss",
+   "pos": 99,
+   "tags": [
+    "Crime",
+    "Scandal",
+    "Power Play",
+    "Enemies To Lovers",
+    "Secret Baby"
+   ]
+  },
+  {
+   "id": 101,
+   "title": "The Quarterback’s Forbidden Scandal",
+   "pos": 100,
+   "tags": [
+    "Steamy Romance",
+    "Sports",
+    "Age Gap",
+    "Forbidden Love",
+    "Forced Proximity",
+    "Sports Romance"
+   ]
+  },
+  {
+   "id": 102,
+   "title": "My Fake Hitman Husband",
+   "pos": 101,
+   "tags": [
+    "Crime",
+    "Thriller",
+    "Fake Dating",
+    "Mafia",
+    "Secret Identity",
+    "Fake Marriage"
+   ]
+  },
+  {
+   "id": 103,
+   "title": "Accidentally Mated To The Alpha King",
+   "pos": 102,
+   "tags": [
+    "Werewolves",
+    "Enemies",
+    "Mates",
+    "Enemies To Lovers",
+    "Forced Proximity"
+   ]
+  },
+  {
+   "id": 104,
+   "title": "Classroom Queen: Mafia Bloodline",
+   "pos": 103,
+   "tags": [
+    "Crime",
+    "Werewolves",
+    "Pregnancy",
+    "Secret Identity",
+    "Enemies To Lovers"
+   ]
+  },
+  {
+   "id": 105,
+   "title": "My One Deadly Night With The Demon",
+   "pos": 104,
+   "tags": [
+    "Romance",
+    "Supernatural",
+    "Steamy Romance",
+    "Devil'S Bargain",
+    "Supernatural Romance",
+    "Dream Connection",
+    "Protective Vigilante"
+   ]
+  },
+  {
+   "id": 106,
+   "title": "My Billionaire Husband is a Vampire King",
+   "pos": 105,
+   "tags": [
+    "Billionaires",
+    "Supernatural",
+    "Horror",
+    "Drama",
+    "Betrayal",
+    "Toxic Attraction"
+   ]
+  },
+  {
+   "id": 107,
+   "title": "Naughty Lessons from the Ice King",
+   "pos": 106,
+   "tags": [
+    "Billionaires",
+    "Enemies",
+    "Secret",
+    "Drama",
+    "Enemies To Lovers",
+    "Secret Identity"
+   ]
+  },
+  {
+   "id": 108,
+   "title": "Kidnapped by The Exiled Alpha",
+   "pos": 107,
+   "tags": [
+    "Werewolves",
+    "Betrayal",
+    "Mates",
+    "Enemies To Lovers",
+    "Forced Proximity"
+   ]
+  },
+  {
+   "id": 109,
+   "title": "Pretty Little Thief",
+   "pos": 108,
+   "tags": [
+    "Billionaires",
+    "Fake Dating",
+    "Enemies",
+    "Scandal",
+    "Enemies To Lovers",
+    "Hidden Identity"
+   ]
+  },
+  {
+   "id": 110,
+   "title": "Finding My Billionaire Boyfriend’s Killer",
+   "pos": 109,
+   "tags": [
+    "Billionaires",
+    "Mystery",
+    "Suspense",
+    "Drama",
+    "Dark Academia"
+   ]
+  },
+  {
+   "id": 111,
+   "title": "I Seduced the Mafia Brothers I Was Sent to Kill",
+   "pos": 110,
+   "tags": [
+    "Crime",
+    "Revenge",
+    "Suspense",
+    "Mafia",
+    "Reverseharem",
+    "Enemies To Lovers"
+   ]
+  },
+  {
+   "id": 112,
+   "title": "Sold to the Mafia: Hunting My Sister’s Killer",
+   "pos": 111,
+   "tags": [
+    "Crime",
+    "Mafia",
+    "Enemies",
+    "1950Snewyork",
+    "Arranged Marriage"
+   ]
+  },
+  {
+   "id": 113,
+   "title": "90 Days to Die for a Billion Dollars",
+   "pos": 112,
+   "tags": [
+    "Billionaires",
+    "Suspense",
+    "Mystery",
+    "Forbidden Love",
+    "Contemporarynoir"
+   ]
+  },
+  {
+   "id": 114,
+   "title": "Claimed by the Golden Boy: A Racing Scandal",
+   "pos": 113,
+   "tags": [
+    "Drama",
+    "Comedy",
+    "Scandal",
+    "Sports Romance",
+    "Enemies To Lovers"
+   ]
+  },
+  {
+   "id": 115,
+   "title": "The Hairdresser’s Fake Baby Daddy",
+   "pos": 114,
+   "tags": [
+    "Pregnancy",
+    "Scandal",
+    "Fake Dating",
+    "Brother'S Best Friend"
+   ]
+  },
+  {
+   "id": 116,
+   "title": "The Heir's Vengeful Claim: The Widow’s Debt",
+   "pos": 115,
+   "tags": [
+    "Steamy Romance",
+    "Scandal",
+    "Enemies",
+    "Enemies To Lovers",
+    "Forced Proximity"
+   ]
+  },
+  {
+   "id": 117,
+   "title": "The Mafia King's Amnesiac Bride",
+   "pos": 116,
+   "tags": [
+    "Crime",
+    "Thriller",
+    "Mystery",
+    "Mafia",
+    "Amnesia",
+    "Forced Proximity"
+   ]
+  },
+  {
+   "id": 118,
+   "title": "Werewolf Hunter Turned Werewolf",
+   "pos": 117,
+   "tags": [
+    "Werewolves",
+    "Action",
+    "Forbidden",
+    "Fated Mates"
+   ]
+  },
+  {
+   "id": 119,
+   "title": "The Don's Wrong Wife",
+   "pos": 118,
+   "tags": [
+    "Crime",
+    "Mafia",
+    "Secret",
+    "Enemies To Lovers"
+   ]
+  },
+  {
+   "id": 120,
+   "title": "Ruin me, Alpha",
+   "pos": 119,
+   "tags": [
+    "Werewolves",
+    "Arranged Marriage",
+    "Age Gap",
+    "Enemies To Lovers"
+   ]
+  },
+  {
+   "id": 121,
+   "title": "The Mafia Boss Kept My Love Notes",
+   "pos": 120,
+   "tags": [
+    "Crime",
+    "Mafia",
+    "Power Play",
+    "Second Chance"
+   ]
+  },
+  {
+   "id": 122,
+   "title": "Dirty Talking With the Bodyguard",
+   "pos": 121,
+   "tags": [
+    "Steamy Romance",
+    "Bodyguard",
+    "Secret",
+    "Forced Proximity",
+    "Enemies To Lovers"
+   ]
+  },
+  {
+   "id": 157,
+   "title": "The Alpha Detective",
+   "pos": 122,
+   "tags": [
+    "Werewolves",
+    "Mystery",
+    "Love Triangle",
+    "Detective Romance"
+   ]
+  },
+  {
+   "id": 158,
+   "title": "The Spy in Mafia's Bed",
+   "pos": 123,
+   "tags": [
+    "Crime",
+    "Revenge",
+    "Suspense",
+    "Mafia",
+    "Friends To Lovers"
+   ]
+  },
+  {
+   "id": 159,
+   "title": "Stolen by the Irish Mob",
+   "pos": 124,
+   "tags": [
+    "Crime",
+    "Power Play",
+    "Kidnapped",
+    "Mafia",
+    "Dark Romance"
+   ]
+  },
+  {
+   "id": 160,
+   "title": "My Best Friend’s Son",
+   "pos": 125,
+   "tags": [
+    "Steamy Romance",
+    "Age Gap",
+    "Forbidden",
+    "Forced Proximity"
+   ]
+  },
+  {
+   "id": 161,
+   "title": "Bedded by My Rival’s Son",
+   "pos": 126,
+   "tags": [
+    "Steamy Romance",
+    "Age Gap",
+    "Revenge",
+    "Office Romance"
+   ]
+  },
+  {
+   "id": 162,
+   "title": "The Mafia Queen's Forbidden Consort",
+   "pos": 127,
+   "tags": [
+    "Crime",
+    "Mafia",
+    "Age Gap",
+    "Forbidden"
+   ]
+  },
+  {
+   "id": 163,
+   "title": "The Blindfolded Bride",
+   "pos": 128,
+   "tags": [
+    "Pregnancy",
+    "Angst",
+    "Slow Burn",
+    "Forced Proximity",
+    "Secret Billionaire"
+   ]
+  },
+  {
+   "id": 164,
+   "title": "My Architect is Trying to Ruin Me",
+   "pos": 129,
+   "tags": [
+    "Steamy Romance",
+    "Revenge",
+    "Age Gap",
+    "Forbidden",
+    "Sabotage"
+   ]
+  },
+  {
+   "id": 165,
+   "title": "Snowed in With The Enemy",
+   "pos": 130,
+   "tags": [
+    "Steamy Romance",
+    "One Bed",
+    "Lawyers",
+    "Enemies To Lovers"
+   ]
+  },
+  {
+   "id": 166,
+   "title": "She Was Never Just The Job",
+   "pos": 131,
+   "tags": [
+    "Steamy Romance",
+    "Boyguard",
+    "Forbidden",
+    "Forced Proximity"
+   ]
+  },
+  {
+   "id": 167,
+   "title": "I Broke All His Rules",
+   "pos": 132,
+   "tags": [
+    "Steamy Romance",
+    "Taboo",
+    "Age Gap",
+    "Brother'S Best Friend"
+   ]
+  },
+  {
+   "id": 168,
+   "title": "My Naughty Golf Lessons",
+   "pos": 133,
+   "tags": [
+    "Hot Bites",
+    "Age Gap",
+    "Forbidden",
+    "Sports Romance"
+   ]
+  },
+  {
+   "id": 169,
+   "title": "My Naughty Room Service",
+   "pos": 134,
+   "tags": [
+    "Hot Bites",
+    "Strangers",
+    "Ons",
+    "Forbidden",
+    "Hotel Romance"
+   ]
+  },
+  {
+   "id": 178,
+   "title": "Falling For My Fake Wedding Date",
+   "pos": 135,
+   "tags": [
+    "Romance",
+    "Strangers",
+    "Fake Dating",
+    "Drama",
+    "Protective Hero"
+   ]
+  },
+  {
+   "id": 179,
+   "title": "The Baby Bump Bucket List",
+   "pos": 136,
+   "tags": [
+    "Pregnancy",
+    "Slow Burn",
+    "Love Triangle",
+    "Ex-Boyfriend'S Brother",
+    "Protective Hero"
+   ]
+  },
+  {
+   "id": 180,
+   "title": "Claimed For Rent By My Hot Landlord",
+   "pos": 137,
+   "tags": [
+    "Hot Bites",
+    "Neighbors",
+    "Enemies",
+    "Forbidden",
+    "Enemies To Lovers"
+   ]
+  },
+  {
+   "id": 181,
+   "title": "Perfectly Doomed",
+   "pos": 138,
+   "tags": [
+    "Romance",
+    "Wedding",
+    "Slow Burn",
+    "Steamy Romance",
+    "Opposites Attract",
+    "Enemies To Lovers",
+    "Fwb"
+   ]
+  },
+  {
+   "id": 182,
+   "title": "Hot And Heavy With My Personal Trainer",
+   "pos": 139,
+   "tags": [
+    "Hot Bites",
+    "Gym",
+    "Power Play",
+    "Forbidden",
+    "Teacher-Student",
+    "Gym Romance"
+   ]
+  },
+  {
+   "id": 183,
+   "title": "The Surgeon's Naughty Night Shift",
+   "pos": 140,
+   "tags": [
+    "Hot Bites",
+    "Doctor",
+    "Age Gap",
+    "Forbidden",
+    "Forbbiden Romance"
+   ]
+  },
+  {
+   "id": 184,
+   "title": "Mated To The Wrong Brother",
+   "pos": 141,
+   "tags": [
+    "Werewolves",
+    "Mates",
+    "Enemies",
+    "Hidden Identity",
+    "Twins"
+   ]
+  },
+  {
+   "id": 185,
+   "title": "The Alpha's Stolen Bride II: Blood Reckoning",
+   "pos": 142,
+   "tags": [
+    "Werewolves",
+    "Mates",
+    "Pregnancy",
+    "Fated Mates"
+   ]
+  },
+  {
+   "id": 187,
+   "title": "Cuffing My Sexy Pilot",
+   "pos": 143,
+   "tags": [
+    "Hot Bites",
+    "Age Gap",
+    "Uniform",
+    "Forbidden",
+    "Forbidden Romance",
+    "Pilot"
+   ]
+  },
+  {
+   "id": 188,
+   "title": "Teasing The Tarot Reader",
+   "pos": 144,
+   "tags": [
+    "Hot Bites",
+    "Power Play",
+    "Adrenaline",
+    "Forbidden",
+    "Strangers To Lovers"
+   ]
+  },
+  {
+   "id": 189,
+   "title": "Tied Up By My College Fling",
+   "pos": 145,
+   "tags": [
+    "Hot Bites",
+    "Uniform",
+    "Power Play",
+    "Forbidden",
+    "Friends To Lovers"
+   ]
+  },
+  {
+   "id": 190,
+   "title": "Accidentally Sexting My Boss",
+   "pos": 146,
+   "tags": [
+    "Hot Bites",
+    "Strangers",
+    "Power Play",
+    "Forbidden",
+    "Boss/Employee",
+    "Secret"
+   ]
+  },
+  {
+   "id": 191,
+   "title": "My Naughty Movie Date With A Stranger",
+   "pos": 147,
+   "tags": [
+    "Hot Bites",
+    "Strangers",
+    "Ons",
+    "Forbidden",
+    "Strangers To Lovers"
+   ]
+  },
+  {
+   "id": 192,
+   "title": "Cuffed By The Hotel Manager",
+   "pos": 148,
+   "tags": [
+    "Hot Bites",
+    "Uniform",
+    "Power Play",
+    "Forbidden",
+    "Steamy Romance"
+   ]
+  },
+  {
+   "id": 193,
+   "title": "Marked By The Tattoo Artist",
+   "pos": 149,
+   "tags": [
+    "Hot Bites",
+    "Strangers",
+    "Bad Boy",
+    "Forbidden",
+    "Tattoo Artist"
+   ]
+  },
+  {
+   "id": 207,
+   "title": "The Fire Captain's Naughty Trainee",
+   "pos": 150,
+   "tags": [
+    "Steamy Romance",
+    "Firefighter",
+    "Danger",
+    "Hero Complex"
+   ]
+  },
+  {
+   "id": 208,
+   "title": "The CEO’s Assistant",
+   "pos": 151,
+   "tags": [
+    "Billionaires",
+    "Revenge",
+    "Thriller",
+    "Steamy Romance",
+    "Enemies To Lovers",
+    "Boss/Employee"
+   ]
+  },
+  {
+   "id": 209,
+   "title": "Seducing My Boyfriend’s Alpha",
+   "pos": 152,
+   "tags": [
+    "Werewolves",
+    "Betrayal",
+    "Love Triangle",
+    "Fated Mates",
+    "Found Family"
+   ]
+  },
+  {
+   "id": 210,
+   "title": "The Alpha I Saved Wouldn't Let Me Go",
+   "pos": 153,
+   "tags": [
+    "Werewolves",
+    "Omegaverse",
+    "He Begs",
+    "Fated Mates",
+    "Competent Heroine",
+    "Hidden Identity"
+   ]
+  },
+  {
+   "id": 211,
+   "title": "The Boy Who Said No Finally Says Yes",
+   "pos": 154,
+   "tags": [
+    "Romance",
+    "Slow Burn",
+    "Angst",
+    "Drama",
+    "Brother'S Best Friend"
+   ]
+  },
+  {
+   "id": 212,
+   "title": "My Patient Knows Where I Live",
+   "pos": 155,
+   "tags": [
+    "Crime",
+    "Psychological",
+    "Dark",
+    "Scandal",
+    "Dark Romance",
+    "Psychologist/Patient"
+   ]
+  },
+  {
+   "id": 213,
+   "title": "Stolen to The Wolf of Moscow",
+   "pos": 156,
+   "tags": [
+    "Crime",
+    "Action",
+    "Bratva Romance",
+    "Mafia",
+    "Forced Marriage",
+    "Enemies To Lovers"
+   ]
+  },
+  {
+   "id": 214,
+   "title": "The Doctor that Got Away",
+   "pos": 157,
+   "tags": [
+    "Romance",
+    "Small Town",
+    "Slow Burn",
+    "Drama",
+    "Second Chance",
+    "Friends To Lovers"
+   ]
+  },
+  {
+   "id": 215,
+   "title": "Let's Get Physical",
+   "pos": 158,
+   "tags": [
+    "Steamy Romance",
+    "Sports",
+    "Forbidden",
+    "Doctor X Patient"
+   ]
+  },
+  {
+   "id": 216,
+   "title": "The Accidental Mom-fluencer",
+   "pos": 159,
+   "tags": [
+    "Pregnancy",
+    "Comedy",
+    "Fake Persona",
+    "Grumpy/Sunshine",
+    "Single Mom Romance"
+   ]
+  },
+  {
+   "id": 217,
+   "title": "The School Musical Brought Back My Ex",
+   "pos": 160,
+   "tags": [
+    "Romance",
+    "Second Chance",
+    "Slow Burn",
+    "Small Town Romance",
+    "Forced Proximity"
+   ]
+  },
+  {
+   "id": 220,
+   "title": "Bride Of The Black Orchid",
+   "pos": 161,
+   "tags": [
+    "Steamy Romance",
+    "Scandal",
+    "Deaf Heroine",
+    "Secret Identity"
+   ]
+  },
+  {
+   "id": 221,
+   "title": "Fake Wife To A Mafia Boss",
+   "pos": 162,
+   "tags": [
+    "Steamy Romance",
+    "Mafia",
+    "Fake Marriage",
+    "Competent Heroine"
+   ]
+  },
+  {
+   "id": 222,
+   "title": "I Became My Bully's Bride",
+   "pos": 163,
+   "tags": [
+    "Billionaires",
+    "Scandal",
+    "Revenge",
+    "Enemies",
+    "Arranged Marria"
+   ]
+  },
+  {
+   "id": 223,
+   "title": "Pregnant By My Best Friend’s Brother",
+   "pos": 164,
+   "tags": [
+    "Pregnancy",
+    "Ons",
+    "Love Triangle",
+    "Bad Boy Romance"
+   ]
+  },
+  {
+   "id": 224,
+   "title": "The Demon Surgeon's Secret",
+   "pos": 165,
+   "tags": [
+    "Drama",
+    "Supernatural",
+    "Forbidden",
+    "Enemies To Lovers",
+    "Forced Proximity"
+   ]
+  },
+  {
+   "id": 225,
+   "title": "The Secret They Buried at Blackwell",
+   "pos": 166,
+   "tags": [
+    "Crime",
+    "Dark Academia",
+    "Drama",
+    "Murder Mystery"
+   ]
+  },
+  {
+   "id": 226,
+   "title": "I Married the Demon King Who Needs Me to Live",
+   "pos": 167,
+   "tags": [
+    "Steamy Romance",
+    "Fantasy",
+    "Mates",
+    "Dark Romance"
+   ]
+  },
+  {
+   "id": 227,
+   "title": "What Brilliant Men Become",
+   "pos": 168,
+   "tags": [
+    "Crime",
+    "Psychological",
+    "Suspense",
+    "Drama",
+    "Domestic Thriller"
+   ]
+  },
+  {
+   "id": 228,
+   "title": "Pregnant, Staged and Sabotaged",
+   "pos": 169,
+   "tags": [
+    "Pregnancy",
+    "Scandal",
+    "Celebrity",
+    "Fake Life"
+   ]
+  },
+  {
+   "id": 229,
+   "title": "Bound to The Cursed Alpha",
+   "pos": 170,
+   "tags": [
+    "Werewolves",
+    "Fated",
+    "Enemies",
+    "Enemies To Lovers",
+    "Forced Proximity"
+   ]
+  },
+  {
+   "id": 230,
+   "title": "Captured by The Immortal I Was Sent to Kill",
+   "pos": 171,
+   "tags": [
+    "Drama",
+    "Fantasy",
+    "Scandal",
+    "Enemies To Lovers"
+   ]
+  },
+  {
+   "id": 231,
+   "title": "The Rival’s Secret Baby",
+   "pos": 172,
+   "tags": [
+    "Pregnancy",
+    "Age Gap",
+    "Secret Baby"
+   ]
+  },
+  {
+   "id": 232,
+   "title": "The Innkeeper’s Hidden Heir",
+   "pos": 173,
+   "tags": [
+    "Romance",
+    "Second Chance",
+    "Secret Baby",
+    "Age Gap Romance",
+    "Small Town Romance"
+   ]
+  },
+  {
+   "id": 233,
+   "title": "The Hitman’s Favourite Witness",
+   "pos": 174,
+   "tags": [
+    "Crime",
+    "Mafia",
+    "Suspense",
+    "Action"
+   ]
+  },
+  {
+   "id": 234,
+   "title": "The Other Wife's Funeral",
+   "pos": 175,
+   "tags": [
+    "Billionaires",
+    "Psychological",
+    "Domestic Noir",
+    "Drama"
+   ]
+  },
+  {
+   "id": 235,
+   "title": "The Professor Who Left Me Pregnant",
+   "pos": 176,
+   "tags": [
+    "Drama",
+    "Age Gap",
+    "Academic Romance",
+    "Secret Baby"
+   ]
+  },
+  {
+   "id": 236,
+   "title": "Matchmaking My Billionaire Ex  Husband",
+   "pos": 177,
+   "tags": [
+    "Billionaires",
+    "Scandal",
+    "Forbidden",
+    "Revenge"
+   ]
+  },
+  {
+   "id": 237,
+   "title": "I Was Bought By The Alpha Mob",
+   "pos": 178,
+   "tags": [
+    "Werewolves",
+    "Mafia",
+    "Mates",
+    "Enemies To Lovers",
+    "Forced Proximity"
+   ]
+  },
+  {
+   "id": 238,
+   "title": "The Boss Lady’s Scandalous Pregnancy",
+   "pos": 179,
+   "tags": [
+    "Pregnancy",
+    "Secret Baby",
+    "Revenge"
+   ]
+  },
+  {
+   "id": 239,
+   "title": "The Blood Moon Debt",
+   "pos": 180,
+   "tags": [
+    "Werewolves",
+    "Pregnancy",
+    "Fantasy",
+    "Mates"
+   ]
+  },
+  {
+   "id": 240,
+   "title": "The Skater Boy’s Graffiti Queen",
+   "pos": 181,
+   "tags": [
+    "Romance",
+    "Comedy",
+    "Enemies",
+    "Enemies To Lovers",
+    "Grumpy X Sunshine"
+   ]
+  },
+  {
+   "id": 241,
+   "title": "Stripping For My Boss",
+   "pos": 182,
+   "tags": [
+    "Steamy Romance",
+    "Bad Boy",
+    "Forbidden",
+    "Hidden Identity"
+   ]
+  },
+  {
+   "id": 242,
+   "title": "The Widow’s Forbidden Guard",
+   "pos": 183,
+   "tags": [
+    "Steamy Romance",
+    "Age Gap",
+    "Bodyguard",
+    "Older Woman X Younger Man"
+   ]
+  },
+  {
+   "id": 243,
+   "title": "She Signed His Devil's Contract",
+   "pos": 184,
+   "tags": [
+    "Billionaires",
+    "Scandal",
+    "Enemies",
+    "Forced Proximity",
+    "Enemies To Lovers"
+   ]
+  },
+  {
+   "id": 245,
+   "title": "Crushing On The Runaway Prince",
+   "pos": 185,
+   "tags": [
+    "Lgbtq",
+    "Enemies",
+    "Bl",
+    "Royalty",
+    "Enemies To Lovers"
+   ]
+  },
+  {
+   "id": 246,
+   "title": "My Evil Boss Fell for Me",
+   "pos": 186,
+   "tags": [
+    "Lgbtq",
+    "Power Play",
+    "Forbidden",
+    "Gl",
+    "Boss Lady"
+   ]
+  },
+  {
+   "id": 247,
+   "title": "My Favorite Author Is a Nightmare",
+   "pos": 187,
+   "tags": [
+    "Lgbtq",
+    "Scandal",
+    "Enemies",
+    "Bl",
+    "Celebrity Romance"
+   ]
+  },
+  {
+   "id": 248,
+   "title": "My Roommate Is Dating My Ex",
+   "pos": 188,
+   "tags": [
+    "Lgbtq",
+    "Drama",
+    "Romance",
+    "Gl",
+    "Forced Proximity"
+   ]
+  },
+  {
+   "id": 249,
+   "title": "My Spoiled Prince",
+   "pos": 189,
+   "tags": [
+    "Lgbtq",
+    "Forbidden",
+    "Bl",
+    "Royalty",
+    "Forced Proximity"
+   ]
+  },
+  {
+   "id": 250,
+   "title": "Ruining My Ex Boyfriend",
+   "pos": 190,
+   "tags": [
+    "Lgbtq",
+    "Drama",
+    "Revenge",
+    "Bl",
+    "Cynical Love Interest"
+   ]
+  },
+  {
+   "id": 251,
+   "title": "The Alpha in Apartment 4B",
+   "pos": 191,
+   "tags": [
+    "Lgbtq",
+    "Werewolves",
+    "Mates",
+    "Bl",
+    "Fated Mates"
+   ]
+  },
+  {
+   "id": 252,
+   "title": "The Mafia Heir’s Bodyguard",
+   "pos": 192,
+   "tags": [
+    "Lgbtq",
+    "Mafia",
+    "Danger",
+    "Bl",
+    "Bodyguard Romance"
+   ]
+  },
+  {
+   "id": 253,
+   "title": "We’re Just Counselors… So Why Are We Kissing?",
+   "pos": 193,
+   "tags": [
+    "Lgbtq",
+    "Drama",
+    "Young Adult",
+    "Gl",
+    "Friends To Lovers"
+   ]
+  },
+  {
+   "id": 254,
+   "title": "The Professor’s Naughty Pet",
+   "pos": 194,
+   "tags": [
+    "Lgbtq",
+    "Steamy Romance",
+    "Gl",
+    "Professor",
+    "Forbidden Romance"
+   ]
+  },
+  {
+   "id": 255,
+   "title": "Ashbury 1: The Winter Manor Murder",
+   "pos": 195,
+   "tags": [
+    "Crime",
+    "Murder Mystery",
+    "Everyone'S A Suspect",
+    "Cozy Mystery",
+    "Detective Fiction"
+   ]
+  },
+  {
+   "id": 256,
+   "title": "I Accidentally Robbed A Bank With My Ex-Husband",
+   "pos": 196,
+   "tags": [
+    "Romance",
+    "Comedy",
+    "Crime",
+    "Second Chance"
+   ]
+  },
+  {
+   "id": 257,
+   "title": "Claimed By The Alpha Who Rejected Me",
+   "pos": 197,
+   "tags": [
+    "Werewolves",
+    "Mates",
+    "Arranged Marriage",
+    "Second Chance"
+   ]
+  },
+  {
+   "id": 258,
+   "title": "Claimed By The Last Alpha",
+   "pos": 198,
+   "tags": [
+    "Werewolves",
+    "Mates",
+    "Enemies",
+    "Slow Burn"
+   ]
+  },
+  {
+   "id": 259,
+   "title": "She’s Not Afraid Of Mr. CEO",
+   "pos": 199,
+   "tags": [
+    "Billionaires",
+    "Drama",
+    "Scandal",
+    "Slow Burn"
+   ]
+  },
+  {
+   "id": 260,
+   "title": "The Mafia Widow’s Wolf",
+   "pos": 200,
+   "tags": [
+    "Werewolves",
+    "Mafia",
+    "Mates",
+    "Age Gap",
+    "Bodyguard Romance"
+   ]
+  },
+  {
+   "id": 261,
+   "title": "The Alpha’s Accidental Surrogate",
+   "pos": 201,
+   "tags": [
+    "Werewolves",
+    "Pregnancy",
+    "Mates",
+    "Slow Burn"
+   ]
+  },
+  {
+   "id": 262,
+   "title": "Pregnant By The Boardroom Enemy",
+   "pos": 202,
+   "tags": [
+    "Pregnancy",
+    "Drama",
+    "Scandal",
+    "Enemies To Lovers"
+   ]
+  },
+  {
+   "id": 263,
+   "title": "Tempting My Best Friend's Dad",
+   "pos": 203,
+   "tags": [
+    "Steamy Romance",
+    "Drama",
+    "Age Gap",
+    "Forbidden",
+    "Silver Fox"
+   ]
+  },
+  {
+   "id": 264,
+   "title": "Faking My Omega’s Death",
+   "pos": 204,
+   "tags": [
+    "Lgbtq",
+    "Werewolves",
+    "Bl",
+    "Enemies To Lovers"
+   ]
+  },
+  {
+   "id": 265,
+   "title": "Everything Between The Three Of Us",
+   "pos": 205,
+   "tags": [
+    "Romance",
+    "Friends",
+    "Love Triangle",
+    "Friends To Lovers"
+   ]
+  },
+  {
+   "id": 266,
+   "title": "He's Red Flag but I'm Color Blind",
+   "pos": 206,
+   "tags": [
+    "Drama",
+    "Mafia",
+    "Forced Marriage",
+    "Dark Romance"
+   ]
+  },
+  {
+   "id": 267,
+   "title": "My Fake Wedding Date",
+   "pos": 207,
+   "tags": [
+    "Lgbtq",
+    "Gl",
+    "Female Ceo",
+    "Power Play"
+   ]
+  },
+  {
+   "id": 268,
+   "title": "The Demon Who Stayed",
+   "pos": 208,
+   "tags": [
+    "Drama",
+    "Supernatural",
+    "Forbidden",
+    "Danger",
+    "Demon"
+   ]
+  },
+  {
+   "id": 269,
+   "title": "The Alpha’s Silent Wife",
+   "pos": 209,
+   "tags": [
+    "Werewolves",
+    "Omegaverse",
+    "Mates",
+    "Second Chance",
+    "Fated Mates"
+   ]
+  },
+  {
+   "id": 270,
+   "title": "The Billionaire’s Ransom",
+   "pos": 210,
+   "tags": [
+    "Billionaires",
+    "Mafia",
+    "Sci-Fi",
+    "Fake Identity"
+   ]
+  },
+  {
+   "id": 271,
+   "title": "The Smuggler's Terrible Assistant",
+   "pos": 211,
+   "tags": [
+    "Romance",
+    "Comedy",
+    "Danger",
+    "Steamy Romance",
+    "Stuck Together"
+   ]
+  },
+  {
+   "id": 272,
+   "title": "The Counterfeit Bride’s Gamble",
+   "pos": 212,
+   "tags": [
+    "Billionaires",
+    "Scandal",
+    "Fake Dating",
+    "Ceo Romance"
+   ]
+  },
+  {
+   "id": 273,
+   "title": "My Alpha Came With Terms and Conditions",
+   "pos": 213,
+   "tags": [
+    "Lgbtq",
+    "Bl",
+    "Werewolves",
+    "Steamy Romance",
+    "Enemies To Lovers",
+    "Forced Proximity"
+   ]
+  },
+  {
+   "id": 274,
+   "title": "The Alpha’s Prize Fighter",
+   "pos": 214,
+   "tags": [
+    "Werewolves",
+    "Mates",
+    "Steamy Romance"
+   ]
+  },
+  {
+   "id": 277,
+   "title": "The Last Human Bride",
+   "pos": 215,
+   "tags": [
+    "Werewolves",
+    "Mates",
+    "Arranged Marriage",
+    "Fated Mates",
+    "Forced Marriage"
+   ]
+  },
+  {
+   "id": 278,
+   "title": "Obsessed With His Pretty Little Wife",
+   "pos": 216,
+   "tags": [
+    "Billionaires",
+    "Dark",
+    "Love Triangle",
+    "Drama",
+    "Dark Romance"
+   ]
+  },
+  {
+   "id": 279,
+   "title": "My Hot Boss Won’t Date Me",
+   "pos": 217,
+   "tags": [
+    "Lgbtq",
+    "Bl",
+    "Betrayal",
+    "Romance"
+   ]
+  },
+  {
+   "id": 280,
+   "title": "I Have A Crush On My Mom's Boyfriend",
+   "pos": 218,
+   "tags": [
+    "Romance",
+    "Age Gap",
+    "Comedy",
+    "Forbidden",
+    "Silver Fox",
+    "Forced Proximity"
+   ]
+  },
+  {
+   "id": 281,
+   "title": "Not the Girl You Remember",
+   "pos": 219,
+   "tags": [
+    "Drama",
+    "Romance",
+    "Love Triangle",
+    "Second Chance"
+   ]
+  },
+  {
+   "id": 282,
+   "title": "The Rogue Alpha’s Human Shield",
+   "pos": 220,
+   "tags": [
+    "Werewolves",
+    "Mates",
+    "Angst",
+    "Fated Mates"
+   ]
+  },
+  {
+   "id": 283,
+   "title": "The Nine-Month Marriage Clause",
+   "pos": 221,
+   "tags": [
+    "Pregnancy",
+    "Comedy",
+    "Billionaires",
+    "Fake Relationship",
+    "Fake Marriage"
+   ]
+  },
+  {
+   "id": 284,
+   "title": "The Mafia's Truce Baby",
+   "pos": 222,
+   "tags": [
+    "Pregnancy",
+    "Mafia",
+    "Enemies",
+    "One Bed",
+    "Forced Marriage"
+   ]
+  },
+  {
+   "id": 285,
+   "title": "The Demon Hunter’s Blood Debt",
+   "pos": 223,
+   "tags": [
+    "Drama",
+    "Supernatural",
+    "Dark",
+    "Love Triangle",
+    "Dark Romance",
+    "Demon"
+   ]
+  },
+  {
+   "id": 287,
+   "title": "Bought by the Blind Billionaire",
+   "pos": 224,
+   "tags": [
+    "Drama",
+    "Dark Romance",
+    "Twisted Identity",
+    "Billionaire Romance"
+   ]
+  },
+  {
+   "id": 288,
+   "title": "Cuffed To the Cartel Prince",
+   "pos": 225,
+   "tags": [
+    "Crime",
+    "Mafia",
+    "Enemies",
+    "Danger",
+    "Detective X Criminal"
+   ]
+  },
+  {
+   "id": 289,
+   "title": "My Rival's Brother is My New Coach",
+   "pos": 226,
+   "tags": [
+    "Romance",
+    "Sports",
+    "Enemies",
+    "Forbidden",
+    "Brother'S Rival"
+   ]
+  },
+  {
+   "id": 290,
+   "title": "The CEO’s Midnight Remedy",
+   "pos": 227,
+   "tags": [
+    "Billionaires",
+    "Paranormal",
+    "Psychological",
+    "Doctor X Patient"
+   ]
+  },
+  {
+   "id": 291,
+   "title": "The Thing About Drowning",
+   "pos": 228,
+   "tags": [
+    "Romance",
+    "Slow Burn",
+    "Fantasy",
+    "Mermaids",
+    "Fish Out Of Water"
+   ]
+  },
+  {
+   "id": 292,
+   "title": "The Werewolf Hunter’s Fated Prey",
+   "pos": 229,
+   "tags": [
+    "Werewolves",
+    "Mafia",
+    "Fated Mates",
+    "Dormant Alpha",
+    "Enemies To Lovers"
+   ]
+  },
+  {
+   "id": 293,
+   "title": "Ashbury 2: The Poisoned Violet Affair",
+   "pos": 230,
+   "tags": [
+    "Crime",
+    "Murder Mystery",
+    "Everyone'S A Suspect",
+    "Cozy Mystery",
+    "Detective Fiction"
+   ]
+  },
+  {
+   "id": 294,
+   "title": "My AI Boyfriend Body-Snatched My Coworker",
+   "pos": 231,
+   "tags": [
+    "Romance",
+    "Comedy",
+    "Sci-Fi",
+    "Identity Swap",
+    "Human/Ai Romance"
+   ]
+  },
+  {
+   "id": 295,
+   "title": "Pregnant in My Sister's Place",
+   "pos": 232,
+   "tags": [
+    "Pregnancy",
+    "Drama",
+    "Billionaire",
+    "Hidden Identity",
+    "Strangers"
+   ]
+  },
+  {
+   "id": 296,
+   "title": "Absolutely Not My Type",
+   "pos": 233,
+   "tags": [
+    "Lgbtq",
+    "Gl",
+    "Comedy",
+    "Steamy Romance",
+    "Enemies To Lovers"
+   ]
+  },
+  {
+   "id": 302,
+   "title": "Promoted to Fiancée: Fake Dating My Boss",
+   "pos": 234,
+   "tags": [
+    "Billionaires",
+    "Comedy",
+    "Enemies To Lovers",
+    "Fake Dating"
+   ]
+  },
+  {
+   "id": 303,
+   "title": "Return of The Billionaire’s Scorned Wife",
+   "pos": 235,
+   "tags": [
+    "Billionaires",
+    "Secret Baby",
+    "Revenge",
+    "Enemies To Lovers"
+   ]
+  },
+  {
+   "id": 304,
+   "title": "Chained to The Mafia Prince I'm Sworn to Kill",
+   "pos": 236,
+   "tags": [
+    "Crime",
+    "Mafia",
+    "Dark Romance",
+    "Enemies To Lovers"
+   ]
+  },
+  {
+   "id": 305,
+   "title": "First Do No Harm",
+   "pos": 237,
+   "tags": [
+    "Drama",
+    "Medical",
+    "Doctors",
+    "Boss X Employee"
+   ]
+  },
+  {
+   "id": 306,
+   "title": "She Was Supposed To Be A Job",
+   "pos": 238,
+   "tags": [
+    "Lgbtq",
+    "Gl",
+    "Bodyguard",
+    "Royalty",
+    "Enemies To Lovers"
+   ]
+  },
+  {
+   "id": 307,
+   "title": "Between The Hitman And The Cop",
+   "pos": 239,
+   "tags": [
+    "Pregnancy",
+    "Mafia",
+    "Betrayal",
+    "Enemies To Lovers"
+   ]
+  },
+  {
+   "id": 308,
+   "title": "Pretending to Be Hollywood's Ice Queen",
+   "pos": 240,
+   "tags": [
+    "Romance",
+    "Fake Identity",
+    "Comedy",
+    "Celebrity Romance",
+    "Rags To Riches"
+   ]
+  },
+  {
+   "id": 309,
+   "title": "Amnesia Stole Our Baby From Him",
+   "pos": 241,
+   "tags": [
+    "Steamy Romance",
+    "Secret Baby",
+    "Amnesia",
+    "Billionaires",
+    "Family Drama"
+   ]
+  },
+  {
+   "id": 310,
+   "title": "Marked for The Alpha's Bloodline",
+   "pos": 242,
+   "tags": [
+    "Werewolves",
+    "Fated Mates",
+    "Secret Bloodline",
+    "Shapeshifters"
+   ]
+  },
+  {
+   "id": 311,
+   "title": "Mated to The Rogue Alpha",
+   "pos": 243,
+   "tags": [
+    "Werewolves",
+    "Fated Mates",
+    "Betrayal",
+    "Enemies To Lovers"
+   ]
+  },
+  {
+   "id": 322,
+   "title": "My Billionaire Boss is My Biggest Hater",
+   "pos": 244,
+   "tags": [
+    "Billionaires",
+    "Enemies To Lovers",
+    "Fake Dating",
+    "Revenge"
+   ]
+  },
+  {
+   "id": 323,
+   "title": "Sold at Auction to My Father's Rival",
+   "pos": 245,
+   "tags": [
+    "Billionaires",
+    "Dark Romance",
+    "Revenge",
+    "Mafia"
+   ]
+  },
+  {
+   "id": 324,
+   "title": "Forced to Co-Write With The Man I Hate",
+   "pos": 246,
+   "tags": [
+    "Crime",
+    "Enemies To Lovers",
+    "Gothic Thriller",
+    "Psychological"
+   ]
+  },
+  {
+   "id": 325,
+   "title": "I Left My Baby at The Palace Gates",
+   "pos": 247,
+   "tags": [
+    "Drama",
+    "Scandal",
+    "Royalty",
+    "Rags To Riches"
+   ]
+  },
+  {
+   "id": 326,
+   "title": "Stuck in The Elevator with The Exterminator",
+   "pos": 248,
+   "tags": [
+    "Hot Bites",
+    "Strangers",
+    "Adrenaline",
+    "Forced Proximity"
+   ]
+  },
+  {
+   "id": 327,
+   "title": "What the Moon Forgot to Mention",
+   "pos": 249,
+   "tags": [
+    "Lgbtq",
+    "Bl",
+    "Werewolves",
+    "Steamy Romance"
+   ]
+  },
+  {
+   "id": 328,
+   "title": "I Accidentally Photographed The Wrong Thing",
+   "pos": 250,
+   "tags": [
+    "Romance",
+    "Comedy",
+    "Mystery"
+   ]
+  },
+  {
+   "id": 329,
+   "title": "I Did Not Sign Up For This",
+   "pos": 251,
+   "tags": [
+    "Romance",
+    "Age Gap",
+    "Comedy",
+    "Forced Proximity"
+   ]
+  },
+  {
+   "id": 330,
+   "title": "My Reckless Driver Won't Play by My Rules",
+   "pos": 252,
+   "tags": [
+    "Steamy Romance",
+    "Enemies To Lovers",
+    "Sports"
+   ]
+  },
+  {
+   "id": 331,
+   "title": "Not Your Omega Anymore",
+   "pos": 253,
+   "tags": [
+    "Werewolves",
+    "Fated Mates",
+    "Suspense"
+   ]
+  }
+ ]
+}

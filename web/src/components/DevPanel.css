@@ -1,0 +1,100 @@
+.devpanel-fab {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  z-index: 500;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid #333;
+  background-color: #111;
+  color: #999;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.devpanel-fab:hover {
+  color: #fff;
+  border-color: #555;
+}
+
+.devpanel {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  z-index: 500;
+  width: 320px;
+  max-height: 70vh;
+  overflow-y: auto;
+  background-color: #0d0d0d;
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 14px;
+  color: #ddd;
+  font-size: 13px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
+}
+
+.devpanel-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.devpanel-close {
+  background: none;
+  border: none;
+  color: #999;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.devpanel-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 0;
+  border-bottom: 1px solid #1c1c1c;
+}
+
+.devpanel-btn {
+  background-color: #1d1d1d;
+  border: 1px solid #383838;
+  border-radius: 6px;
+  color: #eee;
+  font-size: 12px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.devpanel-btn:hover {
+  border-color: #FF3B5C;
+}
+
+.devpanel-btn-small {
+  margin-left: 8px;
+  padding: 2px 8px;
+}
+
+.devpanel-user {
+  padding: 8px 0;
+  color: #888;
+  border-bottom: 1px solid #1c1c1c;
+  line-height: 1.5;
+}
+
+.devpanel-events {
+  padding-top: 8px;
+}
+
+.devpanel-event {
+  padding: 4px 0;
+  border-bottom: 1px dashed #1a1a1a;
+  color: #aaa;
+  word-break: break-word;
+}
+
+.devpanel-event code {
+  color: #FF3B5C;
+}

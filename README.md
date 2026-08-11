@@ -7,6 +7,7 @@
 **[→ Quick Start Guide](QUICKSTART.md)** - Get it running in 5 minutes
 
 ### ✨ Working Prototype Features
+- ✅ **ReelSaga v1-lite onboarding + personalization** — 7-screen onboarding, payoff carousel, personalized home reorder driven by a static ordering table, A/B gate with fail-open ([docs](docs/REELSAGA_V1LITE.md))
 - ✅ Vertical video player (TikTok-style)
 - ✅ Swipe up/down navigation between episodes
 - ✅ Home screen with movie browsing
